@@ -57,7 +57,12 @@ Here are some highlights of the features of the latest release:
   <li>Korean multi-game ROMs: Zemmix 126, Game's 80 and MSX90-collection
  </ul>
  <li>XML files specify the hardware to be emulated, so you actually emulate specific MSX machines, which of course can be modified
- <li>various renderers available (amongst which an openGL based renderer that makes advantage of hardware acceleration of video cards and has some special effects, see screenshots below)
+ <li>various screen renderers available:
+  <ul>
+   <li>640&times;480 hi-res renderer
+   <li>320&times;240 lo-res renderer (with compensation for lower resolution by blending)
+   <li>640&times;480 openGL based renderer that makes advantage of hardware acceleration of video cards and has some special effects: scanlines and blurring (TV emulation), see screenshots below
+  </ul>
  <li>full interlacing support, real or deinterlaced
  <li>overscan support
  <li>MSX-DOS2 support
@@ -89,6 +94,7 @@ Here are some highlights of features that are already in CVS and are likely to b
  <li>MegaRAM emulation (non-diskROM types)
  <li>mouse grabbing
  <li>more enhanced console (command history save, multiple lines, history search, etc.)
+ <li>extra GL renderer special effect: glowing (motion blur)
 </ul>
 </p>
 
