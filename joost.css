@@ -24,6 +24,10 @@ a:hover {
   text-decoration:   none;
 }
 
+img {
+  border:            0;
+}
+
 h1 {
   color:             purple;
   background:        black;
@@ -58,6 +62,10 @@ p {
   margin-right:      30pt;
   color:             white;
 /*  background:        white; */
+}
+
+p.shot {
+  text-align:             center;
 }
 
 ul, ol {
