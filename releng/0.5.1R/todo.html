@@ -44,7 +44,7 @@ Status:
 		<TD>	<FONT color="green">Done</FONT>
 		</TD>
 		<TD>Wouter</TD>
-		<TD>openMSX crashes with 'pure virtual method called' once in a while... Wouter found this: an Alarm object is deleted in main thread while it's being used in another thread. It triggers the delayed draw (the same thing that triggers the black flashes on some machines). <b>PLEASE TEST!</b>
+		<TD>openMSX crashes with 'pure virtual method called' once in a while... Wouter found this: an Alarm object is deleted in main thread while it's being used in another thread. It triggers the delayed draw (the same thing that triggers the black flashes on some machines).
 		</TD>
 		<TD>2005-02-07 (UTC)</TD>
 	</TR>
@@ -138,21 +138,21 @@ because the current Catapult is broken for this: if one select an IPS patch, it 
 	</TR>
 	<TR>
 		<TD>Black flashes in SDLGL</TD>
-		<TD>	<FONT color="blue">In&nbsp;progress</FONT>
+		<TD>	<FONT color="green">Done</FONT>
 		</TD>
 		<TD>Wouter/Maarten</TD>
-		<TD>In SDLGL, there are black flashes all over the screen, in some situations. It is related to repaintDelayed, which is used for the icon/console fade animations.
+		<TD>In SDLGL, there are black flashes all over the screen, in some situations. It is related to repaintDelayed, which is used for the icon/console fade animations. <b>PLEASE TEST</b>
 		</TD>
-		<TD>2005-02-06 (UTC)</TD>
+		<TD>2005-02-09 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>"Double screen" effect in deinterlacer</TD>
-		<TD>	<FONT color="blue">In&nbsp;progress</FONT>
+		<TD>	Postpone
 		</TD>
 		<TD>Wouter/Maarten</TD>
 		<TD>When using the deinterlacer, you can see a 'double screen' after the NOP dice logo in UR. Some info: on the left, it shows the NOP dice. On the right, it shows the MSX boot screen. The NOP dice are compacted (256 pixels wide, not doubled as usual), the MSX boot screen is in its usual resolution (so the left part is missing) and every other line is black. It looks like scanline 100, but I set scanline 0. There is no way the MSX can produce this screen, so it must be a video postprocessing error.
 		</TD>
-		<TD>2005-02-07 (UTC)</TD>
+		<TD>2005-02-09 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>Penguin Adventure crashes (sometimes?) on VG 8020/20</TD>
