@@ -1,0 +1,249 @@
+/* $Revision$ $Date$ */
+/* based on qahwah.css */
+
+body {
+  color:             white;
+  background:        black;
+}
+
+a {
+/*  background:        #f3f3f3; */
+  color:             yellow;
+  text-decoration:   none;
+}
+
+a:visited {
+/*  background:        #f3f3f3; */
+  color:             yellow;
+  text-decoration:   none;
+}
+
+a:hover {
+  background:        yellow;
+  color:             black;
+  text-decoration:   none;
+}
+
+h1 {
+  color:             purple;
+  background:        black;
+  font-weight:       bold;
+  margin-left:       0px;
+  margin-top:        5pt;
+  margin-bottom:     5pt;
+}
+
+h2, h3 {
+  font-family:       verdana, sans-serif;
+  font-size:         11pt;
+  font-weight:       bold;
+  color:             lightyellow;
+  background:        #333333;
+  padding-left:      0px;
+  margin-top:        10pt;
+  margin-bottom:     10pt;
+  margin-left:       0px;
+  margin-right:      0px;
+}
+
+h4 {
+  color:             black;
+/*  background:        white; */
+}
+
+p {
+  font-family:       verdana, sans-serif;
+  font-size:         10pt;
+  margin-left:       10pt;
+  margin-right:      30pt;
+  color:             white;
+/*  background:        white; */
+}
+
+ul, ol {
+  margin-left:       14px;
+  margin-right:      20px;
+}
+
+li {
+  font-family:       verdana, sans-serif;
+  font-size:         8pt;
+  margin-left:       4px;
+  color:             lightgreen;
+  background:        black;
+}
+
+p.lastupdate {
+  font-size:         xx-small;
+  color:             lightgreen;
+  margin-left:       0pt;
+  margin-right:      40pt;
+}
+
+p.footer {
+  font-family:       verdana, sans-serif;
+  font-size:         7pt;
+  margin-left:       0pt;
+  margin-top:        10pt;
+  color:             lightgreen;
+}
+
+p.small {
+  font-size:         small;
+}
+
+p.smallcenter {
+  text-align:        center;
+  font-size:         small;
+}
+
+table {
+  width:             100%;
+  border:            0;
+}
+
+td.small {
+  font-size:         small;
+}
+
+
+/* Header */
+
+table.header {
+  color:             black;
+  background:        #f0eeee; /* rgb(200,200,255); */
+  width:             100%;
+  border:            0;
+}
+
+a.header {
+  background:        #f0eeee; /* rgb(200,200,255); */
+  color:             #5050a0;
+}
+
+a.header:visited {
+  background:        #f0eeee; /* rgb(200,200,255); */
+  color:             #4040a0;
+}
+
+a.header:hover {
+  background:        #d0cccc; /* rgb(200,200,255); */
+  color:             #4040a0; /* #ffffff; */
+}
+
+
+/* Quote */
+
+table.quote {
+  border:            0;
+  margin-top:        20px;
+  margin-bottom:     20px;
+  background:        #fafafa;
+}
+
+
+/* Body */
+
+table.body {
+  border:            0;
+  margin-top:        20px;
+  margin-bottom:     20px;
+  background:        #f8f8f8;
+}
+
+
+/* Banner */
+
+div.banner {
+  border:            none;
+  padding:           0.2em 0.7em;
+  text-align:        center;
+  font-weight:       bold;
+}
+
+div.banner a:link, div.banner a:visited, div.banner {
+  background:        black;
+  text-decoration:   none;
+}
+
+div.banner, div.banner a:link, div.banner a:visited {
+  color:             white;
+}
+
+div.banner a:active {
+  background:        white;
+  color:             black;
+  text-decoration:   none;
+}
+
+
+/* Bookmarks */
+
+td.topic {
+  font-family:       verdana, sans-serif;
+  font-size:         10pt;
+  font-weight:       bold;
+  padding-top:       1em;
+  vertical-align:    top;
+  width:             25%;
+}
+
+td.link {
+  vertical-align:    top;
+  width:             25%;
+}
+
+.link {
+  font-family:       verdana, sans-serif;
+  font-size:         8pt;
+  text-align:        left;
+}
+
+
+/* Misc */
+
+span.learnmore {
+  background:        white;
+  color:             #553344;
+}
+
+span.date {
+  text-decoration:   underline;
+}
+
+span.underline {
+  text-decoration:   underline;
+}
+
+.center, #logo {
+  text-align:        center;
+}
+
+#addy {
+  text-align:        center;
+  font-family:       Arial, serif;
+  font-size:         small;
+  margin-top:        -7pt;
+  color:             black;
+  background:        white;
+}
+
+.codesample {
+  font-family:       "Courier New", Courier, mono, sans-serif;
+}
+
+.codesampleblock {
+  font-family:       "Courier New", Courier, mono, sans-serif;
+  margin-left:       96pt;
+  margin-right:      32pt;
+}
+
+.smalltitle {
+  font-family:       verdana, sans-serif;
+}
+
+.smalltext {
+  font-family:       verdana, sans-serif;
+  font-size:         x-small;
+}
+
