@@ -66,6 +66,17 @@ Status:
 		</TD>
 		<TD>2005-01-26 (UTC)</TD>
 	</TR>
+	<TR>
+		<TD>Catapult: IPS patches broken</TD>
+		<TD>	<FONT color="red">Not&nbsp;Done</FONT>
+		</TD>
+		<TD>Herman, Manuel</TD>
+		<TD>	implement a proper way to use IPS patches and ROM types without the 'comma notation'. This needs real work on the GUI. This is critical,
+because the current Catapult is broken for this: if one select an IPS patch, it will be added to the file in the combobox with the comma notation, which is not implemented in openMSX. Hence: this won't work. Also the romtype selection will use the now deprecated comma notation. On top of that: it looks very ugly to have this whole (deprecated) command line notation inside the GUI's combobox, IMO! 
+		</TD>
+		<TD>2005-01-27 (UTC)</TD>
+	</TR>
+
 <!--
 	<TR>
 		<TD>&nbsp;</TD>
@@ -109,12 +120,12 @@ Status:
 	</TR>
 	<TR>
 		<TD>Finalize new LEDs</TD>
-		<TD>	<FONT color="red">Not&nbsp;done</FONT>
+		<TD>	<FONT color="blue">In&nbsp;progress</FONT>
 		</TD>
 		<TD>David</TD>
-		<TD> I propose to use set1 as default, with the LEDs on the left side arranged vertically, in stead on the top arranged horizontally. This way they're more out of the real MSX screen area. The LEDs need to have the texts fixed: replace pauze with pause, kanji with kana and R800 with Turbo, just like in Catapult.
+		<TD> I propose to use set1 as default, with the LEDs on the left side arranged vertically, in stead on the top arranged horizontally. This way they're more out of the real MSX screen area. David proposes to put them at the bottom of the screen, closes to where the real MSX would have been. The request to make the LEDs configurable in the machine config files has been acknowledged, but is postponed until after this release.
 		</TD>
-		<TD>2005-01-22 (UTC)</TD>
+		<TD>2005-01-27 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>256kB sampleRAM in Almost Real</TD>
@@ -161,21 +172,21 @@ Status:
 	</TR>
 	<TR>
 		<TD>support multiple IPS patches</TD>
-		<TD>	<FONT color="red">Not done</FONT>
+		<TD>	<FONT color="blue">In&nbsp;progress</FONT>
 		</TD>
 		<TD>Wouter</TD>
 		<TD>&nbsp;
 		</TD>
-		<TD>2005-01-22 (UTC)</TD>
+		<TD>2005-01-27 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>support IPS patches on disk images</TD>
-		<TD>	<FONT color="red">Not done</FONT>
+		<TD>	<FONT color="blue">In&nbsp;progress</FONT>
 		</TD>
 		<TD>Wouter</TD>
 		<TD>&nbsp;
 		</TD>
-		<TD>2005-01-22 (UTC)</TD>
+		<TD>2005-01-27 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>bug 107864 - Filecache is created in rompool</TD>
@@ -241,6 +252,16 @@ filecache globally, located somewhere in the user dir
 		</TD>
 		<TD>2005-01-21 (UTC)</TD>
 	</TR>
+	<TR>
+		<TD>Catapult: support multiple IPS patches and Disk patches</TD>
+		<TD>	<FONT color="red">Not&nbsp;Done</color>
+		</TD>
+		<TD>Herman</TD>
+		<TD>	Only if support for this gets into MSX in time and if we have time to implement and test it properly.
+		</TD>
+		<TD>2005-01-27 (UTC)</TD>
+	</TR>
+
 <!--
 	<TR>
 		<TD>&nbsp;</TD>
@@ -268,11 +289,21 @@ filecache globally, located somewhere in the user dir
 		<TD>Manuals out of date</TD>
 		<TD>	<FONT color="blue">In&nbsp;progress</FONT>
 		</TD>
-		<TD>Manuel, Maarten</TD>
-		<TD>	Update the manuals. TODO: Mac OS X and C-BIOS stuff. Maybe TODO: update commands.txt with new icon settings.
+		<TD>Manuel, Maarten, Wouter</TD>
+		<TD>	Update the manuals. TODO: Mac OS X and C-BIOS stuff. TODO: update commands.txt with new icon/console settings.
 		</TD>
-		<TD>2005-01-26 (UTC)</TD>
+		<TD>2005-01-27 (UTC)</TD>
 	</TR>
+	<TR>
+		<TD>Catapult manuals out of date</TD>
+		<TD>	<FONT color="red">Note&nbsp;done</FONT>
+		</TD>
+		<TD>Manuel, Herman</TD>
+		<TD>	Update the manuals.
+		</TD>
+		<TD>2005-01-27 (UTC)</TD>
+	</TR>
+
 <!--
 	<TR>
 		<TD>&nbsp;</TD>
@@ -300,10 +331,10 @@ filecache globally, located somewhere in the user dir
 		<TD>load settings</TD>
 		<TD>	<FONT color="orange">Needs&nbsp;testing</FONT>
 		</TD>
-		<TD>&nbsp;</TD>
-		<TD>	Must be tested heavily because this feature is introduced recently.
+		<TD>Herman?</TD>
+		<TD>	Must be tested heavily because this feature is introduced recently. Especially in Catapult, because there it seems it has never worked, even!
 		</TD>
-		<TD>&nbsp;</TD>
+		<TD>2005-01-27 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>Build test on FreeBSD</TD>
