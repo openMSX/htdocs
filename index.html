@@ -44,7 +44,17 @@ openMSX is alpha software and currently only intended for developers.
 Here are some highlights of the features (some may only be available in the latest CVS version):
 <ul>
  <li>support for almost all MSX1 and MSX2 systems and also for MSX2+ (and partially MSXturboR) systems, except for the V9958 VDP (screen 11/12 works though)
- <li>support for almost all known cartridge mapper types (also with SRAM) via autodetection or the included ROM database
+ <li>support for almost all known cartridge mapper types via autodetection or the included ROM database, including
+ <ul>
+  <li>Panasonic FS-CA1 MSX Audio
+  <li>National mapper type used for internal software
+  <li>Panasonic mapper type used for internal software (not complete yet, though)
+  <li>most ROMs with special headers or which start from basic, like Nausicaa, Pairs, etc.)
+  <li>most ROMs with SRAM
+  <li>Cross Blaim
+  <li>R-Type
+  <li>Konami's Game Master 2
+ </ul>
  <li>configurable with XML files (separation between preferences and machine layout possible)
  <li>various renderers available (amongst which an openGL based renderer that makes advantage of hardware acceleration of video cards and has some special effects, see screenshots)
  <li>full interlacing support, real or deinterlaced
@@ -56,6 +66,7 @@ Here are some highlights of the features (some may only be available in the late
  <li>console with alpha-blended background
  <li>real floppy disk controller support (WD2793 fully supported, including formatting); also partial support for TC8566AF FDC, National MB8877A and Microsol based FDCs
  <li>kanji JIS ROM 1 and 2 support
+ <li>12&times;12 dot kanji support (National FS-4600)
  <li>mouse and joystick support
  <li>experimental JoyNet support (connected to TCP/IP of host OS)
  <li>tape support via CAS and WAV files (real recorded tape image)
