@@ -31,7 +31,7 @@ features are implemented yet.
 </ul>
 <h2>Features</h2>
 <p>
-Here are some highlights of the features of the latest release (0.4.0).
+Here are some highlights of the features of the latest release (0.5.0).
 </p>
 
 <p>Legend:<br/>
@@ -48,28 +48,30 @@ Here are some highlights of the features of the latest release (0.4.0).
 </p>
  <ul>
   <li>for Linux, Windows, MacOS X and FreeBSD systems
-  <li><small class="alert">New!</small> installer for Windows 
-  <li>command interface via pipes: you can control openMSX with any external application that can communicate via pipes with openMSX! An example implementation is available.
-  <li><small class="alert">New!</small> openMSX Catapult: the optional GUI for openMSX! Uses the interface mentioned in the previous item. 
-  <li><small class="alert">New!</small> TCL is the internal scripting language: enhance openMSX with powerful scripts! (Some examples are included.)
-  <li><small class="alert">New!</small> Advanced build system 
+  <li>installer for Windows 
+  <li><small class="attn">Unique!</small> command interface via pipes: you can control openMSX with any external application that can communicate via pipes with openMSX! An example implementation is available.
+  <li><small class="cool">Cool!</small> openMSX Catapult: the optional GUI for openMSX! Uses the interface mentioned in the previous item. 
+  <li><small class="attn">Unique!</small> TCL is the internal scripting language: enhance openMSX with powerful scripts! (Some examples are included.)
+  <li>Advanced build system 
   <li>manuals online and in distribution
   <li>more than 60 MSX machine hardware configurations included (including two using C-BIOS; the others need original MSX ROMs).
   <li>more than 20 MSX extension hardware configurations included (may need original ROMs).
   <li><small class="first">1st!</small> `real time timing', using the specially developed EmuTime model
   <li><small class="first">1st!</small> pixel accurate rendering: horizontal screensplits are rendered almost correctly (Unknown Reality, Verti-demo).
+  <li><small class="alert">New!</small> system ROMs are specified and found with their SHA1 sums or file names as a fall back
+  <li><small class="alert">New!</small> MMX and extended-MMX optimisations for rendering
  </ul>
 <p>
 <b>MSX hardware emulated</b>
 </p>
  <ul>
   <li>almost all MSX systems, except for some details
-  <li><small class="alert">New!</small> different CPU clock speeds, including those for the Panasonic MSX2+ machines
+  <li>different CPU clock speeds, including those for the Panasonic MSX2+ machines
   <li>almost all known cartridge mapper types via autodetection or the included ROM database, including
   <ul>
    <li><small class="first">1st!</small> Panasonic FS-CA1 MSX Audio
    <li><small class="first">1st!</small> National mapper type used for internal software
-   <li><small class="alert">New!</small> Panasonic FS-A1FM internal mapper, with frontswitch
+   <li>Panasonic FS-A1FM internal mapper, with firmware switch
    <li>Panasonic mapper type used for internal software (e.g. MSX-View)
    <li>ROMs with special headers or which start from basic, like Nausicaa, Pairs, etc.
    <li>all (?) ROMs with SRAM (Hydlide 2, Xanadu, Wizardry, many Koei games, Daisenryaku, etc.)
@@ -112,6 +114,8 @@ Here are some highlights of the features of the latest release (0.4.0).
   and Sony MOS-1 and similar mice have)
   <li>rensha turbo auto fire support
   <li>turboR pause (button) support
+  <li><small class="alert">New!</small> slot expander
+  <li><small class="alert">New!</small> Tetris II Special Edition dongle
  </ul>
 <p>
 <b>Emulator extras</b>
@@ -120,10 +124,12 @@ Here are some highlights of the features of the latest release (0.4.0).
   <li><small class="attn">Unique!</small> XML files specify the hardware to be emulated, so you actually emulate specific MSX machines, which of course can be modified
   <li>various screen renderers available:
    <ul>
-    <li>640&times;480 hi-res renderer, with scanline emulation and support for 3 different scalers: <a href="http://www.hiend3d.com/hq2x.html">hq2x</a>, <a href="http://elektron.its.tudelft.nl/~dalikifa/">2xSaI</a> and <a href="http://scale2x.sf.net/">scale2x</a> (see animated images below)
+    <li>640&times;480 hi-res renderer, with support for 3 different scalers: <a href="http://www.hiend3d.com/hq2x.html">hq2x</a>, <a href="http://elektron.its.tudelft.nl/~dalikifa/">2xSaI</a> and <a href="http://scale2x.sf.net/">scale2x</a> (see animated images below)
     <li>320&times;240 lo-res renderer (with compensation for lower resolution by blending)
-    <li><small class="cool">Cool!</small> 640&times;480 openGL based renderer that makes advantage of hardware acceleration of video cards and has some special effects: scanlines, blurring, afterglow (TV emulation, see also screenshots below), gamma adjustment
+    <li><small class="cool">Cool!</small> 640&times;480 openGL based renderer that makes advantage of hardware acceleration of video cards and has an extra special effect: afterglow (see also screen shots below)
    </ul>
+  <li>for SDLHi and SDLGL renderers: scanlines and blur for TV emulation (see screen shots below)
+  <li>gamma adjustment setting
   <li><small class="attn">Unique!</small> console with alpha-blended background and file and command completion
   <li>option to run at maximum possible speed
   <li>full screen rendering
@@ -131,7 +137,7 @@ Here are some highlights of the features of the latest release (0.4.0).
   <li><small class="attn">Unique!</small> support for .xsa (compressed) diskimages
   <li>speed setting (in percent)
   <li>mouse cursor grabbing, for windowed mode
-  <li>tunable volumes and channel modes for the individual sound chips, from the console
+  <li>tunable volumes and channel modes for the individual sound chips
   <li><small class="attn">Unique!</small> debug device: write data to special I/O ports and its get logged
   to stdout or a file in a format you specify. Very useful if you develop
   MSX assembly programs in openMSX
@@ -154,31 +160,7 @@ Here are some highlights of the features of the latest release (0.4.0).
 Here are some highlights of features and improvements that are already in CVS and are likely to be in the next release: 
 </p>
 <ul>
-  <li> all (S)RAM is now debuggable
-  <li> cleaner names for debuggables
-  <li> individual sound devices can be muted now (channel mode off)
-  <li> largely rewritten XML file format for hardware descriptions and settings file
-  <li> correct ASCII table for 'type' command for international layout (thanks to BiFi)
-  <li> added ROM pools: put all ROMs in one directory and use the sha1 checksums from the hardware description XML to find the right ROMs. Default ROM pools are share/systemroms
-  <li> Moonsound fixes
-  <li> better internal clock
-  <li> added simple DC filter to support .wav files from MicroWAVer
-  <li> support for slotexpander extension
-  <li> even more improvements in 'type' command, mostly Unicode related (thanks to Arnold Metselaar)
-  <li> rewritten internal renderer architecture
-  <li> added MMX and extended-MMX optimisations for rendering
-  <li> added basic support for x86_64
-  <li> fixed ROMBAS mapper for 8kB ROMs
-  <li> allow multiple times the same extension
-  <li> all scalers now also work on hi-res modes
-  <li> added 'blur' effect for SDLHi
-  <li> several smaller optimisations
-  <li> added a FAQ to the documentation
-  <li> all settings made via the console can be saved now, also auto save at exit is possible
-  <li> added iomap command to get an overview of I/O ports and devices
-  <li> added emulation of the Tetris II Special Edition dongle
-  <li> implemented formatting for TC8566AF FDC, thanks to Daniel Vik
-<!--  <li>(nothing yet, we just released 0.4.0!) -->
+  <li>(nothing yet, we just released 0.5.0!)
 </ul>
 
 <h2>openMSX IRC channel</h2>
