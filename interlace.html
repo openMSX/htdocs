@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<TITLE>openMSX: emulating interlaced displays</TITLE>
+<LINK rel="stylesheet" href="joost.css" type="text/css" />
+<META http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+<META name="keywords" content="openmsx msx emulator" />
+<META name="description" content="openmsx: emulate the MSX standard" />
+</HEAD>
+<BODY bgcolor="black" text="white" >
+
+<h1>openMSX: How to emulate the interlaced display mode of the MSX standard</h1>
+<p>
+openMSX is alpha software and currently only intended for developers.
+</p>
+<p>
+Interlacing (combined with alternate page display) was a method used in MSX to double the vertical resolution of a screen. A programmer would take two screen of normal resolution, and by instructing the VDP to alternate between these screens the optical effect of a higher resolution could be achieved.
+The effect was that the first page was displayed normally during the even screen refreshes, but during the odd screen refreshes the second page would be displayed but half a line lower, in between the lines of the previous picture so to speak. This resulted in a flickerry high resolution mode.
+</p>
+<h2>Methode one, going for accuracy</h2>
+<p>
+There are two methodes to emulate this high resolution screens. The first one is to really emulate the hardware behaviuor and is shown below. I used the GIMP to create the gif file, and the gimp animation preview show the result correctly, Later on I noticed that most browser can handle gif animations with a speed of 50 frames a second, so please save the gif and use a good picture editor tool if your browser isn't fast enough!!
+Also if your monitor has a refresh rate of for instance 75Hz the effect of a 50 or 60Hz MSX screen refresh will not viewed correctly, since you will see one of the two images for two screen refreshes on your monitor, making the image more flickery then on on The Real Thing(tm). Not to mention ofcourse that the afterglow of a modern monitor is much less then the old monitors/TV's used on an MSX thus increassing the flicker.
+</p>
+<p>
+<center>
+<img src="interlace.gif"><br>
+<i>Most browsers will not refresh quickly enough between the two pictures. (It should be every 20 ms!!)</i>
+</center>
+</p>
+<h2>Methode two, going for stability</h2>
+The nicer method which gives a much stable and nicer picture would be to really have the two screens mixed in one screen with the first page drawn on the even lines and the second page on the odd lines. The picture below demonstrates this effect. Much less real but for most users much easier on the eyes.
+</p>
+<p>
+<center>
+<img src="interlace.png"><br>
+<i>The not so accurate method</i>
+</center>
+</p>
+<table>
+<tr>
+<td>
+<p class="footer">$Id$</p>
+</td>
+<td>
+<a href="http://sourceforge.net/"><img
+  src="http://sourceforge.net/sflogo.php?group_id=38274"
+  width="88" height="31" border="0" alt="SourceForge Logo">
+</a>
+</td>
+</tr>
+</table>
+</BODY>
+</HTML>
+
