@@ -34,8 +34,17 @@ Currently, we already have our new official Catapult in CVS. You can get a <a hr
 </ul>
 <h2>Features</h2>
 <p>
-Here are some highlights of the features of the latest release (0.3.4): 
+Here are some highlights of the features of the latest release (0.3.4).
 </p>
+
+<p>Legend:<br/>
+</p>
+<table>
+<tr><td><small class="alert">New!</small></td><td>new feature since last release</td></tr>
+<tr><td><small class="attn">Unique!</small></td><td>unique feature for an MSX emulator (no other MSX emulators have it)</td></tr>
+<tr><td><small class="cool">Cool!</small></td><td>particularly cool feature</td></tr>
+<tr><td><small class="first">1st!</small></td><td>openMSX is the first MSX emulator to have this feature (but it's not unique anymore)</td></tr>
+</table>
 
 <p>
 <b>General</b>
@@ -57,7 +66,7 @@ Here are some highlights of the features of the latest release (0.3.4):
   <li>almost all known cartridge mapper types via autodetection or the included ROM database, including
   <ul>
    <li><small class="attn">Unique!</small> Panasonic FS-CA1 MSX Audio
-   <li><small class="attn">Unique!</small> National mapper type used for internal software
+   <li><small class="first">1st!</small> National mapper type used for internal software
    <li>Panasonic mapper type used for internal software (e.g. MSX-View)
    <li>ROMs with special headers or which start from basic, like Nausicaa, Pairs, etc.
    <li>all (?) ROMs with SRAM (Hydlide 2, Xanadu, many Koei games, Daisenryaku, etc.)
@@ -75,7 +84,7 @@ Here are some highlights of the features of the latest release (0.3.4):
    <li><small class="attn">Unique!</small> SIMPL/Covox (sound via the printer port)
    <li><small class="attn">Unique!</small> MSX-MIDI (turboR)
    <li><small class="attn">Unique!</small> PCM output (turboR)
-   <li><small class="attn">Unique!</small>  PCM input (sampling) for turbo R via a .wav file
+   <li><small class="attn">Unique!</small> PCM input (sampling) for turbo R via a .wav file
   </ul>
   <li>many MSX storage (disk/SRAM) systems:
   <ul>
@@ -85,11 +94,11 @@ Here are some highlights of the features of the latest release (0.3.4):
    <li><small class="attn">Unique!</small> Sunrise IDE interface with harddisk
    <li>floppy disk controller (WD2793 and National MB8877A fully supported, including formatting); also partial support for TC8566AF and Microsol based FDCs
   </ul>
-  <li><small class="attn">Unique!</small> interlacing, real or deinterlaced
+  <li><small class="first">1st!</small> interlacing, real or deinterlaced
   <li>overscan
   <li>kanji JIS ROM 1 and 2
-  <li><small class="attn">Unique!</small> MSX Bunsetsu Henkan Jisyo ROM (National FS-SR021/FS-4000/FS-4500/4700F)
-  <li><small class="attn">Unique!</small> 12&times;12 dot kanji (National FS-4600)
+  <li><small class="first">1st!</small> MSX Bunsetsu Henkan Jisyo ROM (National FS-SR021/FS-4000/FS-4500/4700F)
+  <li><small class="first">1st!</small> 12&times;12 dot kanji (National FS-4600)
   <li>mouse and joystick (with option to use the keyboard as joystick)
   <li><small class="attn">Unique!</small> JoyNet (experimental; connected to TCP/IP of host OS)
   <li>tape via CAS and WAV files (real recorded tape image); CAS files can be converted to WAV on the fly, cassette sounds are audible, cassettes can be rewinded and forced to play (like unplugging the 'remote control' plug on a real machine)
@@ -143,7 +152,7 @@ Here are some highlights of features and improvements that are already in CVS an
 <!-- <li>(nothing yet, we just released 0.3.4!) -->
   <li>TurboR FDC fixes (thanks to Tetsuo Honda): FDD LED, disk change, 2nd drive detection and empty drive status work now
   <li>'bind' command now also has modifiers; CTRL-BREAK is now bound to 'quit' by default
-  <li>use TCL for internal scripting (enables some cool things like easier debugging, cheat finders, user-definable complex commands, etc.)
+  <li>use TCL for scripting (enables some cool things like easier debugging, cheat finders, user-definable complex commands, etc.)
   <li>CPU frequency can be changed at run time (for 7/8 MHz options)
   <li>improved the XML format of the CliComm protocol (incompatible with previous release!)
   <li>optimizations in VDP (not all VRAM writes generate a sync)
@@ -155,7 +164,9 @@ Here are some highlights of features and improvements that are already in CVS an
   <li>major improvements in TurboR timing
   <li>made a lot more devices debuggable (SCC, MSX Audio, Moonsound, memory mapper, MSX Music, PSG) and extended CPU debugging options
   <li>finalized Sony HBI-55 datacartridge emulation
-  <li>new frameskip/sync algorithm, which should improve speed stability
+  <li>it's possible to ask openMSX the number of frames per second that it's generating
+  <li>new frameskip/sync algorithm, which should improve speed stability (including new minframeskip and maxframeskip settings)
+  <li>new build system, getting completely rid of GNU auto* tools
 </ul>
 
 <h2>openMSX IRC channel</h2>
@@ -335,7 +346,7 @@ demo of Space Manbow, on the left with effects turned off and on the right
 with the default scanlines and blur. (SDLGL renderer only!)
 </p>
 </td>
-</tr>
+<tr>
 <td colspan=2>
 <p class="shot">
 <img alt="screenshot" src="aleste2glow.png"><br>

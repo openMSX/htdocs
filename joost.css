@@ -55,13 +55,20 @@ h4 {
 /*  background:        white; */
 }
 
-p {
+p, table {
   font-family:       verdana, sans-serif;
   font-size:         10pt;
   margin-left:       10pt;
   margin-right:      30pt;
   color:             white;
-/*  background:        white; */
+}
+
+td {
+  font-family:       verdana, sans-serif;
+  font-size:         10pt;
+  margin-left:       0px;
+  margin-right:      0px;
+  color:             white;
 }
 
 p.shot {
@@ -267,5 +274,10 @@ small.attn {
 
 small.cool {
   background:	     lightblue; 
+  color:	     black; 
+}
+
+small.first {
+  background:	     purple; 
   color:	     black; 
 }
