@@ -40,6 +40,24 @@ Status:
 		<TD>Updated</TD>
 	</TR>
 	<TR>
+		<TD>Crash with "pure virtual method called"</TD>
+		<TD>	<FONT color="red">Not&nbsp;Done</FONT>
+		</TD>
+		<TD>Maarten/Wouter</TD>
+		<TD>openMSX crashes with 'pure virtual method called' once in a while... But what is the cause!? And how to reproduce it?? It mainly happens on Win32 systems anyway.
+		</TD>
+		<TD>2005-02-06 (UTC)</TD>
+	</TR>
+	<TR>
+		<TD>Switching renderers on MSX1 causes segfault</TD>
+		<TD>	<FONT color="red">Not&nbsp;Done</FONT>
+		</TD>
+		<TD>Maarten/Wouter</TD>
+		<TD>crash then switching to SDLLo/SDLHi renderer on MSX1 machines because it attempts to render lines outside of the display area
+		</TD>
+		<TD>2005-02-06 (UTC)</TD>
+	</TR>
+	<TR>
 		<TD>OSD/console on MacOS X</TD>
 		<TD>	<FONT color="green">Done</FONT>
 		</TD>
@@ -102,12 +120,30 @@ because the current Catapult is broken for this: if one select an IPS patch, it 
 	</TR>
 	<TR>
 		<TD>integration of SVI-3x8 and Colecovision emulation</TD>
-		<TD>	<FONT color="red">Not done</FONT>
+		<TD>	<FONT color="red">Not&nbsp;done</FONT>
 		</TD>
 		<TD>Maarten</TD>
 		<TD>Code is written but not integrated into openMSX yet. Needs quit some work. Might get postponed...
 		</TD>
 		<TD>2005-01-22 (UTC)</TD>
+	</TR>
+	<TR>
+		<TD>Black flashes in SDLGL</TD>
+		<TD>	<FONT color="red">Not&nbsp;done</FONT>
+		</TD>
+		<TD>Wouter/Maarten</TD>
+		<TD>In SDLGL, there are black flashes all over the screen, in some situations. It is related to repaintDelayed, which is used for the icon/console fade animations.
+		</TD>
+		<TD>2005-02-06 (UTC)</TD>
+	</TR>
+	<TR>
+		<TD>Penguin Adventure crashes (sometimes?) on VG 8020/20</TD>
+		<TD>	Postpone
+		</TD>
+		<TD>Maarten</TD>
+		<TD>investigated it: the game first initialised the mapper reg save locations (F0F1 and above) and later erases them again. If the game would do those two things in the opposite order, it wouldn't crash. It's heavily timing related. Pressing a key during boot makes the game not crash also.
+		</TD>
+		<TD>2005-02-06 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>ROMType names in romdb.xml need update</TD>
@@ -123,7 +159,7 @@ because the current Catapult is broken for this: if one select an IPS patch, it 
 		<TD>	<FONT color="green">Done</FONT>
 		</TD>
 		<TD>David</TD>
-		<TD> I propose to use set1 as default, with the LEDs on the left side arranged vertically, in stead on the top arranged horizontally. This way they're more out of the real MSX screen area. David proposes to put them at the bottom of the screen, closes to where the real MSX would have been. The request to make the LEDs configurable in the machine config files has been acknowledged, but is postponed until after this release. Still TODO: fix script.
+		<TD> I propose to use set1 as default, with the LEDs on the left side arranged vertically, in stead on the top arranged horizontally. This way they're more out of the real MSX screen area. David proposes to put them at the bottom of the screen, closes to where the real MSX would have been. The request to make the LEDs configurable in the machine config files has been acknowledged, but is postponed until after this release. <b>Still TODO: icons on SDLLo?</b>
 		</TD>
 		<TD>2005-02-02 (UTC)</TD>
 	</TR>
@@ -315,12 +351,12 @@ filecache globally, located somewhere in the user dir
 	</TR>
 	<TR>
 		<TD>Catapult manuals out of date</TD>
-		<TD>	<FONT color="red">Note&nbsp;done</FONT>
+		<TD>	<FONT color="blue">In&nbsp;progress</FONT>
 		</TD>
 		<TD>Manuel, Herman</TD>
 		<TD>	Update the manuals.
 		</TD>
-		<TD>2005-01-27 (UTC)</TD>
+		<TD>2005-02-06 (UTC)</TD>
 	</TR>
 
 <!--
