@@ -51,12 +51,13 @@ Here are some highlights of the features of the latest release (0.3.3):
 <p>
 <b>General</b>
  <ul>
-  <li><small class="alert">New!</small> next to the source code, also Win32 binary available
-  <li><small class="alert">New!</small> manuals online and in distribution
+  <li>next to the source code, also Win32 binary available
+  <li>manuals online and in distribution
   <li><small class="attn">Unique!</small> `real time timing', using the specially developed EmuTime model
   <li>more than 45 MSX machine hardware configurations included (including two using C-BIOS; the others need original MSX ROMs)
   <li>more than 20 MSX extension hardware configurations included (may need original ROMs)
   <li><small class="attn">Unique!</small> pixel accurate rendering: horizontal screensplits are rendered almost correctly (Unknown Reality, Verti-demo)
+  <li><small class="alert">New!</small> command interface via pipes: you can now control openMSX with any external application that can communicate via pipes with openMSX! An example implementation is available. (Note: the command interface will change in an incompatible way in the next release!)
  </ul>
 </p>
 <p>
@@ -82,9 +83,9 @@ Here are some highlights of the features of the latest release (0.3.3):
    <li><small class="cool">Cool!</small> "Moonblaster Stereo": MSX Music on one channel, MSX Audio on the other
    <li>SCC and SCC+ (the latter can be used in SD-Snatcher, Snatcher, expanded (128kB RAM) or mirrored (64kB on both banks) mode)
    <li><small class="attn">Unique!</small> SIMPL/Covox (sound via the printer port)
-   <li><small class="alert">New!</small> MSX-MIDI (turboR)
+   <li><small class="attn">Unique!</small> MSX-MIDI (turboR)
    <li><small class="attn">Unique!</small> PCM output (turboR)
-   <li><small class="alert">New!</small> PCM input (sampling) for turbo R via a .wav file
+   <li><small class="attn">Unique!</small>  PCM input (sampling) for turbo R via a .wav file
   </ul>
   <li>many MSX storage (disk/SRAM) systems:
   <ul>
@@ -102,9 +103,11 @@ Here are some highlights of the features of the latest release (0.3.3):
   <li>mouse and joystick (with option to use the keyboard as joystick)
   <li><small class="attn">Unique!</small> JoyNet (experimental; connected to TCP/IP of host OS)
   <li>tape via CAS and WAV files (real recorded tape image); CAS files can be converted to WAV on the fly, cassette sounds are audible, cassettes can be rewinded and forced to play (like unplugging the 'remote control' plug on a real machine)
-  <li><small class="alert">New!</small> MSX RS-232 (8255 UART)
-  <li><small class="alert">New!</small> joystick emulation for mouse (a feature that the Philips SBC-3810
+  <li><small class="attn">Unique!</small> MSX RS-232 (8255 UART)
+  <li> joystick emulation for mouse (a feature that the Philips SBC-3810
   and Sony MOS-1 and similar mice have)
+  <li><small class="alert">New!</small> rensha turbo auto fire support
+  <li><small class="alert">New!</small> turboR pause (button) support
  </ul>
 </p>
 <p>
@@ -113,7 +116,7 @@ Here are some highlights of the features of the latest release (0.3.3):
   <li><small class="attn">Unique!</small> XML files specify the hardware to be emulated, so you actually emulate specific MSX machines, which of course can be modified
   <li>various screen renderers available:
    <ul>
-    <li>640&times;480 hi-res renderer
+    <li>640&times;480 hi-res renderer, <small class="alert">New!</small> with scanline emulation and support for 3 different scalers: <a href="http://www.hiend3d.com/hq2x.html">hq2x</a>, <a href="http://elektron.its.tudelft.nl/~dalikifa/">2xSaI</a> and <a href="http://scale2x.sf.net/">scale2x</a> (see animated images below)
     <li>320&times;240 lo-res renderer (with compensation for lower resolution by blending)
     <li><small class="cool">Cool!</small> 640&times;480 openGL based renderer that makes advantage of hardware acceleration of video cards and has some special effects: scanlines, blurring, afterglow (TV emulation, see also screenshots below), gamma adjustment
    </ul>
@@ -124,42 +127,30 @@ Here are some highlights of the features of the latest release (0.3.3):
   <li><small class="attn">Unique!</small> support for .xsa (compressed) diskimages
   <li>speed setting (in percent)
   <li>mouse cursor grabbing, for windowed mode
-  <li><small class="alert">New!</small> tunable volumes and channel modes for the individual sound chips, from the console
-  <li><small class="alert">New!</small> debug device: write data to special I/O ports and its get logged
+  <li>tunable volumes and channel modes for the individual sound chips, from the console
+  <li><small class="attn">Unique!</small> debug device: write data to special I/O ports and its get logged
   to stdout or a file in a format you specify. Very useful if you develop
   MSX assembly programs in openMSX
-  <li><small class="alert">New!</small> all read-only input files (ROM images, disk images, background pictures,
+  <li> all read-only input files (ROM images, disk images, background pictures,
   XML) can be gzipped or zipped and will be transparently decompressed
   by openMSX. Note that some games require write access to their disk in
   order to run (for example, Seed of Dragon)
-  <li><small class="alert">New!</small> dir-as-disk feature: a directory can be specified instead of a disk
+  <li><small class="attn">Unique!</small> dir-as-disk feature: a directory can be specified instead of a disk
   image and the contents (up to 720K) will show up as files on the MSX.
   There is no support for subdirectories (as used by DOS2) yet. Note that this feature
   is still experimental
-  <li><small class="alert">New!</small> adjustable keymap (e.g. for Japanese PC keyboards or to use Russian MSX
+  <li>adjustable keymap (e.g. for Japanese PC keyboards or to use Russian MSX
   keyboards on a US English PC keyboard)
- <li>Jarek Burcynszki's YM2413 core can be chosen as alternative for the Otazaki core
+  <li><small class="alert">New!</small> screen shot feature
+  <li><small class="alert">New!</small> debug command (including break points): read/write many parts of the MSX system; mainly useful to be used in external debug applications via the stdin command interface
+  <li><small class="alert">New!</small> keymatrixdown/up commands to automatically push keys (like pressing CTRL at boot automatically)
+  <li><small class="alert">New!</small> console commands to enable demo play with timers
  </ul>
 </p>
 <p>
 Here are some highlights of features and improvements that are already in CVS and are likely to be in the next release: 
 <ul>
-<!-- <li>(nothing yet, we just released 0.3.3!) -->
-  <li>rensha turbo auto fire support
-  <li>command interface via stdin: you can now control openMSX with any external application that can write to the stdin of openMSX! An example implementation is available
-  <li>turboR pause (button) support
-  <li>most FDD LEDs are emulated
-  <li><a href="http://www.hiend3d.com/hq2x.html">hq2x</a>, <a href="http://elektron.its.tudelft.nl/~dalikifa/">2xSaI</a> and <a href="http://scale2x.sf.net/">scale2x</a> scaler for SDLHi (see the animated pictures below)
-  <li>scanlines for SDLHi
-  <li>even more complete console (e.g. alias command)
-  <li>console commands to enable demo play with timers
-  <li>MSX can now be powered off, showing a 'noise' effect
-  <li>double buffering for SDLHi/SDLLo, should improve performance on Windows especially
-  <li>added possibility to use no renderer
-  <li>new keymatrixdown/up commands to automatically push keys (like pressing CTRL at boot automatically)
-  <li>debug command (including break points): read/write many parts of the MSX system; mainly useful to be used in external debug applications via the stdin command interface
-  <li>added possibility to make screenshots
-  <li>added files to build on MacOSX
+ <li>(nothing yet, we just released 0.3.4!) 
 </ul>
 </p>
 
