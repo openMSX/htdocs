@@ -98,7 +98,7 @@ Here are some highlights of the features of the latest release (0.4.0).
    <li><small class="attn">Unique!</small> Sunrise IDE interface with harddisk
    <li>floppy disk controller (WD2793 and National MB8877A fully supported, including formatting); also partial support for TC8566AF and Microsol based FDCs (improved in latest release)
   </ul>
-  <li><small class="first">1st!</small> interlacing, real or deinterlaced
+  <li><small class="cool">Cool!</small> interlacing, real or deinterlaced
   <li>overscan
   <li>kanji JIS ROM 1 and 2
   <li><small class="first">1st!</small> MSX Bunsetsu Henkan Jisyo ROM (National FS-SR021/FS-4000/FS-4500/4700F)
@@ -157,9 +157,9 @@ Here are some highlights of features and improvements that are already in CVS an
   <li> all (S)RAM is now debuggable
   <li> cleaner names for debuggables
   <li> individual sound devices can be muted now (channel mode off)
-  <li> largely rewritten XML file format for hardware descriptions
+  <li> largely rewritten XML file format for hardware descriptions and settings file
   <li> correct ASCII table for 'type' command for international layout (thanks to BiFi)
-  <li> added ROM pool: put all ROMs in one directory and use the sha1 checksums from the hardware description XML to find the right ROMs
+  <li> added ROM pools: put all ROMs in one directory and use the sha1 checksums from the hardware description XML to find the right ROMs. Default ROM pools are share/systemroms
   <li> Moonsound fixes
   <li> better internal clock
   <li> added simple DC filter to support .wav files from MicroWAVer
@@ -167,12 +167,17 @@ Here are some highlights of features and improvements that are already in CVS an
   <li> even more improvements in 'type' command, mostly Unicode related (thanks to Arnold Metselaar)
   <li> rewritten internal renderer architecture
   <li> added MMX and extended-MMX optimisations for rendering
-  <li> added support for x86_64
+  <li> added basic support for x86_64
   <li> fixed ROMBAS mapper for 8kB ROMs
   <li> allow multiple times the same extension
-  <li> all scalers now also worko on hi-res modes
-  <li> added 'blur' scaler to get blur effect without openGL
+  <li> all scalers now also work on hi-res modes
+  <li> added 'blur' effect for SDLHi
   <li> several smaller optimisations
+  <li> added a FAQ to the documentation
+  <li> all settings made via the console can be saved now, also auto save at exit is possible
+  <li> added iomap command to get an overview of I/O ports and devices
+  <li> added emulation of the Tetris II Special Edition dongle
+  <li> implemented formatting for TC8566AF FDC, thanks to Daniel Vik
 <!--  <li>(nothing yet, we just released 0.4.0!) -->
 </ul>
 
