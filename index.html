@@ -32,7 +32,7 @@ features are implemented yet.
 </ul>
 <h2>Features</h2>
 <p>
-Here are some highlights of the features of the latest release (0.5.0).
+Here are some highlights of the features of the latest release (0.5.1).
 </p>
 
 <p>Legend:<br/>
@@ -48,25 +48,27 @@ Here are some highlights of the features of the latest release (0.5.0).
 <b>General</b>
 </p>
  <ul>
-  <li>for Linux, Windows, MacOS X and FreeBSD systems
+  <li>for Linux, Windows, MacOS X, FreeBSD, <small class="alert">New!</small>NetBSD and <small class="alert">New!</small>OpenBSD systems
   <li>installer for Windows 
+  <li><small class="alert">New!</small> Debian packaging, shortly after the release
   <li><small class="attn">Unique!</small> command interface via pipes: you can control openMSX with any external application that can communicate via pipes with openMSX! An example implementation is available.
   <li><small class="cool">Cool!</small> openMSX Catapult: the optional GUI for openMSX! Uses the interface mentioned in the previous item. 
   <li><small class="attn">Unique!</small> TCL is the internal scripting language: enhance openMSX with powerful scripts! (Some examples are included.)
   <li>Advanced build system 
   <li>manuals online and in distribution
-  <li>more than 60 MSX machine hardware configurations included (including two using C-BIOS; the others need original MSX ROMs).
-  <li>more than 20 MSX extension hardware configurations included (may need original ROMs).
+  <li>more than 75 MSX machine hardware configurations included (including three using C-BIOS; the others need original MSX ROMs).
+  <li>more than 30 MSX extension hardware configurations included (may need original ROMs).
   <li><small class="first">1st!</small> `real time timing', using the specially developed EmuTime model
   <li><small class="first">1st!</small> pixel accurate rendering: horizontal screensplits are rendered almost correctly (Unknown Reality, Verti-demo).
-  <li><small class="alert">New!</small> system ROMs are specified and found with their SHA1 sums or file names as a fall back. This means: <b>no need to install all the ROMs in separate directories anymore!</b>
-  <li><small class="alert">New!</small> MMX and extended-MMX optimisations for rendering
+  <li><small class="attn">Unique!</small> system ROMs are specified and found with their SHA1 sums or file names as a fall back. This means: <b>no need to install all the ROMs in separate directories anymore!</b>
+  <li>MMX and extended-MMX optimisations for rendering
+  <li><small class="alert">New!</small> On Screen Display, now still mainly used for LEDs.
  </ul>
 <p>
 <b>MSX hardware emulated</b>
 </p>
  <ul>
-  <li>almost all MSX systems, except for some details
+  <li>almost all MSX systems, except for some minor details
   <li>different CPU clock speeds, including those for the Panasonic MSX2+ machines
   <li>almost all known cartridge mapper types via autodetection or the included ROM database, including
   <ul>
@@ -81,12 +83,14 @@ Here are some highlights of the features of the latest release (0.5.0).
    <li>Harry Fox Yuki No Maou-Hen
    <li>Korean multi-game ROMs: Zemmix 126, Game's 80, Zemmix 64 and MSX90-collection
   </ul>
+  <li><small class="alert">New!</small> Sunrise GFX9000! (experimental)
   <li>almost all MSX sound devices:
   <ul>
    <li><small class="cool">Cool!</small> Moonsound (may not be 100% complete)
    <li>Konami's Majutsushi and Synthesizer DAC
    <li><small class="cool">Cool!</small> "Moonblaster Stereo": MSX Music on one channel, MSX Audio on the other
    <li>SCC and SCC+ (the latter can be used in SD-Snatcher, Snatcher, expanded (128kB RAM) or mirrored (64kB on both banks) mode)
+   <li><small class="alert">New!</small> Checkmark FM Stereo PAK
    <li><small class="attn">Unique!</small> SIMPL/Covox (sound via the printer port)
    <li><small class="attn">Unique!</small> MSX-MIDI (turboR)
    <li><small class="attn">Unique!</small> PCM output (turboR)
@@ -94,12 +98,12 @@ Here are some highlights of the features of the latest release (0.5.0).
   </ul>
   <li>many MSX storage (disk/SRAM) systems:
   <ul>
-   <li>MegaRAM (non-diskROM types)
+   <li>MegaRAM and <small class="alert">New!</small> MegaRAM Disk 
    <li><small class="first">1st!</small> PAC (Panasonic SW-M001)
    <li><small class="attn">Unique!</small> Sony HBI-55 datacartridge
    <li>MSX-DOS2
    <li><small class="attn">Unique!</small> Sunrise IDE interface with harddisk
-   <li>floppy disk controller (WD2793 and National MB8877A fully supported, including formatting); also partial support for TC8566AF and Microsol based FDCs (improved in latest release)
+   <li>floppy disk controller (WD2793 and National MB8877A fully supported, including formatting); also partial support for TC8566AF and Microsol based FDCs 
   </ul>
   <li><small class="cool">Cool!</small> interlacing, real or deinterlaced
   <li>overscan
@@ -115,8 +119,8 @@ Here are some highlights of the features of the latest release (0.5.0).
   and Sony MOS-1 and similar mice have)
   <li>rensha turbo auto fire support
   <li>turboR pause (button) support
-  <li><small class="alert">New!</small> slot expander
-  <li><small class="alert">New!</small> Tetris II Special Edition dongle
+  <li><small class="attn">Unique!</small> slot expander
+  <li><small class="attn">Unique!</small> Tetris II Special Edition dongle
  </ul>
 <p>
 <b>Emulator extras</b>
@@ -153,6 +157,7 @@ Here are some highlights of the features of the latest release (0.5.0).
   <li>adjustable keymap (e.g. for Japanese PC keyboards or to use Russian MSX
   keyboards on a US English PC keyboard)
   <li>screen shot feature
+  <li><small class="alert">New!</small> support for IPS patches for ROMs and disks
   <li><small class="cool">Cool!</small> debug command (including break points): read/write many parts of the MSX system; mainly useful to be used in external debug applications via the stdin command interface
   <li><small class="attn">Unique!</small> keymatrixdown/up commands to automatically push keys (like pressing CTRL at boot automatically)
   <li><small class="attn">Unique!</small> console commands to enable demo play with timers
@@ -161,21 +166,7 @@ Here are some highlights of the features of the latest release (0.5.0).
 Here are some highlights of features and improvements that are already in CVS and are likely to be in the next release: 
 </p>
 <ul>
-<!--   <li>(nothing yet, we just released 0.5.0!) -->
-  <li>experimental GFX9000 emulation. All modes supported, but no sprites yet. Still has loads of bugs and is very unoptimized.
-  <li>build support for NetBSD
-  <li>lots of fixes of bugs in 0.5.0... (cassette noise, Tetris II SE dongle, base port of debug device, 
-  <li>Debian packaging
-  <li>'samples' and 'frequency' settings don't need an openMSX restart anymore
-  <li>WD2793 timing improvements
-  <li>added On Screen Display, now still mainly used for LEDs. LEDs fade out after not having changed for a while
-  <li>new mixer implementation which should improve the sound quality of PCM and PSG samples
-  <li>internal sound buffers are smaller now which should reduce the sound latency a bit
-  <li>added support for commandline IPS patches for ROMs
-  <li>added support for MegaRAM Disk, thanks to Adriano da Cunha
-  <li>added command to temporarily escape when grabinput is on (escape_grab)
-  <li>added 'load_settings' command
-  <li>fixed compilation on AMD64 machines
+   <li>(nothing yet, we just released 0.5.1!) 
 </ul>
 
 <h2>openMSX IRC channel</h2>
