@@ -58,31 +58,13 @@ Status:
 		<TD>2005-01-24 (UTC)</TD>
 	</TR>
 	<TR>
-		<TD>256kB sampleRAM in Almost Real</TD>
-		<TD>	<FONT color="red">Not&nbsp;done</FONT>
-		</TD>
-		<TD>Wouter?</TD>
-		<TD>Almost Real should report 256kB sampleRAM at the start. It does not. Using the same hardware config, the sampleRAM is used in Unknown Reality though, so it does work there.
-		</TD>
-		<TD>2005-01-23 (UTC)</TD>
-	</TR>
-	<TR>
-		<TD>consolebackground</TD>
-		<TD>	<FONT color="green">Done</FONT>
-		</TD>
-		<TD>Wouter</TD>
-		<TD>Setting a console background doesn't work when using relative paths. I found the right PNG in the console via TAB completion, but still it says: "not found in this context".
-		</TD>
-		<TD>2005-01-24 (UTC)</TD>
-	</TR>
-	<TR>
 		<TD>non-standard ways libpng</TD>
-		<TD>	<FONT color="red">Not&nbsp;done</FONT>
+		<TD>	Postpone	
 		</TD>
-		<TD>mth</TD>
-		<TD>	try to find a way to deal with non-standard ways libpng is packaged.
+		<TD>Maarten</TD>
+		<TD>	try to find a way to deal with non-standard ways libpng is packaged. We need such a platform to test on, before we can fix this.
 		</TD>
-		<TD>2005-01-21 (UTC)</TD>
+		<TD>2005-01-26 (UTC)</TD>
 	</TR>
 <!--
 	<TR>
@@ -111,7 +93,7 @@ Status:
 		<TD>integration of SVI-3x8 and Colecovision emulation</TD>
 		<TD>	<FONT color="red">Not done</FONT>
 		</TD>
-		<TD>mth</TD>
+		<TD>Maarten</TD>
 		<TD>Code is written but not integrated into openMSX yet. Needs quit some work. Might get postponed...
 		</TD>
 		<TD>2005-01-22 (UTC)</TD>
@@ -133,6 +115,24 @@ Status:
 		<TD> I propose to use set1 as default, with the LEDs on the left side arranged vertically, in stead on the top arranged horizontally. This way they're more out of the real MSX screen area. The LEDs need to have the texts fixed: replace pauze with pause, kanji with kana and R800 with Turbo, just like in Catapult.
 		</TD>
 		<TD>2005-01-22 (UTC)</TD>
+	</TR>
+	<TR>
+		<TD>256kB sampleRAM in Almost Real</TD>
+		<TD>	Postpone	
+		</TD>
+		<TD>Wouter?</TD>
+		<TD>Almost Real should report 256kB sampleRAM at the start. It does not. Using the same hardware config, the sampleRAM is used in Unknown Reality though, so it does work there.
+		</TD>
+		<TD>2005-01-26 (UTC)</TD>
+	</TR>
+	<TR>
+		<TD>consolebackground</TD>
+		<TD>	<FONT color="green">Done</FONT>
+		</TD>
+		<TD>Wouter</TD>
+		<TD>Setting a console background doesn't work when using relative paths. I found the right PNG in the console via TAB completion, but still it says: "not found in this context".
+		</TD>
+		<TD>2005-01-24 (UTC)</TD>
 	</TR>
 
 
@@ -164,7 +164,7 @@ Status:
 		<TD>	<FONT color="red">Not done</FONT>
 		</TD>
 		<TD>Wouter</TD>
-		<TD>
+		<TD>&nbsp;
 		</TD>
 		<TD>2005-01-22 (UTC)</TD>
 	</TR>
@@ -173,7 +173,7 @@ Status:
 		<TD>	<FONT color="red">Not done</FONT>
 		</TD>
 		<TD>Wouter</TD>
-		<TD>
+		<TD>&nbsp;
 		</TD>
 		<TD>2005-01-22 (UTC)</TD>
 	</TR>
@@ -209,7 +209,7 @@ filecache globally, located somewhere in the user dir
 		<TD>Better place for screenshots?</TD>
 		<TD>	<FONT color="red">Not done</FONT>
 		</TD>
-		<TD></TD>
+		<TD>&nbsp;</TD>
 		<TD>Users don't seem to be able to find the screenshots, although the location is printed.
 		</TD>
 		<TD>2005-01-23 (UTC)</TD>
@@ -227,7 +227,7 @@ filecache globally, located somewhere in the user dir
 		<TD>MMX on x86_64</TD>
 		<TD>	Postpone
 		</TD>
-		<TD>mth, Jorito</TD>
+		<TD>Maarten, Jorrith</TD>
 		<TD>	Enable MMX also on x86_64. But: AMD64 doesn't have MMX in 64bit mode, only SSE2. To get optimization working on AMD64, we need an evening with a lot of time and an account on Jorrith's machine.
 		</TD>
 		<TD>2005-01-21 (UTC)</TD>
@@ -236,7 +236,7 @@ filecache globally, located somewhere in the user dir
 		<TD>Contact to NetBSD pkgsrc</TD>
 		<TD>	Postpone
 		</TD>
-		<TD>mth</TD>
+		<TD>Maarten</TD>
 		<TD>	Try to contact the NetBSD pkgsrc maintainer again. He posted a request for support of NetBSD, but he never confirmed that the implemented support works.
 		</TD>
 		<TD>2005-01-21 (UTC)</TD>
@@ -266,12 +266,12 @@ filecache globally, located somewhere in the user dir
 	</TR>
 	<TR>
 		<TD>Manuals out of date</TD>
-		<TD>	<FONT color="red">Not&nbsp;done</FONT>
+		<TD>	<FONT color="blue">In&nbsp;progress</FONT>
 		</TD>
-		<TD>Manuel</TD>
-		<TD>	Update the manuals.
+		<TD>Manuel, Maarten</TD>
+		<TD>	Update the manuals. TODO: Mac OS X and C-BIOS stuff. Maybe TODO: update commands.txt with new icon settings.
 		</TD>
-		<TD>2005-01-22 (UTC)</TD>
+		<TD>2005-01-26 (UTC)</TD>
 	</TR>
 <!--
 	<TR>
@@ -309,7 +309,7 @@ filecache globally, located somewhere in the user dir
 		<TD>Build test on FreeBSD</TD>
 		<TD>	<FONT color="orange">Needs&nbsp;testing</FONT>
 		</TD>
-		<TD>4:Reikan, 5:Jorito</TD>
+		<TD>4:Reikan, 5:Jorrith</TD>
 		<TD>	Should be tested because it has been tested very rarely.
 		</TD>
 		<TD>&nbsp;</TD>
