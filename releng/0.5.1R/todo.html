@@ -41,19 +41,19 @@ Status:
 	</TR>
 	<TR>
 		<TD>Crash with "pure virtual method called"</TD>
-		<TD>	<FONT color="red">Not&nbsp;Done</FONT>
+		<TD>	<FONT color="blue">In&nbsp;progress</FONT>
 		</TD>
-		<TD>Maarten/Wouter</TD>
-		<TD>openMSX crashes with 'pure virtual method called' once in a while... But what is the cause!? And how to reproduce it?? It mainly happens on Win32 systems anyway.
+		<TD>Wouter</TD>
+		<TD>openMSX crashes with 'pure virtual method called' once in a while... Wouter found this: an Alarm object is deleted in main thread while it's being used in another thread. It triggers the delayed draw (the same thing that triggers the black flashes on some machines).
 		</TD>
 		<TD>2005-02-06 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>Switching renderers on MSX1 causes segfault</TD>
-		<TD>	<FONT color="red">Not&nbsp;Done</FONT>
+		<TD>	<FONT color="green">Done</FONT>
 		</TD>
-		<TD>Maarten/Wouter</TD>
-		<TD>crash then switching to SDLLo/SDLHi renderer on MSX1 machines because it attempts to render lines outside of the display area
+		<TD>Wouter</TD>
+		<TD>crash then switching to SDLLo/SDLHi renderer on MSX1 machines because it attempts to render lines outside of the display area. Note: solution makes screen black when switching renderer when paused.
 		</TD>
 		<TD>2005-02-06 (UTC)</TD>
 	</TR>
@@ -136,8 +136,6 @@ because the current Catapult is broken for this: if one select an IPS patch, it 
 		</TD>
 		<TD>2005-02-06 (UTC)</TD>
 	</TR>
-
-
 	<TR>
 		<TD>Black flashes in SDLGL</TD>
 		<TD>	<FONT color="red">Not&nbsp;done</FONT>
@@ -393,6 +391,16 @@ filecache globally, located somewhere in the user dir
 		<TD>Description</TD>
 		<TD>Updated</TD>
 	</TR>
+	<TR>
+		<TD>switching renderers when emulating MSX1</TD>
+		<TD>	<FONT color="orange">Needs&nbsp;testing</FONT>
+		</TD>
+		<TD>All</TD>
+		<TD>	Fixed item of above: please test switching renderers (SDLHi/SDLLo) with MSX1 configs a lot!
+		</TD>
+		<TD>2005-02-06 (UTC)</TD>
+	</TR>
+
 	<TR>
 		<TD>IPS patching (ROM, disk, multiple)</TD>
 		<TD>	<FONT color="orange">Needs&nbsp;testing</FONT>
