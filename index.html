@@ -18,18 +18,15 @@ features are implemented yet.
 
 <h2>Some quick links</h2>
 <ul>
-<li><a href="http://sourceforge.net/projects/openmsx/">Project summary (SourceForge)</a>, including <a href="http://sourceforge.net/project/showfiles.php?group_id=38274">downloads</a>, <a href="http://sourceforge.net/tracker/?group_id=38274&amp;atid=421861">bug tracker</a>, <a href="http://sourceforge.net/tracker/?group_id=38274&amp;atid=421864">feature request tracker</a>, <a href="http://sourceforge.net/mail/?group_id=38274">mailing list archives</a>, etc.
-<li><a href="manual/">openMSX manual</a>, explaining how to download, compile, install, config and run openMSX (read this if you'd like to try openMSX!)
+<li><a href="http://sourceforge.net/projects/openmsx/">Project summary (SourceForge)</a>, including <a href="http://sourceforge.net/project/showfiles.php?group_id=38274">downloads</a>, <a href="http://sourceforge.net/tracker/?group_id=38274&amp;atid=421861">bug tracker</a>, <a href="http://sourceforge.net/tracker/?group_id=38274&amp;atid=421864">feature request tracker</a>, <a href="http://sourceforge.net/mail/?group_id=38274">mailing list archives</a>, <a href="http://sourceforge.net/forum/?group_id=38274">forums</a>, etc.
+<li><a href="manual/">openMSX manual</a>, explaining how to download, compile, install, config and run openMSX (<em>read this</em> if you'd like to try openMSX!)
 <li><a href="catapult-manual/">openMSX Catapult manual</a>, explaining how to download, compile, install, config and run openMSX via Catapult, the optional GUI for openMSX.
 <!--
 <li><a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/openMSX/doc/after-bussum-FAQ.txt?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">openMSX after-Bussum-FAQ</a>, FAQ about the openMSX-cd that was sold/given away in Bussum 2002
 -->
 <li><a href="http://sourceforge.net/project/showfiles.php?group_id=38274">Downloads</a>, officially released versions of openMSX for download, including the optional GUI dubbed Catapult.
-<li><a href="openMSX-CVS-snapshot.tar.gz">CVS source snapshot</a>, an automatically generated snapshot of the source code as it resides in CVS. For bleeding edge testers who don't have CVS access. It is regenerated for every new version of the <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/openMSX/ChangeLog?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">ChangeLog</a>
-<li>For Catapult, you can get a <a href="Catapult-CVS-snapshot.tar.gz">CVS source snapshot</a> here; it's automatically generated of the source code as it resides in CVS. For bleeding edge testers who don't have CVS access. It is regenerated for every new version of the <A HREF="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/Catapult/ChangeLog?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">ChangeLog</a>
-<!--
-<li><a href="http://www.worldcity.nl/~andete/MSX/">openMSX reference store</a>
-</p>-->
+<li><a href="openMSX-CVS-snapshot.tar.gz">CVS source snapshot</a>, an automatically generated snapshot of the source code as it resides in CVS. For bleeding edge testers who don't have CVS access. It is regenerated for every new version of the <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/openMSX/ChangeLog?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">ChangeLog</a>, at least, when SourceForge.net turns the cron job service back on...
+<li>For Catapult, you can get a <a href="Catapult-CVS-snapshot.tar.gz">CVS source snapshot</a> here; it's automatically generated of the source code as it resides in CVS. For bleeding edge testers who don't have CVS access. It is regenerated for every new version of the <A HREF="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/Catapult/ChangeLog?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">ChangeLog</a>, at least, when SourceForge.net turns the cron job service back on...
 <li><a href="html/">openMSX doxygen generated annotated source</a>
 </ul>
 <h2>Features</h2>
@@ -156,7 +153,26 @@ Here are some highlights of the features of the latest release (0.4.0).
 Here are some highlights of features and improvements that are already in CVS and are likely to be in the next release: 
 </p>
 <ul>
-  <li>(nothing yet, we just released 0.4.0!)
+  <li> all (S)RAM is now debuggable
+  <li> cleaner names for debuggables
+  <li> individual sound devices can be muted now (channel mode off)
+  <li> largely rewritten XML file format for hardware descriptions
+  <li> correct ASCII table for 'type' command for international layout (thanks to BiFi)
+  <li> added ROM pool: put all ROMs in one directory and use the sha1 checksums from the hardware description XML to find the right ROMs
+  <li> Moonsound fixes
+  <li> better internal clock
+  <li> added simple DC filter to support .wav files from MicroWAVer
+  <li> support for slotexpander extension
+  <li> even more improvements in 'type' command, mostly Unicode related (thanks to Arnold Metselaar)
+  <li> rewritten internal renderer architecture
+  <li> added MMX and extended-MMX optimisations for rendering
+  <li> added support for x86_64
+  <li> fixed ROMBAS mapper for 8kB ROMs
+  <li> allow multiple times the same extension
+  <li> all scalers now also worko on hi-res modes
+  <li> added 'blur' scaler to get blur effect without openGL
+  <li> several smaller optimisations
+<!--  <li>(nothing yet, we just released 0.4.0!) -->
 </ul>
 
 <h2>openMSX IRC channel</h2>
@@ -190,6 +206,7 @@ Apart from the developers listed on the openMSX project page, the following peop
   <li>A. Shiffler (SDL surface scaling)
   <li>Jarek Burczynski (YMF262 and YM2413 code from MAME)
   <li>R. Belmont and O. Galibert (YMF278 code from MAME)
+  <li>Vincent van Dam (cas to wav conversion)
  </ul>
  <li>other contributors (of ideas, testing, patches, configuration files, etc.)
  <ul>
@@ -324,7 +341,7 @@ The Swiss Demo (with screen 12 image on Panasonic FS-A1GT)
 <td colspan="2">
 <p class="shot">
 <img src="scalers-usas.gif"width="640" alt="screenshot"/><br>
-The Maze of Galious (top) and Usas (bottom), showing the different scalers that are currently implemented. More examples can be found on <a href="http://msx.vampier.net/index.php?id=2">MSX.vampier.net</a>.
+The Maze of Galious (top) and Usas (bottom), showing the different scalers that are currently implemented.<!-- More examples can be found on <a href="http://msx.vampier.net/index.php?id=2">MSX.vampier.net</a>. -->
 </p>
 </td>
 </tr>
