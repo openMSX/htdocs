@@ -19,9 +19,18 @@ a:visited {
 }
 
 a:hover {
-  background:        yellow;
-  color:             black;
   text-decoration:   none;
+  border:            solid;
+  border-style:      dotted;
+  border-width:      thin;
+  border-color:      yellow;
+}
+
+a:active {
+  text-decoration:   none;
+  border:            solid;
+  border-width:      thin;
+  border-color:      yellow;
 }
 
 img {
