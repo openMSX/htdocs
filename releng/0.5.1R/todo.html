@@ -68,13 +68,13 @@ Status:
 	</TR>
 	<TR>
 		<TD>Catapult: IPS patches broken</TD>
-		<TD>	<FONT color="red">Not&nbsp;Done</FONT>
+		<TD>	<FONT color="green">Done</FONT>
 		</TD>
 		<TD>Herman, Manuel</TD>
 		<TD>	implement a proper way to use IPS patches and ROM types without the 'comma notation'. This needs real work on the GUI. This is critical,
-because the current Catapult is broken for this: if one select an IPS patch, it will be added to the file in the combobox with the comma notation, which is not implemented in openMSX. Hence: this won't work. Also the romtype selection will use the now deprecated comma notation. On top of that: it looks very ugly to have this whole (deprecated) command line notation inside the GUI's combobox, IMO! 
+because the current Catapult is broken for this: if one select an IPS patch, it will be added to the file in the combobox with the comma notation, which is not implemented in openMSX. Hence: this won't work. Also the romtype selection will use the now deprecated comma notation. On top of that: it looks very ugly to have this whole (deprecated) command line notation inside the GUI's combobox, IMO! <b>This is mostly fixed, but selecting a ROM type gives a segfault!</b>
 		</TD>
-		<TD>2005-01-27 (UTC)</TD>
+		<TD>2005-01-31 (UTC)</TD>
 	</TR>
 
 <!--
@@ -190,13 +190,13 @@ because the current Catapult is broken for this: if one select an IPS patch, it 
 	</TR>
 	<TR>
 		<TD>bug 107864 - Filecache is created in rompool</TD>
-		<TD>	<FONT color="red">Not done</FONT>
+		<TD>	<FONT color="green">Done</FONT>
 		</TD>
 		<TD>Wouter</TD>
 		<TD>the ROM pool may be read only... solution: create only 1
 filecache globally, located somewhere in the user dir
 		</TD>
-		<TD>2005-01-23 (UTC)</TD>
+		<TD>2005-01-31 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>1050380 openMSX application data location</TD>
@@ -254,12 +254,12 @@ filecache globally, located somewhere in the user dir
 	</TR>
 	<TR>
 		<TD>Catapult: support multiple IPS patches and Disk patches</TD>
-		<TD>	<FONT color="red">Not&nbsp;Done</color>
+		<TD>	<FONT color="green">Done</color>
 		</TD>
 		<TD>Herman</TD>
 		<TD>	Only if we have time to implement and test it properly.
 		</TD>
-		<TD>2005-01-29 (UTC)</TD>
+		<TD>2005-01-31 (UTC)</TD>
 	</TR>
 
 <!--
@@ -332,9 +332,9 @@ filecache globally, located somewhere in the user dir
 		<TD>	<FONT color="orange">Needs&nbsp;testing</FONT>
 		</TD>
 		<TD>All</TD>
-		<TD>	Must be tested heavily because this feature is introduced recently.
+		<TD>	Must be tested heavily because this feature is introduced recently. <b>Especially in Catapult!!</b>
 		</TD>
-		<TD>2005-01-29 (UTC)</TD>
+		<TD>2005-01-31 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>load settings</TD>
