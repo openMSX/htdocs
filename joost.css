@@ -247,3 +247,17 @@ span.underline {
   font-size:         x-small;
 }
 
+small.alert {
+  background:	     yellow; 
+  color:	     black; 
+}
+
+small.attn {
+  background:	     red; 
+  color:	     black; 
+}
+
+small.cool {
+  background:	     lightblue; 
+  color:	     black; 
+}
