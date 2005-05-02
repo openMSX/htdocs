@@ -41,30 +41,30 @@ Status:
 	</TR>
 	<TR>
 		<TD>Segfault when switching to GFX9000 videosource in Calculus</TD>
-		<TD>	<FONT color="red">Not&nbsp;Done</FONT>
+		<TD>	<FONT color="green">Done</FONT>
 		</TD>
 		<TD>Wouter</TD>
 		<TD>	Run Calculus, select GFX9000 version of plasma and switch videosource to GFX9000: segfault.
 		</TD>
-		<TD>2005-05-01</TD>
+		<TD>2005-05-02</TD>
 	</TR>
 	<TR>
 		<TD>Security hole for local users</TD>
-		<TD>	<FONT color="red">Not&nbsp;Done</FONT>
+		<TD>	<FONT color="green">Done</FONT>
 		</TD>
 		<TD>Wouter</TD>
 		<TD>	Any user can connect via the openMSX socket to a running openMSX of another user and then issue any (shell!) command. Proposed fix: disable socket listening for now.
 		</TD>
-		<TD>2005-04-30 (UTC)</TD>
+		<TD>2005-05-02 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>Unstable/incomplete/badly tested MSX tar stuff</TD>
-		<TD>	<FONT color="red">Not&nbsp;Done</FONT>
+		<TD>	<FONT color="green">Done</FONT>
 		</TD>
 		<TD>David/Wouter</TD>
-		<TD> 	The new MSXtar functionality is not ready for release yet. Proposed fix: disable the commands to use it for now.	
+		<TD> 	The new MSXtar functionality is not ready for release yet. Proposed fix: disable the commands to use it for now. UPDATE: we decided to not disable it, but just test it heavily, as it has no influence on the rest of openMSX. So, please test!!!
 		</TD>
-		<TD>2005-04-30 (UTC)</TD>
+		<TD>2005-05-02 (UTC)</TD>
 	</TR>
 <!--
 	<TR>
@@ -132,7 +132,7 @@ Status:
 		<TD>Patrick</TD>
 		<TD> We shouldn't have really corrupt ROMs in the db, I guess.
 		</TD>
-		<TD>2005-04-30 (UTC)</TD>
+		<TD>2005-05-01 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>integration of SVI-3x8 and Colecovision emulation</TD>
@@ -329,6 +329,15 @@ Status:
 		<TD>Responsible</TD>
 		<TD>Description</TD>
 		<TD>Updated</TD>
+	</TR>
+	<TR>
+		<TD>MSXtar stuff.</TD>
+		<TD>	<FONT color="orange">Needs&nbsp;testing</FONT>
+		</TD>
+		<TD>All</TD>
+		<TD>   Please test all functionality described in doc/Using-filemanipulator.txt.
+		</TD>
+		<TD>2005-05-02 (UTC)</TD>
 	</TR>
 	<TR>
 		<TD>DirectSound driver for Win32</TD>
