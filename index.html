@@ -40,7 +40,7 @@ features are implemented yet.
 </ul>
 <h2>Features</h2>
 <p>
-Here are some highlights of the features of the latest release (0.5.1).
+Here are some highlights of the features of the latest release (0.5.2).
 </p>
 
 <p>Legend:<br/>
@@ -56,12 +56,12 @@ Here are some highlights of the features of the latest release (0.5.1).
 <b>General</b>
 </p>
  <ul>
-  <li>for Linux, Windows, MacOS X, FreeBSD, <small class="alert">New!</small>NetBSD and <small class="alert">New!</small>OpenBSD systems
+  <li>for Linux, Windows, MacOS X, FreeBSD, NetBSD and OpenBSD systems
   <li>installer for Windows 
-  <li><small class="alert">New!</small> Debian packaging, shortly after the release
+  <li><small class="cool">Cool!</small> Debian packaging, shortly after the release
   <li><small class="attn">Unique!</small> command interface via pipes: you can control openMSX with any external application that can communicate via pipes with openMSX! An example implementation is available.
   <li><small class="cool">Cool!</small> openMSX Catapult: the optional GUI for openMSX! Uses the interface mentioned in the previous item. 
-  <li><small class="attn">Unique!</small> TCL is the internal scripting language: enhance openMSX with powerful scripts! (Some examples are included.)
+  <li><small class="attn">Unique!</small> TCL is the internal scripting language: enhance openMSX with powerful scripts! (Some examples are included, including a <small class="alert">New!</small> script with hundreds of game trainers!)
   <li>Advanced build system 
   <li>manuals online and in distribution
   <li>more than 75 MSX machine hardware configurations included (including three using C-BIOS; the others need original MSX ROMs).
@@ -70,7 +70,8 @@ Here are some highlights of the features of the latest release (0.5.1).
   <li><small class="first">1st!</small> pixel accurate rendering: horizontal screensplits are rendered almost correctly (Unknown Reality, Verti-demo).
   <li><small class="attn">Unique!</small> system ROMs are specified and found with their SHA1 sums or file names as a fall back. This means: <b>no need to install all the ROMs in separate directories anymore!</b>
   <li>MMX and extended-MMX optimisations for rendering
-  <li><small class="alert">New!</small> On Screen Display, now still mainly used for LEDs.
+  <li><small class="cool">Cool!</small> On Screen Display, now still mainly used for LEDs.
+  <li><small class="alert">New!</small> DirectSound sound driver for MS Windows
  </ul>
 <p>
 <b>MSX hardware emulated</b>
@@ -91,22 +92,22 @@ Here are some highlights of the features of the latest release (0.5.1).
    <li>Harry Fox Yuki No Maou-Hen
    <li>Korean multi-game ROMs: Zemmix 126, Game's 80, Zemmix 64 and MSX90-collection
   </ul>
-  <li><small class="alert">New!</small> Sunrise GFX9000! (experimental)
+  <li><small class="attn">Unique!</small> Sunrise GFX9000! (experimental)
   <li>almost all MSX sound devices:
   <ul>
    <li><small class="cool">Cool!</small> Moonsound (may not be 100% complete)
    <li>Konami's Majutsushi and Synthesizer DAC
    <li><small class="cool">Cool!</small> "Moonblaster Stereo": MSX Music on one channel, MSX Audio on the other
    <li>SCC and SCC+ (the latter can be used in SD-Snatcher, Snatcher, expanded (128kB RAM) or mirrored (64kB on both banks) mode)
-   <li><small class="alert">New!</small> Checkmark FM Stereo PAK
-   <li><small class="attn">Unique!</small> SIMPL/Covox (sound via the printer port)
+   <li>Checkmark FM Stereo PAK
+   <li><small class="1st">1st!</small> SIMPL/Covox (sound via the printer port)
    <li><small class="attn">Unique!</small> MSX-MIDI (turboR)
    <li><small class="first">1st!</small> PCM output (turboR)
    <li><small class="attn">Unique!</small> PCM input (sampling) for turbo R via a .wav file
   </ul>
   <li>many MSX storage (disk/SRAM) systems:
   <ul>
-   <li>MegaRAM and <small class="alert">New!</small> MegaRAM Disk 
+   <li>MegaRAM and <small class="attn">Unique!</small> MegaRAM Disk 
    <li><small class="first">1st!</small> PAC (Panasonic SW-M001)
    <li><small class="first">1st!</small> Sony HBI-55 datacartridge
    <li>MSX-DOS2
@@ -128,7 +129,7 @@ Here are some highlights of the features of the latest release (0.5.1).
   <li>rensha turbo auto fire support
   <li>turboR pause (button) support
   <li><small class="attn">Unique!</small> slot expander
-  <li><small class="attn">Unique!</small> Tetris II Special Edition dongle
+  <li><small class="first">1st!</small> Tetris II Special Edition dongle
  </ul>
 <p>
 <b>Emulator extras</b>
@@ -137,7 +138,7 @@ Here are some highlights of the features of the latest release (0.5.1).
   <li><small class="attn">Unique!</small> XML files specify the hardware to be emulated, so you actually emulate specific MSX machines, which of course can be modified
   <li>various screen renderers available:
    <ul>
-    <li>640&times;480 hi-res renderer, with support for 3 different scalers: <a href="http://www.hiend3d.com/hq2x.html">hq2x</a>, <a href="http://elektron.its.tudelft.nl/~dalikifa/">2xSaI</a> and <a href="http://scale2x.sf.net/">scale2x</a> (see animated images below)
+    <li>640&times;480 hi-res renderer, with support for 4 different scalers: <a href="http://www.hiend3d.com/hq2x.html">hq2x</a>, <small class="alert">New!</small> hq2xlite, <a href="http://elektron.its.tudelft.nl/~dalikifa/">2xSaI</a> and <a href="http://scale2x.sf.net/">scale2x</a> (see animated images below)
     <li>320&times;240 lo-res renderer (with compensation for lower resolution by blending)
     <li><small class="cool">Cool!</small> 640&times;480 openGL based renderer that makes advantage of hardware acceleration of video cards and has an extra special effect: afterglow (see also screen shots below)
    </ul>
@@ -165,16 +166,18 @@ Here are some highlights of the features of the latest release (0.5.1).
   <li>adjustable keymap (e.g. for Japanese PC keyboards or to use Russian MSX
   keyboards on a US English PC keyboard)
   <li>screen shot feature
-  <li><small class="alert">New!</small> support for IPS patches for ROMs and disks
+  <li>support for IPS patches for ROMs and disks
   <li><small class="cool">Cool!</small> debug command (including break points): read/write many parts of the MSX system; mainly useful to be used in external debug applications via the stdin command interface
   <li><small class="attn">Unique!</small> keymatrixdown/up commands to automatically push keys (like pressing CTRL at boot automatically)
   <li><small class="attn">Unique!</small> console commands to enable demo play with timers
+  <li><small class="alert">New!</small> sound logger
+  <li><small class="alert">New!</small> disk manipulator toolkit; transfer files from the host OS to the MSX disks (disk images and hard disk images with partitions are all supported) and vice versa, create new (hard) disk images and format them, etc.
  </ul>
 <p>
 Here are some highlights of features and improvements that are already in CVS and are likely to be in the next release: 
 </p>
 <ul>
-   <li>(nothing yet, we just released 0.5.1!) 
+   <li>(nothing yet, we just released 0.5.2!) 
 </ul>
 
 <h2>openMSX IRC channel</h2>
