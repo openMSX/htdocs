@@ -32,9 +32,10 @@ features are implemented yet.
 <!--
 <li><a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/openMSX/doc/after-bussum-FAQ.txt?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">openMSX after-Bussum-FAQ</a>, FAQ about the openMSX-cd that was sold/given away in Bussum 2002
 -->
-<li><a href="http://sourceforge.net/project/showfiles.php?group_id=38274">Downloads</a>, officially released versions of openMSX for download, including the optional GUI dubbed Catapult.
-<li><a href="openMSX-CVS-snapshot.tar.gz">CVS source snapshot</a>, an automatically generated snapshot of the source code as it resides in CVS. For bleeding edge testers who don't have CVS access. It is regenerated for every new version of the <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/openMSX/ChangeLog?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">ChangeLog</a>, at least, when SourceForge.net turns the cron job service back on... It might be a bit more outdated for now.
-<li>For Catapult, you can get a <a href="Catapult-CVS-snapshot.tar.gz">CVS source snapshot</a> here; it's automatically generated of the source code as it resides in CVS. For bleeding edge testers who don't have CVS access. It is regenerated for every new version of the <A HREF="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/Catapult/ChangeLog?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">ChangeLog</a>, at least, when SourceForge.net turns the cron job service back on... It might be a bit more outdated for now.
+<li><a href="http://sourceforge.net/project/showfiles.php?group_id=38274">Downloads</a>, officially released versions of openMSX for download, including the optional GUI dubbed Catapult. Later we will release our new debugger as well!
+<li><a href="openMSX-CVS-snapshot.tar.gz">CVS source snapshot</a>, an automatically generated snapshot of the openMSX source code as it resides in CVS. For bleeding edge testers who don't have CVS access. It is regenerated for every new version of the <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/openMSX/ChangeLog?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">ChangeLog</a>.
+<li>For Catapult, you can get a <a href="Catapult-CVS-snapshot.tar.gz">CVS source snapshot</a> here; it's automatically generated of the source code as it resides in CVS. For bleeding edge testers who don't have CVS access. It is regenerated for every new version of the <A HREF="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openmsx/Catapult/ChangeLog?rev=HEAD&amp;content-type=text/vnd.viewcvs-markup">ChangeLog</a>.
+<li>For the upcoming debugger, you can get a <a href="openmsx-debugger-CVS-snapshot.tar.gz">CVS source snapshot</a> here; it's automatically generated of the source code as it resides in CVS. For bleeding edge testers who don't have CVS access. It is regenerated for every new version of the <A HREF="http://cvs.sourceforge.net/viewcvs.py/openmsx/openmsx-debugger/ChangeLog?only_with_tag=HEAD&view=markup">ChangeLog</a>.
 <li><a href="html/">openMSX doxygen generated annotated source</a>
 <!-- <li>NOTE: The snapshots are temporarily unavailable, until SF.net tells me what the ViewCVS host is from their shell service. -->
 </ul>
@@ -177,7 +178,21 @@ Here are some highlights of the features of the latest release (0.5.2).
 Here are some highlights of features and improvements that are already in CVS and are likely to be in the next release: 
 </p>
 <ul>
-   <li>(nothing yet, we just released 0.5.2!) 
+   <li>compilation works fine in gcc 4.x, which comes default on Mac OS X Tiger
+   <li>flusing of printer port logger
+   <li>implementation of screen 6 border and background stripes
+   <li>implemented TurboR hardware pause and hardware PCM mute
+   <li>don't save settings that still have their default value (more easily upgrading)
+   <li>added second key joystick (old bindings will not work anymore)
+   <li>big sound quality improvement of DAC devices (turboR PCM, Konami DAC)
+   <li>boosted baudrate of internal CAS to WAV conversion
+   <li>fixed some graphical glitches on big endian CPUs (like Mac's), including icon
+   <li>extended debugging commands (a.o. conditional breakpoints, but still with addresses)
+   <li>enabled socket communication, including some new settings to set it up; makes connecting at run time possible
+   <li>removed SDLHi and SDLLo renderers, SDLHi is now just "SDL" and you can get SDLLo by using the new "low" scaler
+   <li>V9990: speed improvements, enabled scalers, scanline and blur for V9990 display
+   <li>added -prefix option for screenshot command, useful in combination with a new guess_title script: you can make screenshots with the title of the game you're running as prefix
+   <li>added saving to cassette, for now only for systems with a Jack Audio Connection Kit running (not Windows)
 </ul>
 
 <h2>openMSX IRC channel</h2>
