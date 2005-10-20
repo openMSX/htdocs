@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+   <TITLE>The openMSX CD v2 - The openMSX project</TITLE>
+</HEAD>
+<BODY background="web-background.gif" TEXT="#FFFF00" LINK="#FFCC00" VLINK="#FFD700" BGCOLOR="#10709F" >
+<center>
+<table width=80% cellpadding=20 ><tr><td BGCOLOR="#10709F" >
+<p>
+<CENTER>
+<h1>openMSX, the open source MSX emulator that aims for perfection</h1>
+</CENTER>
+<hr>
+<p>
+For people that don't know what the openMSX emulator stands for, let's clearify this by looking at the moto in more detail.
+<p>
+<h3>Open source</h3>
+It was clear from the outset that openMSX should be GPL'ed. When this project took of the existing emulators where all personal projects mostly closed source or otherwise verry restrictive so that the original author could prohibit other people of thinkering with their emulator, and disallow them spreading of modificated (most of the time enhanced) versions. This ofcourse slowed down the development of those emulators. By giving everybody the right to alter the code, and making sure that the sources of those alterations would be made available to the public again, the founder of the openMSX project hoped to encourage people to help develop the emulator and make it evolve and grow faster and quicker then would be possible if he alone would code the entire emulator by itself.
+<h3>MSX emulator</h3>
+The orginal reason why openMSX was started was simple, altough there were already emulators available when the project started, a lot of the emulators were verry much game oriented and thus had trouble with normal MSX features that weren't used in games, (things like screen 6 for instance). Also the existing emulators didn't emulate all the hardware that existed for the real MSX, so the newer generation of MSX programs that used these hardware extentions couldn't be correctly emulated.
+Therefore an other goal of the project was to be verry modular in design so that implementing extra hardware could be done without fiddling with the rest of the code. Using this modular approach also enables new developpers to get up-and-running in a short time since they only need to concern them with the needed interfaces between the modules. This modular concept resulted in an approach that allows chips to be plugged into an MSX motherboard and connectors to plugin interfaces between the host-OS and the emulated MSX. This is why you have a &quot;plug joyporta mouse&quot; command in openMSX console.
+<h3>Aiming for perfection</h3>
+An other problem with the emulators at that time was that none of them was good enough to emulate the advanced programming tricks used by the semi-professional MSX hobbyist. Especially the so called demo's use a lot of verry low level, most of the time undocumented, features of the hardware that are hard to emulate.<br>
+Since the main developers are ex-MSX demo programmers, they are now working on an emulator that will be able to correctly emulate all their old software. <img src="images/icon_smile.gif" alt=":-)"><br>
+Also we want to emulate actual existing hardware configurations of MSX models, since some software (presumably badly written) only worked on some MSX models. European MSX users will certainly recal the Philips vs Sony problem and the poke -1 trickery. Also some programs depended on certain behaviours of hardware that isn't standarized in the MSX specifications ,like reading the memmory mapper settings. Therefore we need to emulate this physical hardware as perfect as possible (but we are not going to take this to a quantum physics level!)<br>
+We take 'going for perfection' as far as saying that if it crashes on the real hardware it should crash in the same way on the emulator.
+<hr>
+
+</td></tr></table>
+</center>
+
+</BODY>
+</HTML>
