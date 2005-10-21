@@ -94,7 +94,6 @@ li {
   font-size:         10pt;
   margin-left:       4px;
   color:             lightgreen;
-  background:        black;
 }
 
 p.lastupdate {
@@ -290,3 +289,37 @@ small.first {
   background:	     purple; 
   color:	     black; 
 }
+
+/* the following stuff is mostly based on a part of the OO.o css */
+.button {
+  display: block;
+	width: 293px;
+  margin: 0px;
+  margin-bottom: .5em;
+  padding: 0px;
+  color: purple;
+	background: purple no-repeat;   
+  font-size: 1.3em; 
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+}
+.button:hover {
+  color: red;
+	background-color: red;
+	cursor: pointer; 
+}
+.button div {
+  display: block;
+	width: 263px;
+	margin: 0px;	
+	padding-left: 30px;
+	padding-top: 1em;	
+	height: auto!important; /* IE 'hack' for min-height */
+	height: 120px;
+	min-height: 120px;
+}
+.button div small {
+  font-weight: normal;
+}
+
