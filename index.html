@@ -191,7 +191,7 @@ Here are some highlights of features and improvements that are already in CVS an
 </p>
 <ul>
    <li>compilation works fine in gcc 4.x, which comes default on Mac OS X Tiger
-   <li>flusing of printer port logger
+   <li>flushing of printer port logger and SRAM at regular intervals
    <li>implementation of screen 6 border and background stripes
    <li>implemented TurboR hardware pause and hardware PCM mute
    <li>don't save settings that still have their default value (more easily upgrading)
@@ -204,7 +204,10 @@ Here are some highlights of features and improvements that are already in CVS an
    <li>removed SDLHi and SDLLo renderers, SDLHi is now just "SDL" and you can get SDLLo by using the new "low" scaler
    <li>V9990: speed improvements, enabled scalers, scanline and blur for V9990 display
    <li>added -prefix option for screenshot command, useful in combination with a new guess_title script: you can make screenshots with the title of the game you're running as prefix
-   <li>added saving to cassette, for now only for systems with a Jack Audio Connection Kit running (not Windows)
+   <li>added saving to cassette and changed the commands for cassette usage
+   <li>finally made a workaround for the CAPS LOCK problem
+   <li>added 3x scalers: hq3x, hq3xlite, 3xSaI, Scale3x, Simple3x and RGBTriplet3x
+   <li>new fullspeedwhenloading setting: automatic speed up when loading from diskette or cassette
 </ul>
 
 <h2>openMSX IRC channel</h2>
