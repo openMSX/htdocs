@@ -199,28 +199,33 @@ Here are some highlights of features and improvements that are already in CVS an
 <ul>
 <!--  <li>(nothing yet, we just released 0.6.0) -->
   <li> Fixed all (de)interlacing issues
-  <li> Suport for building a redistributable binary for Mac OS X
-  <li> Added run-time insertion and removal of cartridges and other extensions
-  <li> Added joytap multiplayer controller support
+  <li> Support for building a redistributable binary for Mac OS X
+  <li> Added experimental run-time insertion and removal of cartridges and other extensions
+  <li> Added ninjatap and joytap multiplayer controller support
   <li> Improvements on accuracy of Konami mapper
   <li> Added noise video effect
   <li> Added basic Uninitialized Memory Read detector (for MSX programs)
   <li> Added brightness and contrast video settings
-  <li> Added run-time switchable machines
+  <li> Added experimental run-time switchable machines
   <li> Fixed Microsol FDC to support DDX 3.0 diskROM
   <li> Fixed a bug in MegaRAM, so that it supports 2048kB as well
-  <li> New experimental renderer: SDLGL2, based on OpenGL 2.0 features, including fragment (pixel) shaders
-  <li> New renderer: SDLGL-PP: based on SDL, but implements all post-processing in OpenGL, mostly using fragment (pixel) shaders; features: simple and ScaleNx scalers, noise effect, 4x scaling, "TV" scaler
+  <li> New renderer: SDLGL-PP: based on SDL, but implements all post-processing in OpenGL 2, mostly using fragment (pixel) shaders; extra features: 4x scaling, "TV" scaler (but not the hq or SaI scalers), horizontal stretching to match the aspect ratio of a real MSX, 3D monitor effect,
   <li> Improved help for TCL based commands and added tab-completion support for them
   <li> Added support to emulate any non-colour monitor, like monochrome-green, amber or white
   <li> Added warning when a DI/HALT hangup occurred
   <li> Added meta-data to extensions (not used yet)
-  <li> Several V9990 fixes, including basic timing
+  <li> Several (major) V9990 fixes, including basic timing
   <li> New boot-sector setting, to let DirAsDsk use a DOS1 or a DOS2 boot-sector
   <li> Added support for single-sided disk drives
   <li> Added I/O and memory watch points to the debugger
-  <li> Fixed bug in the IDE hard disk size setting on Windows: before this, when you specify a bigger size than the current one, the hard disk image would get corrupted!
   <li> Improvements on VDP timing accuracy: length of horizontal blank
+  <li> Added support for V9938 with only 16kB VRAM
+  <li> Added support for IDE CD-ROM (still without audio tracks)
+  <li> Added differences in AY8910 and YM2149 PSG
+  <li> Added run time and command line changing/setting of IDE image
+  <li> Added preloading of dsk image to avoid CD-ROM spin ups
+  <li> Added PSG logger and generic register logger
+  <li> Fixed bugs on socket connection code, which is fully operational now
 </ul>
 
 <h2>openMSX IRC channel</h2>
