@@ -1,24 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<?php require "head.div"; ?>
+<?php
+  $current="Screenshots";
+  require "head.div";
+?>
 </head>
 <body>
-  <script lanuage="JavaSCript" type="text/javascript">
-  function openShot(id) {
-    if(document.getElementById) {
-      document.getElementById("thumbs").style.display="none";
-      document.getElementById(id).style.display="block";
-    }
-  }
-
-  function closeShot(id) {
-    if(document.getElementById) {
-      document.getElementById("thumbs").style.display="block";
-      document.getElementById(id).style.display="none";
-    }
-  }
-  </script>
 <?php require "title.div"; ?>
 <?php require "navigation.div"; ?>
   

@@ -128,10 +128,15 @@ div#navigation  ul li {
   margin: 0;
 }
 
+div#navilinks ul li.this {
+  background: url("keyboard_dark.jpg") fixed no-repeat;
+  color: rgb(128,128,128);
+}
 div#navigation  ul li:hover {
   background: /*rgb(115,110,100)*/
     url("keyboard_dark.jpg") fixed no-repeat;
 }
+
 
 /*** Style switcher styles ******************************/
 div#styleswitcher {

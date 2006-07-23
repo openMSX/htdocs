@@ -3,13 +3,25 @@
       <h1>Navigation</h1>
       <div class="linkblock">
         <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="docs.php">Documentation</a></li>
-          <li><a href="screenshots.php">Screenshots</a></li>
-          <li><a href="features.php">Features</a></li>
-          <li><a href="contact.php">Contact</a></li>
-          <li><a href="http://forum.openmsx.org">Forum</a></li>
-          <li><a href="http://sourceforge.net/projects/openmsx/">SF&nbsp;Project&nbsp;page</a></li>
+<?php
+	function createLink($link, $name) {
+	  global $current;
+
+	  echo '          <li';
+	  if($current == $name) {
+	    echo ' class="this"';
+	  }
+	  echo '><a href="'.$link.'">'.$name.'</a></li>'."\n";
+	}
+
+	createLink("index.php",       "Home");
+	createLink("docs.php",        "Documentation");
+	createLink("screenshots.php", "Screenshots");
+	createLink("features.php",    "Features");
+	createLink("contact.php",     "Contact");
+	createLink("http://forum.openmsx.org", "Forum");
+        createLink("http://sourceforge.net/projects/openmsx/", "Project&nbsp;page");
+?>
         </ul>
       </div>
     </div>

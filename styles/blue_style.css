@@ -74,13 +74,16 @@ div#navilinks li {
 }
 
 div#navilinks a {
-  width: 10%;
   color: rgb(255,255,255);
   text-decoration: none;
   background: rgb(48,96,192);
   padding: 3px 10px;
   margin-top: 10px;
   border: 2px groove rgb(48,96,192);
+}
+
+div#navilinks li.this a {
+  background: rgb(64,128,255);
 }
 
 div#navilinks a:hover {
