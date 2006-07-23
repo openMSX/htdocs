@@ -1,0 +1,76 @@
+  <div id="navigation">
+    <div id="navilinks">
+      <h1>Navigation</h1>
+      <div class="linkblock">
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="docs.php">Documentation</a></li>
+          <li><a href="screenshots.php">Screenshots</a></li>
+          <li><a href="features.php">Features</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a href="http://forum.openmsx.org">Forum</a></li>
+          <li><a href="http://sourceforge.net/projects/openmsx/">SF&nbsp;Project&nbsp;page</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="navidownloads">
+      <h1>Download</h1>
+      <div class="linkblock">
+        <h2>openMSX</h2>
+        <ul>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0-R2-win32-bin.exe?download">
+            0.6.0 / Win32</a></li>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0-mac-ppc-bin.dmg?download">
+            0.6.0 / Mac OS X (PPC)</a></li>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0.tar.gz?download">
+            0.6.0 / Source code</a></li>
+        </ul>
+        <ul>
+          <li><a href="http://openmsx.sourceforge.net/openMSX-CVS-snapshot.tar.gz">
+            CVS snapshot</a></li>  
+        </ul>
+        <h2>Catapult</h2>
+        <ul>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-catapult-0.6.0-R2.tar.gz?download">
+            0.6.0 / Source code</a></li>
+        </ul>
+        <ul>
+          <li><a href="http://openmsx.sourceforge.net/Catapult-CVS-snapshot.tar.gz">
+            CVS snapshot</a></li>  
+        </ul>
+        <!--
+        <h2>Debugger</h2>
+        <ul>
+          <li><a href="#">Source</a></li>
+        </ul>
+        -->
+      </div>
+    </div>
+    <div id="sflink">
+      <h1>
+         <a href="http://sourceforge.net/"><img src="http://sourceforge.net/sflogo.php?group_id=38274"
+          width="88" height="31" alt="SourceForge"></a>
+      </h1>
+    </div>
+    <div id="styleswitcher">
+      <ul>
+        <li>
+          <a href="#"
+             onclick="setActiveStyleSheet('Keyboard'); return false;">
+          <img src="images/theme-keys.png"
+               alt="Theme: keys"/></a></li>
+        <li>
+          <a href="#"
+             onclick="setActiveStyleSheet('Blue'); return false;">
+          <img src="images/theme-blue.png"
+               alt="Theme: blue"/></a></li>
+        <!-- 
+        <li>
+          <a href="#"
+             onclick="setActiveStyleSheet('Yellow'); return false;">
+          <img src="images/theme-yellow.png"
+               alt="Theme: yellow"/></a></li>
+         -->
+      </ul>
+    </div>
+  </div>

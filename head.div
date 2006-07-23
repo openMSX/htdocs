@@ -1,0 +1,23 @@
+<head>
+  <title>openMSX - the MSX emulator that aims for perfection</title>
+  <meta http-equiv="content-type"
+        content="text/html; charset=UTF-8" />
+  <meta name="keywords"
+        content="openmsx msx emulator">
+  <link href="styles/keys_style.css" 
+        rel="stylesheet"
+        type="text/css"
+        title="Keyboard" />
+  <link href="styles/blue_style.css"
+        rel="alternate stylesheet"
+        type="text/css"
+        title="Blue" />
+<!--
+  <link href="styles/yellow_style.css"
+        rel="alternate stylesheet"
+        type="text/css"
+        title="Yellow" />
+-->
+  <script type="text/javascript" 
+         src="styleswitcher.js"></script>
+</head>

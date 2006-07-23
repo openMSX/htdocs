@@ -1,0 +1,7 @@
+  <div id="title">
+    <img src="./images/penguin.gif" alt="[*]" />
+    <h1>openMSX</h1>
+    <div id="subtitle">
+      the MSX emulator that aims for perfection
+    </div>
+  </div>
