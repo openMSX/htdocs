@@ -1,0 +1,327 @@
+html,body,div,span,h1,h2,h3,h4,p,a,ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(240,235,225) 
+    url("keyboard_light.jpg") fixed no-repeat;
+  color: rgb(0,0,64);
+  font-family: "verdana","univers","arial","sans-serif";
+  font-size: 12px;
+}
+
+h1 {
+  background:  rgb(235,220,210)
+    url("keyboard_dark.jpg") fixed no-repeat;
+  border: 2px groove rgb(115,110,100);
+  font-size: 20px;
+  padding-left: 3px; 
+}
+
+h2 {
+  padding-left: 3px;
+  padding-right: 5px;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(255,0,0);
+}
+
+h3 {
+  padding-left: 3px;
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+p {
+  padding-left: 3px;
+  padding-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(32,32,192);
+  width: 100%;
+}
+
+a:hover {
+  color: rgb(255,0,0);
+}
+
+a img {
+  border: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*** Title styles ***************************************/
+div#title {
+  background: rgb(240,235,225) 
+    url("keyboard_light.jpg") fixed no-repeat;
+  width: 100%;
+}
+
+div#title img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 2px 10px;
+}
+
+div#title h1 {
+  background: rgb(235,220,210) 
+    url("keyboard_dark.jpg") fixed no-repeat;;
+  border: none;
+  font-size: 54px;
+  font-style: italic;
+  font-weight: bolder;
+  letter-spacing: -2px;
+  color: rgb(255,255,255);
+  padding-left: 90px;
+  border-bottom: 1px solid rgb(255,0,0);
+ }
+
+div#subtitle {
+  right: 0px;
+  height: 29px;
+  vertical-align: middle;
+  text-align: right;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: italic;
+  padding-right: 10px;
+}
+
+/*** Navigation styles **********************************/
+div#navigation {
+  width: 200px;
+  margin: 0 10px 0 10px;
+  float: left;
+}
+
+/* IE hack */
+* html div#navigation {
+  margin-left: 5px;
+}
+
+div.linkblock {
+  border-left: 2px groove rgb(115,110,100);
+  border-right: 2px groove rgb(115,110,100);
+}
+
+div#navigation h2 {
+  margin: 0;
+  padding: 5px 5px 0 5px;
+  border-bottom: none;
+}
+
+div#navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 8px 5px;
+}
+
+div#navigation  ul li {
+  padding: 0 5px;
+  margin: 0;
+}
+
+div#navigation  ul li:hover {
+  background: /*rgb(115,110,100)*/
+    url("keyboard_dark.jpg") fixed no-repeat;
+}
+
+/*** Style switcher styles ******************************/
+div#styleswitcher {
+  margin: 5px 0 0 0;
+}
+
+div#styleswitcher ul {
+  display: inline;
+  margin: 0;
+  padding: 1px;
+}
+
+div#styleswitcher li {
+  display: inline;
+}
+
+div#styleswitcher ul li:hover {
+  background:
+    url("keyboard_light.jpg") fixed no-repeat;
+}
+
+/*** Sourceforge link styles ****************************/
+#sflink {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+div#sflink h1 {
+  font-size: 8px;
+  font-weight: normal;
+  color: rgb(192,192,192);
+}
+
+div#sflink img {
+  border: none;
+}
+
+/*** Content styles *************************************/
+div#content {
+  margin: 0 10px 0 220px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+div#content h1 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+div#content h1:first-child {
+  margin-top: 0;
+}
+
+
+div#content h2 {
+  margin: 10px 0 5px 0;
+}
+div#content h2 span.date {
+  float: right; 
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+  padding-top: 3px;
+}
+
+/* **************************************** */
+
+div#content table#contrib {
+  margin: 10px;
+  text-align: left;
+}
+
+table#contrib tr.head {
+  font-weight: bold;
+  background: /*rgb(115,110,100)*/
+    url("keyboard_dark.jpg") fixed no-repeat;
+}
+
+table#contrib td {
+  width: 40%;
+  padding: 0px 10px;
+  vertical-align: top;
+}
+
+div#content td ul li {
+  text-indent: -2em;
+  margin-left: 2em;
+}
+
+div#content ul.features {
+  text-align: left;
+}
+
+div#content span.descript {
+  display: block;
+  margin-left: 6em;
+}
+
+div#content span.none {
+  font-size: 10px;
+  text-align: center;
+  float: left;
+  width: 5em;
+  margin-right: 1em;
+  background: url("check.gif") top right no-repeat;
+}
+
+div#content span.new {
+  font-size: 10px;
+  font-weight: bold;
+/*  border: 1px outset; */
+  text-align: center;
+  float: left;
+  width: 5em;
+  color: rgb(64,64,64);
+  background: rgb(255,255,128);
+  margin-right: 1em;
+}
+
+div#content span.uniq {
+  font-size: 10px;
+  font-weight: bold;
+/*  border: 1px outset; */
+  text-align: center;
+  float: left;
+  width: 5em;
+  color: rgb(255,255,255);
+  background: rgb(255,64,64);
+  margin-right: 1em;
+}
+
+div#content span.cool {
+  font-size: 10px;
+  font-weight: bold;
+/*  border: 1px outset; */
+  text-align: center;
+  float: left;
+  width: 5em;
+  color: rgb(64,64,64);
+  background: rgb(192,224,255) url("ice.gif") top repeat-x;
+  margin-right: 1em;
+}
+
+div#content span.first {
+  font-size: 10px;
+  font-weight: bold;
+/*  border: 1px outset; */
+  text-align: center;
+  float: left;
+  width: 5em;
+  color: rgb(64,64,64);
+  background: rgb(128,255,128);
+  margin-right: 1em;
+}
+
+div#content dd + dt {
+  margin-top:7px;
+}
+
+div.screenshot {
+  display: none;
+}
+
+div#thumbs {
+  display: block;
+}
+
+div.thumb {
+  display: inline;
+  margin: 10px;
+  margin-left: 0; 
+}
+
+/*** Footer styles **************************************/
+div#footer {
+  position: fixed;
+  bottom: 0px;
+  background: rgb(235,220,210) 
+    url("keyboard_dark.jpg") fixed no-repeat;
+  height: 12px;
+  margin-top: 10px;
+  border-top: 1px solid rgb(255,0,0);
+  width: 100%;
+  font-size: 10px;
+  text-align: right;
+}
+
+/* IE hack */
+* html div#footer {
+  margin: 0 10px;
+}

@@ -1,0 +1,344 @@
+/* Alternative style sheet */
+html,body,div,span,h1,h2,h3,h4,p,a,ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(128,192,255)
+    url("blue-content.png");
+  font-family: "verdana","univers","arial","sans-serif";
+  font-size: 12px;
+  text-align: justify;
+}
+
+em {
+  font-weight: bold;
+}
+
+img {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+div#title {
+  background: rgb(32,64,128)
+    url("blue-title.png") repeat-x;
+}
+
+div#title img { /* penguin */
+  float: right;
+  padding: 10px 20px;
+}
+
+div#title h1 {
+  color: rgb(255,255,255);
+  text-align: right;
+  font-size: 48px;
+  font-style: italic;
+}
+
+div#subtitle {
+  color: rgb(192,192,192) ;
+  text-align: right;
+  font-size: 10px;
+  font-style: italic;
+}
+
+div#navigation {
+}
+
+div#navilinks {
+  background: rgb(32,64,128) url("blue-shadow.png") repeat-x bottom;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 10px 15px 10px;
+}
+
+div#navilinks h1 {
+  display: none;
+}
+
+div#navilinks ul {
+  list-style: none;
+  display: inline;
+  font-size: 12px;
+}
+
+div#navilinks li {
+  display: inline;
+  text-align: center;
+}
+
+div#navilinks a {
+  width: 10%;
+  color: rgb(255,255,255);
+  text-decoration: none;
+  background: rgb(48,96,192);
+  padding: 3px 10px;
+  margin-top: 10px;
+  border: 2px groove rgb(48,96,192);
+}
+
+div#navilinks a:hover {
+  background: rgb(64,128,255);
+}
+
+div#navilinks a:active {
+  background: rgb(255,255,255);
+  color: rgb(48,96,192);
+  border: 2px inset rgb(48,96,192);
+}
+
+div#navidownloads {
+  width: 200px;
+  background: rgb(255,255,255);
+  color: rgb(16,32,64);
+  float: right;
+  margin: 10px;
+  padding: 7px;
+  border: 3px solid rgb(32,64,128);
+}
+
+div#navidownloads h1 {
+  font-size: 24px;
+  text-align: center;
+  background: rgb(48,96,192) url("blue-h2.png") repeat-x;
+  color: rgb(255,255,255);
+}
+
+div#navidownloads h2 {
+  border-top: 1px solid rgb(128,192,255);
+  border-bottom: 1px dashed rgb(128,192,255);
+  font-size: 18px;
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+
+div#navidownloads ul {
+  list-style: none;
+  font-size: 12px;
+  margin: 10px;
+}
+
+div#navidownloads a {
+  font-weight: bold;
+  color: rgb(48,96,192);
+  text-decoration: none;
+  width: 100%;
+}
+
+div#navidownloads li:hover {
+  background: rgb(128,192,255);
+}
+
+div#navidownloads a:hover {
+  text-decoration: underline;
+  background: rgb(128,192,255);
+}
+
+div#sflink {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  color: rgb(255,255,255);
+}
+
+div#sflink h1 {
+  font-size: 8px;
+  font-weight: normal;
+}
+
+div#sflink img {
+  border: none;
+}
+
+div#styleswitcher {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  float: left;
+}
+
+div#styleswitcher ul {
+  list-style: none;
+  margin: 0;
+  padding: 2px 0;
+}
+
+div#styleswitcher li {
+}
+
+div#content {
+  padding: 10px;
+  margin-right: 240px;
+}
+
+div#content h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  color: rgb(255,255,255);
+  background: rgb(32,64,128) url("blue-h2.png") repeat-x;
+}
+
+div#content h2 {
+  border-bottom: 1px dashed rgb(48,96,192);
+  font-size: 18px;
+  margin: 10px 0 5px 0;
+}
+
+div#content h2 span.date {
+  float: right; 
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+  padding-top: 6px;
+}
+
+div#content table#contrib {
+  margin: 10px;
+  text-align: left;
+}
+
+table#contrib tr.head {
+  font-weight: bold;
+}
+
+table#contrib td {
+  width: 40%;
+  padding: 0px 10px;
+  vertical-align: top;
+  border-top: 1px solid rgb(48,96,192);
+  border-bottom: 1px solid rgb(48,96,192);
+}
+
+div#content td ul li {
+  text-indent: -2em;
+  margin-left: 2em;
+}
+
+div#content ul.features {
+  text-align: left;
+}
+
+div#content ul.features li {
+  padding: 1px 0;
+}
+
+/* IE hack */
+* html div#content ul.features li {
+  display: inline;
+}
+
+
+div#content span.descript {
+  display: block;
+  margin-left: 5em;
+}
+
+
+div#content span.none {
+  font-size: 8px;
+  border: 1px solid rgb(128,192,255);
+  text-align: center;
+  float: left;
+  width: 5em;
+  margin-right: 1em;
+  background: url("check.gif") top right no-repeat;
+}
+
+div#content span.new {
+  font-size: 9px;
+  font-weight: bold;
+/*  border: 1px outset; */
+  text-align: center;
+  float: left;
+  width: 5em;
+  color: rgb(64,64,64);
+  background: rgb(255,255,128);
+  margin-right: 1em;
+}
+
+div#content span.uniq {
+  font-size: 9px;
+  font-weight: bold;
+/*  border: 1px outset; */
+  text-align: center;
+  float: left;
+  width: 5em;
+  color: rgb(255,255,255);
+  background: rgb(255,64,64);
+  margin-right: 1em;
+}
+
+div#content span.cool {
+  font-size: 9px;
+  font-weight: bold;
+/*  border: 1px outset; */
+  text-align: center;
+  float: left;
+  width: 5em;
+  color: rgb(64,64,64);
+  background: rgb(192,224,255) url("../images/ice.gif") top repeat-x;
+  margin-right: 1em;
+}
+
+div#content span.first {
+  font-size: 9px;
+  font-weight: bold;
+/*  border: 1px outset; */
+  text-align: center;
+  float: left;
+  width: 5em;
+  color: rgb(64,64,64);
+  background: rgb(128,255,128);
+  margin-right: 1em;
+}
+
+
+div#content dd + dt {
+  margin-top:7px;
+}
+
+div#content a {
+  color: rgb(16,32,128);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div#content a:hover {
+  color: rgb(32,64,255);
+  text-decoration: underline;
+}
+
+div.screenshot {
+  display: none;
+}
+
+div#thumbs {
+  display: block;
+}
+
+span.thumb {
+  margin: 10px;
+  margin-left: 0;
+}
+
+div.screenshot_thumbs {
+  text-align: left;
+}
+
+div.screenshot_text {
+}
+
+div#footer {
+  margin: 0 250px 0 10px;
+  text-align: right;
+  border-top: 2px groove rgb(48,96,192);
+  color: rgb(48,96,192);
+  padding: 0px 10px;
+}
