@@ -22,7 +22,7 @@
       Hurray for CSS :-)
     </p>
     <h2>
-      <span class="date">2006 July 26</span>
+      <span class="date">2006 July 23</span>
       openMSX needs <em>you</em>!
     </h2>
     <p>
