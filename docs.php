@@ -36,8 +36,9 @@
         <a href="http://cbios.sourceforge.net/">C-BIOS</a> is a GPL'ed BIOS
         for MSX, which&mdash;like openMSX&mdash;is still in development, and
         therefore doesn't provide all functionality to run a complete MSX
-        machine, yet. Read the <a href="setup.html">Setup Guide</a> to learn
-        how to make openMSX emulate real MSX machines.
+        machine, yet. 
+        Read the <a href="http://openmsx.sourceforge.net/manual/setup.html">Setup Guide</a>
+        to learn how to make openMSX emulate real MSX machines.
       </dd>
       
       <dt class="toc">
@@ -76,13 +77,13 @@
     <h2>Installing And Running Catapult</h2>
     
     <dl>
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/manual/compile.html">Compilation Guide</a></dt>
+      <dt class="toc"><a href="http://openmsx.sourceforge.net/catapult-manual/compile.html">Compilation Guide</a></dt>
       <dd>
         This guide describes how you can get the Catapult sources and
         compile them. If you downloaded a binary release, you can skip this.
       </dd>
 
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/manual/user.html">Setup Guide</a></dt>
+      <dt class="toc"><a href="http://openmsx.sourceforge.net/catapult-manual/user.html">User's Manual</a></dt>
       <dd>
         This manual describes all the things you can do with Catapult
         once it is fully running.

@@ -17,7 +17,7 @@
     </p>
     
     <h2>Legend</h2>
-    <ul>
+    <ul class="features">
       <li>
         <span class="new">New!</span>
         <span class="descript">New feature since last release</span>
@@ -225,7 +225,7 @@
         <span class="descript">
           Almost all known cartridge mapper types via autodetection or the
           included ROM database, including:
-          <ul>
+          <ul class="features">
             <li>
               <span class="first">1st!</span>
               <span class="descript">
@@ -297,7 +297,7 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Almost all MSX sound devices:
-          <ul>
+          <ul class="features>
             <li>
               <span class="uniq">Unique!</span>
               <span class="descript">
@@ -360,7 +360,7 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Many MSX storage (disk/SRAM) systems:
-          <ul>
+          <ul class="features>
             <li>
               <span class="uniq">Unique!</span>
               <span class="descript">
@@ -466,7 +466,7 @@
     <!-- ------------------------------------------------------------- -->
 
     <h2>Emulator Extras</h2>
-    <ul>
+    <ul class="features>
       <li>
         <span class="new">New!</span>
         <span class="descript">
@@ -549,7 +549,7 @@
        <span class="none">&nbsp;</span>
        <span class="descript">
          Various screen renderers available:
-         <ul>
+         <ul class="features>
            <li>
              <span class="none">&nbsp;</span>
              <span class="descript">
@@ -664,7 +664,7 @@
     Here are some highlights of features and improvements that are already in CVS and are likely to be in the next release: 
     </p>
     
-    <ul>
+    <ul class="features>
     <!--  <li>(nothing yet, we just released 0.6.0) -->
       <li>
         <span class="none">&nbsp;</span>

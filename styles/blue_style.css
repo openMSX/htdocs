@@ -202,23 +202,6 @@ div#content h2 span.date {
   padding-top: 6px;
 }
 
-div#content table#contrib {
-  margin: 10px;
-  text-align: left;
-}
-
-table#contrib tr.head {
-  font-weight: bold;
-}
-
-table#contrib td {
-  width: 40%;
-  padding: 0px 10px;
-  vertical-align: top;
-  border-top: 1px solid rgb(48,96,192);
-  border-bottom: 1px solid rgb(48,96,192);
-}
-
 div#content td ul li {
   text-indent: -2em;
   margin-left: 2em;
@@ -305,6 +288,11 @@ div#content span.first {
 
 div#content dd + dt {
   margin-top:7px;
+}
+
+/* IE hack */
+* html div#content dd {
+  margin-bottom: 7px;
 }
 
 div#content a {
