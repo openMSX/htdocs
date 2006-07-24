@@ -17,12 +17,12 @@
 
     <dl>
       <dt class="toc">
-        <a href="http://openmsx.sourceforge.net/manual/faq.html">What is openMSX?</a>
+        <a href="http://en.wikipedia.org/wiki/OpenMSX">What is openMSX?</a>
       </dt>
       <dd>
-        openMSX is emulator for the MSX standard. Its goal is to emulate all
-        aspects of the MSX with 100% accuracy. You can find everything you
-        ever wanted to know about MSX, and more, in
+        openMSX is emulator for the MSX home computer system. Its goal is to emulate all
+        aspects of the MSX with 100% accuracy: perfection in emulation. 
+	You can find everything you ever wanted to know about MSX, and more, in
         <a href="http://faq.msxnet.org/">the Ultimate MSX FAQ</a>.
       </dd>
       
