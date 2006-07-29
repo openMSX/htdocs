@@ -12,6 +12,7 @@ body {
 }
 
 h1 {
+  color: rgb(0,0,0);
   background:  rgb(235,220,210)
     url("keyboard_dark.jpg") fixed no-repeat;
   border: 2px groove rgb(115,110,100);
