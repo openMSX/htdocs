@@ -20,7 +20,7 @@
 	createLink("features.php",    "Features");
 	createLink("contact.php",     "Contact");
 	createLink("http://forum.openmsx.org", "Forum");
-        createLink("http://sourceforge.net/projects/openmsx/", "Project&nbsp;page");
+        createLink("http://sourceforge.net/projects/openmsx/", "Project&nbsp;Page");
 ?>
         </ul>
       </div>
@@ -39,7 +39,7 @@
         </ul>
         <ul>
           <li><a href="http://openmsx.sourceforge.net/openMSX-CVS-snapshot.tar.gz">
-            CVS snapshot</a></li>  
+            CVS snapshot</a></li>
         </ul>
         <h2>Catapult</h2>
         <ul>
@@ -48,7 +48,7 @@
         </ul>
         <ul>
           <li><a href="http://openmsx.sourceforge.net/Catapult-CVS-snapshot.tar.gz">
-            CVS snapshot</a></li>  
+            CVS snapshot</a></li>
         </ul>
         <!--
         <h2>Debugger</h2>
@@ -76,7 +76,7 @@
              onclick="setActiveStyleSheet('Blue'); return false;">
           <img src="images/theme-blue.png"
                alt="Theme: blue"/></a></li>
-        <!-- 
+        <!--
         <li>
           <a href="#"
              onclick="setActiveStyleSheet('Yellow'); return false;">
