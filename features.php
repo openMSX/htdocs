@@ -39,11 +39,7 @@
     
     <h2>General</h2>
     <ul class="features">
-      <li>
-        <span class="new">New!</span>
-        <span class="descript">Binary for Mac OS X</span>
-      </li>
-      <li>
+     <li>
         <span class="uniq">Unique!</span> 
         <span class="descript">
           Command interface via pipes or a (UNIX domain) socket:
@@ -148,17 +144,17 @@
 
     <h2>MSX hardware emulated</h2>
     <ul class="features">
-      <li><span class="new">New!</span>
+      <li><span class="none">&nbsp;</span>
         <span class="descript">
           192kB VRAM (extended VRAM)
         </span>
       </li>
-      <li><span class="new">New!</span>
+      <li><span class="none">&nbsp;</span>
         <span class="descript">
           ADVRAM
         </span>
       </li>
-      <li><span class="new">New!</span>
+      <li><span class="none">&nbsp;</span>
         <span class="descript">
           Magic key dongle
         </span>
@@ -362,7 +358,7 @@
             <li>
               <span class="first">1st!</span>
               <span class="descript">
-                Sunrise IDE interface with harddisk <!-- CD-ROM is unique! -->
+                Sunrise IDE interface with harddisk and CD-ROM (audio tracks not supported yet)
               </span>
             </li>
             <li>
@@ -395,7 +391,7 @@
               <span class="descript">
                 Floppy disk controller (WD2793 and National MB8877A fully
                 supported, including formatting); also partial support for
-                TC8566AF and Microsol based FDCs
+                TC8566AF and Microsol based FDCs (DDX 3.0 diskROM works, e.g.)
               </span>
             </li>
           </ul>
@@ -416,7 +412,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Mouse and joystick (with option to use the keyboard as joystick)
+          Mouse and joystick (with option to use the keyboard as joystick) and additionally the joytap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
         </span>
       </li>
       <li>
@@ -459,6 +455,19 @@
           turboR pause (button and hardware) support
         </span>
       </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          run time insertion and removal of cartridges and other extensions
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          support to emulate any non-colour monitor, like monochrome-green, amber or white
+        </span>
+      </li>
+ 
     </ul>
     
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -466,13 +475,13 @@
     <h2>Emulator Extras</h2>
     <ul class="features">
       <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
           Optional automatical speed up during disk or cassette action
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
           Optional automatical loading of cassettes in CAS format
         </span>
@@ -496,7 +505,7 @@
         <span class="uniq">Unique!</span>
         <span class="descript">
           Console with alpha-blended background and file and command
-          completion
+          completion and built in help for (almost) all commands
         </span>
       </li>
       <li>
@@ -522,13 +531,13 @@
         <span class="first">1st!</span>
         <span class="descript">
           Dir-as-disk feature: Use a directory on your hard
-          disk as disk image in openMSX (experimental)
+          disk as disk image in openMSX
         </span>
       </li>
       <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-          Debug command (including conditional break points):
+          Debug command (including conditional break points, watch points, an UMR detector):
           read/write many parts of the MSX system; mainly useful to be used
           in external debug applications via the stdin/socket command
           interface
@@ -562,9 +571,17 @@
            <li>
              <span class="cool">Cool!</span>
              <span class="descript">
-               640&times;480 openGL renderer that makes advantage of
+               640&times;480 OpenGL renderer that makes advantage of
                video hardware acceleration and has an extra special effect:
                afterglow
+             </span>
+           </li>
+           <li>
+             <span class="new">New!</span>
+             <span class="descript">
+	       OpenGL 2.0 based renderer that makes advantage of the processor
+	       of advanced modern graphics cards. Supports scaling factors up to 4 (=1280&times;960).
+	       Extra features: TV scaler and afterglow. Does not support hq and SaI scale algorithms.
              </span>
            </li>
          </ul>
@@ -573,13 +590,13 @@
      <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Scanlines and blur for TV emulation
+          Scanlines, blur and noise for TV emulation
         </span>
        </li>
        <li>
          <span class="cool">Cool!</span>
          <span class="descript">
-           Gamma adjustment setting
+           Gamma, brightness and contrast adjustment setting
          </span>
        </li>
        <li>
@@ -663,145 +680,7 @@
     </p>
     
     <ul class="features">
-    <!--  <li>(nothing yet, we just released 0.6.0) -->
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Fixed all (de)interlacing issues
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Suport for building a redistributable binary for Mac OS X
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added run-time insertion and removal of cartridges and other extensions
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added joytap multiplayer controller support
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Improvements on accuracy of Konami mapper
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added noise video effect
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added basic Uninitialized Memory Read detector (for MSX programs)
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added brightness and contrast video settings
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added run-time switchable machines
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Fixed Microsol FDC to support DDX 3.0 diskROM
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Fixed a bug in MegaRAM, so that it supports 2048kB as well
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          New experimental renderer: SDLGL2, based on OpenGL 2.0 features, including fragment (pixel) shaders
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          New renderer: SDLGL-PP: based on SDL, but implements all post-processing in OpenGL, mostly using fragment (pixel) shaders; features: simple and ScaleNx scalers, noise effect, 4x scaling, "TV" scaler
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Improved help for TCL based commands and added tab-completion support for them
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added support to emulate any non-colour monitor, like monochrome-green, amber or white
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added warning when a DI/HALT hangup occurred
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added meta-data to extensions (not used yet)
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Several V9990 fixes, including basic timing
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          New boot-sector setting, to let DirAsDsk use a DOS1 or a DOS2 boot-sector
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added support for single-sided disk drives
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Added I/O and memory watch points to the debugger
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Fixed bug in the IDE hard disk size setting on Windows: before this, when you specify a bigger size than the current one, the hard disk image would get corrupted!
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Improvements on VDP timing accuracy: length of horizontal blank
-        </span>
-      </li>
+      <li>(nothing yet, we just released 0.6.1)</li>
     </ul>
   </div>
   <div id="footer">
