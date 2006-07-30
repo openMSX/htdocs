@@ -297,7 +297,7 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Almost all MSX sound devices:
-          <ul class="features>
+          <ul class="features">
             <li>
               <span class="first">1st!</span>
               <span class="descript">
@@ -360,7 +360,7 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Many MSX storage (disk/SRAM) systems:
-          <ul class="features>
+          <ul class="features">
             <li>
               <span class="first">1st!</span>
               <span class="descript">
