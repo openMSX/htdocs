@@ -33,7 +33,7 @@
       </dt>
       <dd>
         Nothing, actually. Your openMSX is running a machine named 'C-BIOS'.
-        <a href="http://cbios.sourceforge.net/">C-BIOS</a> is a GPL'ed BIOS
+        <a href="http://cbios.sourceforge.net/">C-BIOS</a> is a free BIOS
         for MSX, which&mdash;like openMSX&mdash;is still in development, and
         therefore doesn't provide all functionality to run a complete MSX
         machine, yet. 
