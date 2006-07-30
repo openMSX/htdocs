@@ -581,7 +581,9 @@
              <span class="descript">
 	       OpenGL 2.0 based renderer that makes advantage of the processor
 	       of advanced modern graphics cards. Supports scaling factors up to 4 (=1280&times;960).
-	       Extra features: TV scaler and afterglow. Does not support hq and SaI scale algorithms.
+	       Extra features: TV scaler, afterglow, horizontal stretch (to
+	       get the correct aspect ratio) and a 3D monitor effect. 
+	       Does not support hq and SaI scale algorithms.
              </span>
            </li>
          </ul>
