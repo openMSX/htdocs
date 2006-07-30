@@ -223,7 +223,6 @@
         <span class="descript">
           Almost all known cartridge mapper types via autodetection or the
           included ROM database, including:
-	</span>
           <ul class="features">
             <li>
               <span class="first">1st!</span>
@@ -296,7 +295,6 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Almost all MSX sound devices:
-	</span>
           <ul class="features">
             <li>
               <span class="first">1st!</span>
@@ -360,7 +358,6 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Many MSX storage (disk/SRAM) systems:
-	</span>
           <ul class="features">
             <li>
               <span class="first">1st!</span>
