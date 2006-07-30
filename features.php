@@ -412,7 +412,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Mouse and joystick (with option to use the keyboard as joystick) and additionally the joytap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
+          Mouse and joystick (with option to use the keyboard as joystick) and additionally the ninja-tap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
         </span>
       </li>
       <li>
