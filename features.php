@@ -37,7 +37,7 @@
       </li>
     </ul>
     
-    <!-- ------------------------------------------------------------- -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     
     <h2>General</h2>
     <ul class="features">
@@ -146,7 +146,7 @@
       </li>
     </ul>
     
-    <!-- ------------------------------------------------------------- -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <h2>MSX hardware emulated</h2>
     <ul class="features">
@@ -225,6 +225,7 @@
         <span class="descript">
           Almost all known cartridge mapper types via autodetection or the
           included ROM database, including:
+	</span>
           <ul class="features">
             <li>
               <span class="first">1st!</span>
@@ -297,6 +298,7 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Almost all MSX sound devices:
+	</span>
           <ul class="features">
             <li>
               <span class="first">1st!</span>
@@ -360,6 +362,7 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Many MSX storage (disk/SRAM) systems:
+	</span>
           <ul class="features">
             <li>
               <span class="first">1st!</span>
@@ -373,13 +376,13 @@
             </li> 
             <li>
               <span class="first">1st!</span>
-              <span "class="descript">
+              <span class="descript">
                 PAC (Panasonic SW-M001)
               </span>
             </li>
             <li>
               <span class="first">1st!</span>
-              <span "class="descript">
+              <span class="descript">
                 Sony HBI-55 datacartridge
               </span>
             </li>
@@ -463,10 +466,10 @@
       </li>
     </ul>
     
-    <!-- ------------------------------------------------------------- -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <h2>Emulator Extras</h2>
-    <ul class="features>
+    <ul class="features">
       <li>
         <span class="new">New!</span>
         <span class="descript">
@@ -549,7 +552,7 @@
        <span class="none">&nbsp;</span>
        <span class="descript">
          Various screen renderers available:
-         <ul class="features>
+         <ul class="features">
            <li>
              <span class="none">&nbsp;</span>
              <span class="descript">
@@ -657,14 +660,14 @@
       </li>
     </ul>    
 
-    <!-- ------------------------------------------------------------- -->
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <h2>Coming Up &hellip;</h2>
     <p>
     Here are some highlights of features and improvements that are already in CVS and are likely to be in the next release: 
     </p>
     
-    <ul class="features>
+    <ul class="features">
     <!--  <li>(nothing yet, we just released 0.6.0) -->
       <li>
         <span class="none">&nbsp;</span>
