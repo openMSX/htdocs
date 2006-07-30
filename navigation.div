@@ -31,7 +31,9 @@
         <h2>openMSX</h2>
         <ul>
           <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0-R2-win32-bin.exe?download">
-            0.6.0 / Win32</a></li>
+            0.6.0 / Win32 (installer)</a></li>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0-R2-win32-bin.zip?download">
+            0.6.0 / Win32 (zip)</a></li>
           <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0-mac-ppc-bin.dmg?download">
             0.6.0 / Mac OS X (PPC)</a></li>
           <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0.tar.gz?download">
