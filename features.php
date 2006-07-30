@@ -299,7 +299,7 @@
           Almost all MSX sound devices:
           <ul class="features>
             <li>
-              <span class="uniq">Unique!</span>
+              <span class="first">1st!</span>
               <span class="descript">
                 MSX-MIDI (turboR)
               </span>
@@ -362,9 +362,9 @@
           Many MSX storage (disk/SRAM) systems:
           <ul class="features>
             <li>
-              <span class="uniq">Unique!</span>
+              <span class="first">1st!</span>
               <span class="descript">
-                Sunrise IDE interface with harddisk
+                Sunrise IDE interface with harddisk <!-- CD-ROM is unique! -->
               </span>
             </li>
             <li>
