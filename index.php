@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2006 July 31</span>
+      openMSX 0.6.1 released
+    </h2>
+    <p>
+    openMSX 0.6.1&mdash;Chernoton Meltdown&mdash;includes runtime switchable machines and extensions, a lot of new video filters (some of which use pixel shaders), as well as a lot of other improvements and bugfixes. Together with openMSX a new version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?release_id=435794&group_id=38274">read the release notes</a> for details.
+    </p>
+    <h2>
       <span class="date">2006 July 23</span>
       Web site restyled
     </h2>
