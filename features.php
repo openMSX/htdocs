@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.6.0).
+      Here are some highlights of the features of the latest release (0.6.1).
     </p>
     
     <h2>Legend</h2>
