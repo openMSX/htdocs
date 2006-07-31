@@ -30,14 +30,14 @@
       <div class="linkblock">
         <h2>openMSX</h2>
         <ul>
-          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0-R2-win32-bin.exe?download">
-            0.6.0 / Win32 (installer)</a></li>
-          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0-R2-win32-bin.zip?download">
-            0.6.0 / Win32 (zip)</a></li>
-          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0-mac-ppc-bin.dmg?download">
-            0.6.0 / Mac OS X (PPC)</a></li>
-          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.0.tar.gz?download">
-            0.6.0 / Source code</a></li>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.1-win32-bin.exe?download">
+            0.6.1 / Win32 (installer)</a></li>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.1-win32-bin.zip?download">
+            0.6.1 / Win32 (zip)</a></li>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.1-mac-ppc-bin.dmg?download">
+            0.6.1 / Mac OS X (PPC)</a></li>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-0.6.1.tar.gz?download">
+            0.6.1 / Source code</a></li>
         </ul>
         <ul>
           <li><a href="http://openmsx.sourceforge.net/openMSX-CVS-snapshot.tar.gz">
@@ -45,8 +45,8 @@
         </ul>
         <h2>Catapult</h2>
         <ul>
-          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-catapult-0.6.0-R2.tar.gz?download">
-            0.6.0 / Source code</a></li>
+          <li><a href="http://prdownloads.sourceforge.net/openmsx/openmsx-catapult-0.6.1-R1.tar.gz?download">
+            0.6.1 / Source code</a></li>
         </ul>
         <ul>
           <li><a href="http://openmsx.sourceforge.net/Catapult-CVS-snapshot.tar.gz">
