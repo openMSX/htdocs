@@ -682,7 +682,19 @@
     </p>
     
     <ul class="features">
-      <li>(nothing yet, we just released 0.6.1)</li>
+<!--      <li>(nothing yet, we just released 0.6.1)</li> -->
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Dot-matrix graphical printer emulation
+        </span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          hq and hqlite scale algorithms for SDLGL-PP, running in GPU hardware of course
+        </span>
+      </li>
     </ul>
   </div>
   <div id="footer">
