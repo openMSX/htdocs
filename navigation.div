@@ -40,7 +40,7 @@
             0.6.1 / Source code</a></li>
         </ul>
         <ul>
-          <li><a href="http://openmsx.sourceforge.net/openMSX-CVS-snapshot.tar.gz">
+          <li><a href="http://openmsx.sourceforge.net/temp/openMSX-CVS-snapshot.tar.gz">
             CVS snapshot</a></li>
         </ul>
         <h2>Catapult</h2>
@@ -49,15 +49,19 @@
             0.6.1 / Source code</a></li>
         </ul>
         <ul>
-          <li><a href="http://openmsx.sourceforge.net/Catapult-CVS-snapshot.tar.gz">
-            CVS snapshot</a></li>
-        </ul>
-        <!--
+          <li><a href="http://openmsx.sourceforge.net/temp/catapult-SVN-snapshot.tar.gz">
+            SVN snapshot (of rewrite)</a></li>
+        </ul> 
         <h2>Debugger</h2>
+        <!--
         <ul>
           <li><a href="#">Source</a></li>
         </ul>
         -->
+        <ul>
+          <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-SVN-snapshot.tar.gz">
+            SVN snapshot</a></li>
+        </ul>
       </div>
     </div>
     <div id="sflink">
