@@ -11,6 +11,16 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2006 September 17</span>
+      openMSX moves to Subversion
+    </h2>
+    <p>
+    Today we moved the main openMSX project to Subversion (SVN). This means that you have to use a different way to get the latest openMSX sources now. It is explained in the updated online manual, in the <a href="http://openmsx.sf.net/manual/compile.html">Compilation Guide</a>. Snapshots are now also taken from SVN. We removed the snapshot of Catapult, because Catapult as has been released so far is pronounced dead. A rewrite using Python and Qt4 is in the works though. You can get a snapshot of that project, instead.
+    </p>
+    <p>
+    Other news that we forgot to post here: there is a universal binary available for Mac OS X users, see the download section.
+    </p>
+     <h2>
       <span class="date">2006 July 31</span>
       openMSX 0.6.1 released
     </h2>
