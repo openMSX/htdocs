@@ -91,7 +91,7 @@
     <h2>Documentation For Developers</h2>
     
     <dl>
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/html">Source Code Documentation</a></dt>
+      <dt class="toc"><a href="http://openmsx.sourceforge.net/doxygen">Source Code Documentation</a></dt>
       <dd>
         Source code documentation generated using Doxygen.
       </dd>
