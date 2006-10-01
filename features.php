@@ -678,7 +678,7 @@
 
     <h2>Coming Up &hellip;</h2>
     <p>
-    Here are some highlights of features and improvements that are already in CVS and are likely to be in the next release: 
+    Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release: 
     </p>
     
     <ul class="features">
@@ -704,7 +704,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Fixed openMSX 0.6.0 bugs: MSX-AUDIO in Deltasoft products, sync problem in V9990 command engine (Blox), MSX-AUDIO sampleRAM detection (Almost Real)
+          Fixed openMSX 0.6.1 bugs: MSX-AUDIO in Deltasoft products, sync problem in V9990 command engine (Blox), MSX-AUDIO sampleRAM detection (Almost Real)
         </span>
       </li>
       <li>
