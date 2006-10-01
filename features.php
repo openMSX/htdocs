@@ -695,6 +695,36 @@
           hq and hqlite scale algorithms for SDLGL-PP, running in GPU hardware of course
         </span>
       </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Extended hotkeys: you can now bind any host event to a TCL command, which means you can e.g. let openMSX push the MSX F1 key if you press a certain button on your PC game pad
+        </span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Fixed openMSX 0.6.0 bugs: MSX-AUDIO in Deltasoft products, sync problem in V9990 command engine (Blox), MSX-AUDIO sampleRAM detection (Almost Real)
+        </span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          V9990 enhancements: deinterlace, cursor Y position in overscan mode, huge optimizations for P modes
+        </span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Event recording and replaying
+        </span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Playball sample replay   
+	</span>
+      </li>
     </ul>
   </div>
   <div id="footer">
