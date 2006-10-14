@@ -159,12 +159,12 @@
           Magic key dongle
         </span>
       </li>
-      <li>
+<!--      <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
           JoyNet (experimental; connected to TCP/IP of host OS)
         </span>
-      </li>
+      </li>-->
       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
