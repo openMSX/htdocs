@@ -18,6 +18,7 @@
 	createLink("docs.php",        "Documentation");
 	createLink("screenshots.php", "Screenshots");
 	createLink("features.php",    "Features");
+	createLink("3rdparty.php",    "3rd Party");
 	createLink("contact.php",     "Contact");
 	createLink("http://forum.openmsx.org", "Forum");
         createLink("http://sourceforge.net/projects/openmsx/", "Project&nbsp;Page");
