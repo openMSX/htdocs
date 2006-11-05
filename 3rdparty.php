@@ -66,7 +66,7 @@
     </dl> 
   </div>
   <div id="footer">
-    $Id: contact.php 331 2006-07-30 11:29:10Z manuelbi $
+    $Id$
   </div>
 </body>
 </html>
