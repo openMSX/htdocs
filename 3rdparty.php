@@ -29,8 +29,8 @@
       <dd>
         Because the old style Catapult does not run (properly) on Mac,
 	an active Japanese emulator user/programmer wrote an openMSX
-	variant of his NekoLauncher series. It loos like a simple launcher,
-	but also very user friendly.
+	variant of his NekoLauncher series. It looks like a simple launcher,
+	but also seems to be very user friendly.
       </dd>
     </dl>
     
