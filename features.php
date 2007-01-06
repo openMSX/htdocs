@@ -704,7 +704,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Fixed openMSX 0.6.1 bugs: MSX-AUDIO in Deltasoft products, sync problem in V9990 command engine (Blox), MSX-AUDIO sampleRAM detection (Almost Real)
+          Fixed openMSX 0.6.1 bugs: MSX-AUDIO in Deltasoft products, sync problem in V9990 command engine (Blox), MSX-AUDIO sampleRAM detection (Almost Real), 5th sprite detection
         </span>
       </li>
       <li>
@@ -723,6 +723,12 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Playball sample replay   
+	</span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Many small and bigger optimizations  
 	</span>
       </li>
     </ul>
