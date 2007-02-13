@@ -27,7 +27,7 @@
       </div>
     </div>
     <div id="navidownloads">
-      <h1>Download</h1>
+      <h1><a href="http://sourceforge.net/project/platformdownload.php?group_id=38274">Download</a></h1>
       <div class="linkblock">
         <h2>openMSX</h2>
         <ul>
