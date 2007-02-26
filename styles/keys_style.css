@@ -45,6 +45,14 @@ a {
   width: 100%;
 }
 
+div#navidownloads h1 a {
+  color: rgb(0,0,0);
+}
+
+div#navidownloads h1 a:hover {
+  color: rgb(255,0,0);
+}
+
 a:hover {
   color: rgb(255,0,0);
 }

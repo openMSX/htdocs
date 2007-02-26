@@ -113,6 +113,10 @@ div#navidownloads h1 {
   color: rgb(255,255,255);
 }
 
+div#navidownloads h1 a {
+  color: rgb(255,255,255);
+}
+
 div#navidownloads h2 {
   border-top: 1px solid rgb(128,192,255);
   border-bottom: 1px dashed rgb(128,192,255);
