@@ -32,6 +32,13 @@
 	variant of his NekoLauncher series. It looks like a simple launcher,
 	but also seems to be very user friendly.
       </dd>
+      <dt>
+        <a href="http://openmsx.cesco.it/">openMSX Peashooter</a>
+      </dt>
+      <dd>
+	For the same reason, Cesco made another launcher for openMSX on OS X.
+	It seems to be focused mainly on games and features image previews.
+      </dd>
     </dl>
     
     <h2>Documentation</h2>
