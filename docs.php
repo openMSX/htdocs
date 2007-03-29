@@ -70,6 +70,19 @@
         This manual describes all the things you can do with openMSX once
         it is fully running.
       </dd>
+
+      <dt class="toc"><a class="external" href="http://openmsx.sourceforge.net/manual/commands.html">Console Commands Overview</a></dt>
+      <dd>
+      An overview of all commands and settings that can be used from the openMSX built in console. Check this if you want to know exactly how to control openMSX. Because the current openMSX Catapult GUI is running behind in functionality, it is also useful to read this for some common settings not supported in Catapult yet.
+      </dd>
+      
+      <dt class="toc"><a class="external" href="http://openmsx.sourceforge.net/manual/using-diskmanipulator.html">Using Diskmanipulator</a></dt>
+      <dd>
+      The <code>diskmanipulator</code> command is so powerful that we made a separate
+      manual for it. Use it to create (hard)disk images, import files to them, export
+      files from them, etc.
+      </dd>
+      
     </dl>
 
     <h2>Installing And Running Catapult</h2>
@@ -96,6 +109,10 @@
         Source code documentation generated using Doxygen.
       </dd>
     </dl>
+    <p>
+    There is additional documentation for (would-be) developers in <a class="external" href="http://svn.sourceforge.net/viewvc/openmsx/openmsx/trunk/doc/">the
+<code>doc</code> directory in the openMSX SVN tree</a>.
+    </p>
   </div>
   <div id="footer">
     $Id$
