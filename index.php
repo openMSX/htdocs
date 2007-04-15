@@ -10,6 +10,13 @@
   
   <div id="content">
     <h1>News</h1>
+     <h2>
+      <span class="date">2007 April 15</span>
+      openMSX 0.6.2 released
+    </h2>
+    <p>
+    openMSX 0.6.2&mdash;Oscar&mdash;includes video recording, more realistic PSG and SCC sound, significant optimizations, easier to use game trainers, as well as a lot of other improvements and bugfixes. Together with openMSX a new version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&release_id=501347">read the release notes</a> for details.
+    </p>
     <h2>
       <span class="date">2006 September 17</span>
       openMSX moves to Subversion
