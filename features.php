@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.6.1).
+      Here are some highlights of the features of the latest release (0.6.2).
     </p>
     
     <h2>Legend</h2>
@@ -117,13 +117,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 75 MSX machine hardware configurations included
+          More than 70 MSX machine hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 30 MSX extension hardware configurations included
+          More than 35 MSX extension hardware configurations included
         </span>
       </li>
       <li>
@@ -284,6 +284,12 @@
                 and MSX90-collection
               </span>
             </li>
+            <li>
+              <span class="none">&nbsp;</span>
+              <span class="descript">
+                Playball with sample replay
+              </span>
+            </li>
           </ul>
         </span>
       </li>
@@ -433,7 +439,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          MSX printer support by logging the output to a file
+          MSX printer support for characters by logging them to a file
+        </span>
+      </li>
+       <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Dot-matrix graphical printer emulation
         </span>
       </li>
       <li>
@@ -456,13 +468,13 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           run time insertion and removal of cartridges and other extensions
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           support to emulate any non-colour monitor, like monochrome-green, amber or white
         </span>
@@ -577,13 +589,13 @@
              </span>
            </li>
            <li>
-             <span class="new">New!</span>
+             <span class="cool">Cool!</span>
              <span class="descript">
 	       OpenGL 2.0 based renderer that makes advantage of the processor
 	       of advanced modern graphics cards. Supports scaling factors up to 4 (=1280&times;960).
 	       Extra features: TV scaler, afterglow, horizontal stretch (to
 	       get the correct aspect ratio) and a 3D monitor effect. 
-	       Does not support hq and SaI scale algorithms.
+	       Does not support SaI scale algorithm.
              </span>
            </li>
          </ul>
@@ -647,13 +659,13 @@
           (for example, Seed of Dragon) -->
         </span>
       </li>
-      <li>
+<!--      <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
           Adjustable keymap (e.g. for Japanese PC keyboards or to use
           Russian MSX keyboards on a US English PC keyboard)
         </span>
-      </li>
+      </li> -->
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
@@ -669,9 +681,22 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Sound logger
+          Recording a video (with sound) of your openMSX actions
         </span>
       </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Extended hot keys: you can bind any host event to any TCL command, which means you can e.g. let openMSX push the MSX F1 key if you press a certain button on your PC game pad
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Event recording and replaying: record and reply entire gaming sessions (experimental)
+        </span>
+      </li>
+
     </ul>    
 
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -682,54 +707,18 @@
     </p>
     
     <ul class="features">
-<!--      <li>(nothing yet, we just released 0.6.1)</li> -->
+<!--      <li>(nothing yet, we just released 0.6.2)</li> -->
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Dot-matrix graphical printer emulation
+          Emulation of the VLM5030, the chip used in the unrealeased Konami game Keyboard Master
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          hq and hqlite scale algorithms for SDLGL-PP, running in GPU hardware of course
+          Emulation of the Yamaha YM2151 and thus partly emulation of the Yamaha SFG-05 sound module
         </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Extended hotkeys: you can now bind any host event to a TCL command, which means you can e.g. let openMSX push the MSX F1 key if you press a certain button on your PC game pad
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Fixed openMSX 0.6.1 bugs: MSX-AUDIO in Deltasoft products, sync problem in V9990 command engine (Blox), MSX-AUDIO sampleRAM detection (Almost Real), 5th sprite detection
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          V9990 enhancements: deinterlace, cursor Y position in overscan mode, huge optimizations for P modes
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Event recording and replaying
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Playball sample replay   
-	</span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Many small and bigger optimizations  
-	</span>
       </li>
     </ul>
   </div>
