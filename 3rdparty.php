@@ -33,7 +33,7 @@
 	but also seems to be very user friendly.
       </dd>
       <dt>
-        <a href="http://openmsx.cesco.it/">openMSX Peashooter</a>
+        <a href="http://www.cescoware.com/">openMSX Peashooter</a>
       </dt>
       <dd>
 	For the same reason, Cesco made another launcher for openMSX on OS X.
