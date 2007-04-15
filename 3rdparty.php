@@ -44,17 +44,18 @@
     <h2>Documentation</h2>
     <dl>
       <dt>
-        <a href="http://www.msxgamesbox.com/Sections/emumac/openmsx.php">openMSX Compilation Guide for OS X</a>
+        <a href="http://www.passionmsx.org/msxgamesbox/Sections/emumac/openmsx.php">openMSX Compilation Guide for OS X</a>
       </dt>
       <dd>
-	This article on The MSX Games Box explains the compilation process of
-	openMSX on MacOS X in great detail.
+	This article on The MSX Games Box (now part of Passion MSX) explains
+	the compilation process of openMSX on MacOS X in great detail, however,
+	it is now mostly outdated.
       </dd>      
       <dt>
-        <a href="http://www.passionmsx.org/modules/smartsection/item.php?itemid=17">openMSX hyper facile pour Mac OS X</a>
+        <a href="http://www.passionmsx.org/modules/smartsection/item.php?itemid=26">Hyper-easy openMSX for Mac OS X</a>
       </dt>
       <dd>
-	This article (in French) on Passion MSX explains to install a binary
+	This article on Passion MSX explains to install a binary
 	version of openMSX and NekoLauncher openMSX on your Mac.  
       </dd>      
     </dl> 
