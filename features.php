@@ -487,7 +487,7 @@
     <h2>Emulator Extras</h2>
     <ul class="features">
       <li>
-        <span class="uniq">Unique!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Optional automatical speed up during disk or cassette action
         </span>
@@ -499,7 +499,7 @@
         </span>
       </li>
       <li>
-        <span class="uniq">Unique!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           XML files to specify the hardware to be emulated, so you actually
           emulate specific MSX machines
