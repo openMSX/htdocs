@@ -290,6 +290,18 @@
                 Playball with sample replay
               </span>
             </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                Super Lode Runner
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                Halnote
+              </span>
+            </li>
           </ul>
         </span>
       </li>
@@ -353,6 +365,18 @@
                 Checkmark FM Stereo PAK
               </span>
             </li>
+	    <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                VLM5030, the chip used in the unrealeased Konami game Keyboard Master
+              </span>
+            </li>
+	    <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                Yamaha SFG-05 (partial/experimental), which has an YM2151 chip
+              </span>
+            </li>
           </ul>
         </span>
       </li>
@@ -400,6 +424,12 @@
                 TC8566AF and Microsol based FDCs (DDX 3.0 diskROM works, e.g.)
               </span>
             </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+          	Experimental: Gouda SCSI (Novaxis), MEGA-SCSI, ESE-SCC, WAVE-SCSI and ESE RAMdisk
+              </span>
+            </li>
           </ul>
         </span>
       </li>
@@ -443,7 +473,7 @@
         </span>
       </li>
        <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Dot-matrix graphical printer emulation
         </span>
@@ -646,7 +676,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Tunable volumes and channel modes for the individual sound chips
+          Tunable volumes and stereo balance for the individual sound chips
         </span>
       </li>
       <li>
@@ -654,7 +684,7 @@
         <span class="descript">
           All read-only input files (ROM images, disk images, background
           pictures, XML) can be gzipped or zipped and will be transparently
-          decompressed by openMSX. <!-- Note that some games require write
+          decompressed by openMSX <!-- Note that some games require write
           access to their disk in order to run
           (for example, Seed of Dragon) -->
         </span>
@@ -684,8 +714,20 @@
           Recording a video (with sound) of your openMSX actions
         </span>
       </li>
-      <li>
+       <li>
         <span class="new">New!</span>
+        <span class="descript">
+          All channels of all sound chips can be recorded separately
+        </span>
+      </li>
+        <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Vibrato and detune sound effects (for PSG only) 
+        </span>
+      </li>
+      <li>
+        <span class="cool">Cool!</span>
         <span class="descript">
           Extended hot keys: you can bind any host event to any TCL command, which means you can e.g. let openMSX push the MSX F1 key if you press a certain button on your PC game pad
         </span>
@@ -696,7 +738,6 @@
           Event recording and replaying: record and reply entire gaming sessions (experimental)
         </span>
       </li>
-
     </ul>    
 
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -707,19 +748,7 @@
     </p>
     
     <ul class="features">
-<!--      <li>(nothing yet, we just released 0.6.2)</li> -->
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Emulation of the VLM5030, the chip used in the unrealeased Konami game Keyboard Master
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Emulation of the Yamaha YM2151 and thus partly emulation of the Yamaha SFG-05 sound module
-        </span>
-      </li>
+      <li>(nothing yet, we just released 0.6.3)</li> 
     </ul>
   </div>
   <div id="footer">
