@@ -7,7 +7,7 @@
 <body>
   <?php require "title.div"; ?>
   <?php require "navigation.div"; ?>
-  
+
   <div id="content">
     <h1>Documentation</h1>
 
@@ -23,7 +23,7 @@
 	You can find everything you ever wanted to know about MSX, and more, in
         <a href="http://faq.msxnet.org/">the Ultimate MSX FAQ</a>.
       </dd>
-      
+
       <dt class="toc">
         <a href="http://openmsx.sourceforge.net/manual/faq.html#c-bios">
           All I get is "Cartridge not found." What's wrong?
@@ -38,7 +38,7 @@
         Read the <a href="http://openmsx.sourceforge.net/manual/setup.html">Setup Guide</a>
         to learn how to make openMSX emulate real MSX machines.
       </dd>
-      
+
       <dt class="toc">
         <a href="http://openmsx.sourceforge.net/manual/faq.html">More Frequenty Asked Questions<!-- &raquo; --></a>
       </dt>
@@ -75,18 +75,18 @@
       <dd>
       An overview of all commands and settings that can be used from the openMSX built in console. Check this if you want to know exactly how to control openMSX. Because the current openMSX Catapult GUI is running behind in functionality, it is also useful to read this for some common settings not supported in Catapult yet.
       </dd>
-      
+
       <dt class="toc"><a class="external" href="http://openmsx.sourceforge.net/manual/diskmanipulator.html">Diskmanipulator</a></dt>
       <dd>
       The <code>diskmanipulator</code> command is so powerful that we made a separate
       manual for it. Use it to create (hard)disk images, import files to them, export
       files from them, etc.
       </dd>
-      
+
     </dl>
 
     <h2>Installing and Running Catapult</h2>
-    
+
     <dl>
       <dt class="toc"><a href="http://openmsx.sourceforge.net/catapult-manual/compile.html">Compilation Guide</a></dt>
       <dd>
@@ -100,10 +100,14 @@
         once it is fully running.
       </dd>
     </dl>
-    
+
     <h2>Documentation For Developers</h2>
-    
+
     <dl>
+      <dt class="toc"><a href="http://openmsx.sourceforge.net/manual/openmsx-control.html">Controlling openMSX from External Applications</a></dt>
+      <dd>
+	A guide for application developers who want to control openMSX from their own programs. Very useful if you're planning to make a launcher, GUI, debugger or another kind of external program that needs to control openMSX.
+      </dd>
       <dt class="toc"><a href="http://openmsx.sourceforge.net/doxygen">Source Code Documentation</a></dt>
       <dd>
         Source code documentation generated using Doxygen.
