@@ -748,7 +748,25 @@
     </p>
     
     <ul class="features">
-      <li>(nothing yet, we just released 0.6.3)</li> 
+<!--      <li>(nothing yet, we just released 0.6.3)</li> -->
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Support for direct read/write transparency when using dir-as-disk; anything that changes on both host OS and MSX sides is reflected to the other side immediately! There are options to limit this as well
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Support for MegaFlashROM SCC and Manbow 2 mapper types
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Universal keyboard support. You can now type on any machine with any keyboard layout with any PC keyboard layout. Much easier on a Japanese machine, for example!
+        </span>
+      </li>
     </ul>
   </div>
   <div id="footer">
