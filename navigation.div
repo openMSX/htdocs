@@ -31,14 +31,14 @@
       <div class="linkblock">
         <h2>openMSX</h2>
         <ul>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.6.2-win32-bin.exe">
-            0.6.2 / Win32 (installer)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.6.2-win32-bin.zip">
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.6.3-win32-bin.exe">
+            0.6.3 / Win32 (installer)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.6.3-win32-bin.zip">
             0.6.2 / Win32 (zip)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.6.2-mac-univ-bin.dmg">
-            0.6.2 / Mac OS X (univ)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.6.2.tar.gz">
-            0.6.2 / Source code</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.6.3-mac-univ-bin.dmg">
+            0.6.3 / Mac OS X (univ)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.6.3.tar.gz">
+            0.6.3 / Source code</a></li>
         </ul>
         <ul>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-SVN-snapshot.tar.gz">
@@ -46,8 +46,8 @@
         </ul>
         <h2>Catapult</h2>
         <ul>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-catapult-0.6.2-R1.tar.gz">
-            0.6.2 / Source code</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-catapult-0.6.3-R1.tar.gz">
+            0.6.3 / Source code</a></li>
         </ul>
         <ul>
           <li><a href="http://openmsx.sourceforge.net/temp/catapult-SVN-snapshot.tar.gz">
