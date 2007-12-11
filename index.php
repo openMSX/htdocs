@@ -7,9 +7,16 @@
 <body>
 <?php require "title.div"; ?>
 <?php require "navigation.div"; ?>
-  
+
   <div id="content">
     <h1>News</h1>
+     <h2>
+      <span class="date">2007 December 11</span>
+      openMSX 0.6.3 released
+    </h2>
+    <p>
+    openMSX 0.6.3&mdash;Crystal Clear&mdash;includes advanced resampling for aliasing-free sound, a stereo balance setting for each sound chip, recording of separate channels, PSG detune and vibrato and some non-sound-related improvements as well. Also, a hang on Windows PCs with multi-core/HT CPUs is fixed. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/showfiles.php?group_id=38274&package_id=30511&release_id=560483">read the release notes</a> for details.
+    </p>
      <h2>
       <span class="date">2007 August 27</span>
       No Windows support anymore?? 
@@ -61,7 +68,7 @@
       Catapult. Don't hesitate! Fire up you IRC client and visit us at
       #openmsx on Freenode.net. We won't bite. Really!
     </p>
-      
+
   </div>
   <div id="footer">
     $Id$
