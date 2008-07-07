@@ -7,13 +7,13 @@
 <body>
   <?php require "title.div"; ?>
   <?php require "navigation.div"; ?>
-  
+
   <div id="content">
     <h1>Features</h1>
     <p>
       Here are some highlights of the features of the latest release (0.6.3).
     </p>
-    
+
     <h2>Legend</h2>
     <ul class="features">
       <li>
@@ -34,13 +34,13 @@
         <span class="descript">Particularly cool feature</span>
       </li>
     </ul>
-    
+
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-    
+
     <h2>General</h2>
     <ul class="features">
      <li>
-        <span class="uniq">Unique!</span> 
+        <span class="uniq">Unique!</span>
         <span class="descript">
           Command interface via pipes or a (UNIX domain) socket:
           control openMSX with any external application
@@ -86,7 +86,7 @@
       <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-          On Screen Display, with LEDs for e.g. power, FDD, capsLock and 
+          On Screen Display, with LEDs for e.g. power, FDD, capsLock and
           Rensha Turbo
       </span></li>
       <li>
@@ -95,13 +95,13 @@
           For Linux, Windows, MacOS X (also support for Tiger with GCC 4),
           FreeBSD, NetBSD and OpenBSD systems
         </span>
-      </li> 
+      </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
           Installer for Windows
         </span>
-      </li> 
+      </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
@@ -139,7 +139,7 @@
         </span>
       </li>
     </ul>
-    
+
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <h2>MSX hardware emulated</h2>
@@ -394,7 +394,7 @@
             <li>
               <span class="uniq">Unique!</span>
               <span class="descript">MegaRAM Disk</span>
-            </li> 
+            </li>
             <li>
               <span class="first">1st!</span>
               <span class="descript">
@@ -427,7 +427,7 @@
             <li>
               <span class="new">New!</span>
               <span class="descript">
-          	Experimental: Gouda SCSI (Novaxis), MEGA-SCSI, ESE-SCC, WAVE-SCSI and ESE RAMdisk
+                Experimental: Gouda SCSI (Novaxis), MEGA-SCSI, ESE-SCC, WAVE-SCSI and ESE RAMdisk
               </span>
             </li>
           </ul>
@@ -509,9 +509,9 @@
           support to emulate any non-colour monitor, like monochrome-green, amber or white
         </span>
       </li>
- 
+
     </ul>
-    
+
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <h2>Emulator Extras</h2>
@@ -624,7 +624,7 @@
 	       OpenGL 2.0 based renderer that makes advantage of the processor
 	       of advanced modern graphics cards. Supports scaling factors up to 4 (=1280&times;960).
 	       Extra features: TV scaler, afterglow, horizontal stretch (to
-	       get the correct aspect ratio) and a 3D monitor effect. 
+	       get the correct aspect ratio) and a 3D monitor effect.
 	       Does not support SaI scale algorithm.
              </span>
            </li>
@@ -723,7 +723,7 @@
         <li>
         <span class="new">New!</span>
         <span class="descript">
-          Vibrato and detune sound effects (for PSG only) 
+          Vibrato and detune sound effects (for PSG only)
         </span>
       </li>
       <li>
@@ -738,15 +738,15 @@
           Event recording and replaying: record and reply entire gaming sessions (experimental)
         </span>
       </li>
-    </ul>    
+    </ul>
 
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <h2>Coming Up &hellip;</h2>
     <p>
-    Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release: 
+    Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release:
     </p>
-    
+
     <ul class="features">
 <!--      <li>(nothing yet, we just released 0.6.3)</li> -->
        <li>
@@ -765,6 +765,48 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
            Universal keyboard support. You can now type on any machine with any keyboard layout with any PC keyboard layout. Much easier on a Japanese machine, for example!
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Support for mapper types Matra Ink, Nettou Yakyuu (samples)
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           A great number of optimizations on several places (mostly to get better speed on GP2X, but other systems also benefit, of course)
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Added On-Screen-Display capabilities (adds dependency on SDL_TTF): you can now easily program an oOSD in Tcl; we will probably include one to use on the GP2X (or as internal GUI)
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Added video recording in 640&times;480 resolution
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Accuracy improvements for MSXturboR emulation
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Improvements in Panasonic MSX-AUDIO, which is now detected properly by games
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Added possibility to run mulitiple machines in one openMSX instance ("tabbed" MSXing!)
         </span>
       </li>
     </ul>
