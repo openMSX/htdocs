@@ -744,7 +744,7 @@
 
     <h2>Coming Up &hellip;</h2>
     <p>
-    Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release:
+    Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release (see our <a href="http://openmsx.svn.sourceforge.net/viewvc/openmsx/openmsx/trunk/ChangeLog">ChangeLog</a> for details and history):
     </p>
 
     <ul class="features">
