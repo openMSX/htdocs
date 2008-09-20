@@ -809,7 +809,19 @@
            Added possibility to run mulitiple machines in one openMSX instance ("tabbed" MSXing!)
         </span>
       </li>
-    </ul>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Added save states! They are designed to be fully backwards compatible in future releases. Default key bindings are Alt-F7 to quick-load and Alt-F8 to quick-save. New <tt>savestate</tt> and <tt>loadstate</tt> console commands can do everything you expect.
+        </span>
+      </li>
+       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+           Added new probe subcommand to the debug command, which enables you to put break points on IRQ's.
+        </span>
+      </li>
+     </ul>
   </div>
   <div id="footer">
     $Id$
