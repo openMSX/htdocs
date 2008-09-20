@@ -22,8 +22,15 @@
         related.  Remarks, suggestions, ideas&mdash;also for Catapult and
         C-BIOS&mdash;are most welcome!
       </dd>
+
+      <dd>
+        For your convenience, we can also offer you web-based access to our IRC channel, thanks to the <a href="http://mibbit.com/">Mibbit.com</a> web site. Please fill in your nickname and click the button to join the chatrooom. While connected, you can type <tt>/nick</tt> to change your nickname. Type <tt>/help</tt>, <tt>/cs help</tt>, <tt>/ns help</tt> or <tt>/os help</tt> for other available commands.
+      </dd>
+      <dd>
+        <iframe width="600" height="380" scrolling="no" frameborder="0" src="http://embed.mibbit.com/?channel=%23openMSX&nick=openMSXUser&server=irc.freenode.net&noServerMotd=true"> </iframe>
+      </dd>
     </dl>
-    
+
     <h2>Discussion Forums</h2>
     <dl>
       <dt>
@@ -31,7 +38,7 @@
       </dt>
       <dd>
         Discussions on openMSX, Catapult and C-BIOS.
-      </dd>      
+      </dd>
       <dt>
         <a href="http://sourceforge.net/forum/?group_id=38274">
           SourceForge openMSX forums</a>
