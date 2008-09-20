@@ -24,10 +24,7 @@
       </dd>
 
       <dd>
-        For your convenience, we can also offer you web-based access to our IRC channel, thanks to the <a href="http://mibbit.com/">Mibbit.com</a> web site. Please fill in your nickname and click the button to join the chatrooom. While connected, you can type <tt>/nick</tt> to change your nickname. Type <tt>/help</tt>, <tt>/cs help</tt>, <tt>/ns help</tt> or <tt>/os help</tt> for other available commands.
-      </dd>
-      <dd>
-        <iframe width="600" height="380" scrolling="no" frameborder="0" src="http://embed.mibbit.com/?channel=%23openMSX&nick=openMSXUser&server=irc.freenode.net&noServerMotd=true"> </iframe>
+        For your convenience, we can also offer you web-based access to our IRC channel, thanks to the <a href="http://mibbit.com/">Mibbit.com</a> web site. <a href="mibbit.php" target="_blank">Try it by following this link!</a> It will open the chat room in a new window. Fill in your nickname and join the chatroom!
       </dd>
     </dl>
 
