@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.6.3).
+      Here are some highlights of the features of the latest release (0.7.0).
     </p>
 
     <h2>Legend</h2>
@@ -67,7 +67,7 @@
       <li>
         <span class="first">1st!</span>
         <span class="descript">
-          Pixel accurate rendering: horizontal screensplits are rendered
+          Pixel accurate rendering: horizontal screen splits are rendered
           almost correctly (Unknown Reality, Verti-demo)
         </span>
       </li>
@@ -86,9 +86,27 @@
       <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-          On Screen Display, with LEDs for e.g. power, FDD, capsLock and
-          Rensha Turbo
+          On-Screen-Display, with LEDs for e.g. power, FDD, capsLock and
+          Rensha Turbo and as of openMSX 0.7.0, a proof-of-concept of a completely programmable OSD menu, with some common actions in it (mostly meant for full screen usage on e.g. a GP2X handheld)
       </span></li>
+       <li>
+        <span class="new">New!</span>
+        <span class="descript">
+           Fully automatic host to MSX keyboard mapping. You can type on any machine with any keyboard layout with any PC keyboard layout. Very easy on a Japanese machine, for example!
+        </span>
+      </li>
+       <li>
+        <span class="new">New!</span>
+        <span class="descript">
+           Save states, which are designed to be fully backwards compatible in future releases and interchangeable between platforms/OS/machines
+        </span>
+      </li>
+       <li>
+        <span class="new">New!</span>
+        <span class="descript">
+           Possibility to run multiple machines in one openMSX instance ("tabbed" MSXing!)
+        </span>
+      </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
@@ -117,13 +135,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 70 MSX machine hardware configurations included
+          About 80 MSX machine hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 35 MSX extension hardware configurations included
+          About 45 MSX extension hardware configurations included
         </span>
       </li>
       <li>
@@ -217,7 +235,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Almost all known cartridge mapper types via autodetection or the
+          Almost all known cartridge mapper types via auto detection or the
           included ROM database, including:
           <ul class="features">
             <li>
@@ -287,19 +305,31 @@
             <li>
               <span class="none">&nbsp;</span>
               <span class="descript">
-                Playball with sample replay
+                Playball and Moero!! Nettou Yakyuu '88 with sample replay
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="none">&nbsp;</span>
               <span class="descript">
                 Super Lode Runner
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="none">&nbsp;</span>
               <span class="descript">
                 Halnote
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                Ink (Matra)
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                Manbow 2
               </span>
             </li>
           </ul>
@@ -337,7 +367,7 @@
             <li>
               <span class="cool">Cool!</span>
               <span class="descript">
-                Moonsound
+                Moonsound (and the Brazilian OPL3 cartridge)
               </span>
             </li>
             <li>
@@ -366,13 +396,13 @@
               </span>
             </li>
 	    <li>
-              <span class="new">New!</span>
+              <span class="none">&nbsp;</span>
               <span class="descript">
-                VLM5030, the chip used in the unrealeased Konami game Keyboard Master
+                VLM5030, the chip used in the unreleased Konami game Keyboard Master
               </span>
             </li>
 	    <li>
-              <span class="new">New!</span>
+              <span class="none">&nbsp;</span>
               <span class="descript">
                 Yamaha SFG-05 (partial/experimental), which has an YM2151 chip
               </span>
@@ -425,9 +455,15 @@
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="none">&nbsp;</span>
               <span class="descript">
                 Experimental: Gouda SCSI (Novaxis), MEGA-SCSI, ESE-SCC, WAVE-SCSI and ESE RAMdisk
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                MegaFlashROM SCC
               </span>
             </li>
           </ul>
@@ -573,7 +609,7 @@
         <span class="first">1st!</span>
         <span class="descript">
           Dir-as-disk feature: Use a directory on your hard
-          disk as disk image in openMSX
+          disk as disk image in openMSX (with full read and write transparency)
         </span>
       </li>
       <li>
@@ -715,13 +751,13 @@
         </span>
       </li>
        <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           All channels of all sound chips can be recorded separately
         </span>
       </li>
         <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Vibrato and detune sound effects (for PSG only)
         </span>
@@ -748,79 +784,7 @@
     </p>
 
     <ul class="features">
-<!--      <li>(nothing yet, we just released 0.6.3)</li> -->
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Support for direct read/write transparency when using dir-as-disk; anything that changes on both host OS and MSX sides is reflected to the other side immediately! There are options to limit this as well
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Support for MegaFlashROM SCC and Manbow 2 mapper types
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Universal keyboard support. You can now type on any machine with any keyboard layout with any PC keyboard layout. Much easier on a Japanese machine, for example!
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Support for mapper types Matra Ink, Nettou Yakyuu (samples)
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           A great number of optimizations on several places (mostly to get better speed on GP2X, but other systems also benefit, of course)
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Added On-Screen-Display capabilities (adds dependency on SDL_TTF): you can now easily program an oOSD in Tcl; we will probably include one to use on the GP2X (or as internal GUI)
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Added video recording in 640&times;480 resolution
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Accuracy improvements for MSXturboR emulation
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Improvements in Panasonic MSX-AUDIO, which is now detected properly by games
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Added possibility to run mulitiple machines in one openMSX instance ("tabbed" MSXing!)
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Added save states! They are designed to be fully backwards compatible in future releases. Default key bindings are Alt-F7 to quick-load and Alt-F8 to quick-save. New <tt>savestate</tt> and <tt>loadstate</tt> console commands can do everything you expect.
-        </span>
-      </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-           Added new probe subcommand to the debug command, which enables you to put break points on IRQ's.
-        </span>
-      </li>
+      <li>(nothing yet, we just released 0.7.0)</li>
      </ul>
   </div>
   <div id="footer">

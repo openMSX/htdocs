@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
      <h2>
+      <span class="date">2008 December 29</span>
+      openMSX 0.7.0 released
+    </h2>
+    <p>
+    openMSX 0.7.0&mdash;Lazarus&mdash;includes the long awaited save states feature, fully automatic host to MSX keyboard mapping and an improved dir-as-disk feature with full transparency. Furthermore, we have added a technology preview of our new On-Screen-Display. Also we have an even better performance and several other enhancements and bug fixes on many places. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&release_id=560483">read the release notes</a> for details.
+    </p>
+    <h2>
       <span class="date">2007 December 11</span>
       openMSX 0.6.3 released
     </h2>
