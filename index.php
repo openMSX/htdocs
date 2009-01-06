@@ -11,7 +11,7 @@
   <div id="content">
     <h1>News</h1>
      <h2>
-      <span class="date">2008 December 29</span>
+      <span class="date">2009 January 7</span>
       openMSX 0.7.0 released
     </h2>
     <p>
