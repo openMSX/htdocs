@@ -67,6 +67,7 @@
     <div id="sflink">
       <h1>
         <a href="http://sourceforge.net/projects/openmsx"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=38274&type=12" width="120" height="30" border="0" alt="Get openMSX at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+        <script type="text/javascript" src="http://www.ohloh.net/p/5389/widgets/project_thin_badge.js"></script>  
       </h1>
     </div>
     <div id="styleswitcher">
