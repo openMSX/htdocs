@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.7.0).
+      Here are some highlights of the features of the latest release (0.7.1 and 0.7.2).
     </p>
 
     <h2>Legend</h2>
@@ -87,22 +87,22 @@
         <span class="cool">Cool!</span>
         <span class="descript">
           On-Screen-Display, with LEDs for e.g. power, FDD, capsLock and
-          Rensha Turbo and as of openMSX 0.7.0, a proof-of-concept of a completely programmable OSD menu, with some common actions in it (mostly meant for full screen usage on e.g. a GP2X handheld)
+          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and as of openMSX 0.7.0, a proof-of-concept of a completely programmable OSD menu, with some common actions in it (mostly meant for full screen usage on e.g. a GP2X handheld)
       </span></li>
        <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
            Fully automatic host to MSX keyboard mapping. You can type on any machine with any keyboard layout with any PC keyboard layout. Very easy on a Japanese machine, for example!
         </span>
       </li>
        <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
            Save states, which are designed to be fully backwards compatible in future releases and interchangeable between platforms/OS/machines
         </span>
       </li>
        <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
            Possibility to run multiple machines in one openMSX instance ("tabbed" MSXing!)
         </span>
@@ -115,9 +115,9 @@
         </span>
       </li>
       <li>
-        <span class="none">&nbsp;</span>
+        <span class="new">New!</span>
         <span class="descript">
-          Installer for Windows
+          Installer for Windows (also 64 bit binaries available)
         </span>
       </li>
       <li>
@@ -135,7 +135,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          About 80 MSX machine hardware configurations included
+          About 85 MSX machine hardware configurations included
         </span>
       </li>
       <li>
@@ -321,13 +321,13 @@
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="none">&nbsp;</span>
               <span class="descript">
                 Ink (Matra)
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="none">&nbsp;</span>
               <span class="descript">
                 Manbow 2
               </span>
@@ -461,9 +461,15 @@
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="none">&nbsp;</span>
               <span class="descript">
                 MegaFlashROM SCC
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                Nowind (mostly useful for developers)
               </span>
             </li>
           </ul>
@@ -484,7 +490,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Mouse and joystick (with option to use the keyboard as joystick) and additionally the ninja-tap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
+          Mouse, joystick (with option to use the keyboard as joystick), the Arkanoid pad and additionally the ninja-tap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
         </span>
       </li>
       <li>
@@ -582,7 +588,7 @@
       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
-          Console with alpha-blended background and file and command
+          Console with alpha-blended background, true type fonts and file and command
           completion and built in help for (almost) all commands
         </span>
       </li>
@@ -644,14 +650,6 @@
                like: <a href="http://www.hiend3d.com/">hq</a>, hqlite,
                <a href="http://elektron.its.tudelft.nl/~dalikifa/">SaI</a>
                and <a href="http://scale2x.sf.net/">scaleNx</a>
-             </span>
-           </li>
-           <li>
-             <span class="cool">Cool!</span>
-             <span class="descript">
-               640&times;480 OpenGL renderer that makes advantage of
-               video hardware acceleration and has an extra special effect:
-               afterglow
              </span>
            </li>
            <li>
@@ -735,7 +733,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Screen shot feature
+          Screen shot feature (with or without OSD)
         </span>
       </li>
       <li>
@@ -784,7 +782,7 @@
     </p>
 
     <ul class="features">
-      <li>(nothing yet, we just released 0.7.0)</li>
+      <li>(nothing yet, we just released 0.7.2)</li>
      </ul>
   </div>
   <div id="footer">
