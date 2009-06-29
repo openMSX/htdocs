@@ -44,18 +44,25 @@
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.1.tar.gz">
             0.7.1 / Source code</a></li>
         </ul>
+<!--
         <ul>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-SVN-snapshot.tar.gz">SVN snapshot</a></li>
         </ul>
+-->
         <h2>Catapult</h2>
         <ul>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-catapult-0.7.1.tar.gz">
             0.7.1 / Source code</a></li>
         </ul>
+<!--
         <ul>
           <li><a href="http://openmsx.sourceforge.net/temp/catapult-SVN-snapshot.tar.gz">SVN snapshot (of rewrite)</a></li>
         </ul> 
+-->
         <h2>Debugger</h2>
+        <ul>
+          <li>Available soon!</li>
+        </ul>
         <!--
         <ul>
           <li><a href="#">Source</a></li>
@@ -65,7 +72,7 @@
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-win32-bin-snapshot.zip">SVN snapshot / Win32</a></li>
         </ul>
         -->
-        <p>Note: snapshots may be (very) outdated!</p>
+        <!-- <p>Note: snapshots may be (very) outdated!</p> -->
       </div>
     </div>
     <div id="sflink">
