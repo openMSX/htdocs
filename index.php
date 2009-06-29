@@ -11,6 +11,21 @@
   <div id="content">
     <h1>News</h1>
      <h2>
+      <span class="date">2009 June 29</span>
+      openMSX 0.7.2 will be here soon...
+    </h2>
+    <p>
+    Oops, we found a problem in openMSX 0.7.1, just after we had released it... Due to a small bug in a Tcl script,
+openMSX wasn't able to load savestates with paths that contain spaces, which is the most common case on standard Windows installations. 0.7.2 will be available very soon to fix that.
+    </p>
+      <h2>
+      <span class="date">2009 June 28</span>
+      openMSX 0.7.1 released
+    </h2>
+    <p>
+    openMSX 0.7.1&mdash;IWCA approved&mdash;includes a brand new installer with binaries which have been created in a brand new way, using Microsoft Visual C++ 2008. This means smaller binaries and also support for 64-bit Windows operating systems. Also, several long standing problems have been fixed in the Windows release of openMSX. E.g., it now includes full support for unicode! For the rest we have mostly fixed smaller issues and added some cool demonstrations of what one can do with the combination of (Tcl) scripting, the debug command and the OSD. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&release_id=693184">read the release notes</a> for details.
+    </p>
+     <h2>
       <span class="date">2009 January 7</span>
       openMSX 0.7.0 released
     </h2>
