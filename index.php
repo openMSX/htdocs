@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
      <h2>
+      <span class="date">2009 June 30</span>
+      openMSX 0.7.2 released
+    </h2>
+    <p>
+    As promised, openMSX 0.7.2 is now available, identical to 0.7.1, except for the already mentioned bug fix. Enjoy!
+    </p>
+     <h2>
       <span class="date">2009 June 29</span>
       openMSX 0.7.2 will be here soon...
     </h2>

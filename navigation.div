@@ -31,18 +31,18 @@
       <div class="linkblock">
         <h2>openMSX</h2>
         <ul>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.1-VC-x86-msi.zip">
-            0.7.1 / Win32 (installer)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.1-VC-x86.zip">
-            0.7.1 / Win32 (zip)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.1-VC-x64-msi.zip">
-            0.7.1 / x64 (installer)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.1-VC-x64.zip">
-            0.7.1 / x64 (zip)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.1-mac-univ-bin.dmg">
-            0.7.1 / Mac OS X (univ)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.1.tar.gz">
-            0.7.1 / Source code</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x86-msi.zip">
+            0.7.2 / Win32 (installer)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x86.zip">
+            0.7.2 / Win32 (zip)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x64-msi.zip">
+            0.7.2 / x64 (installer)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x64.zip">
+            0.7.2 / x64 (zip)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-mac-univ-bin.dmg">
+            0.7.2 / Mac OS X (univ)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2.tar.gz">
+            0.7.2 / Source code</a></li>
         </ul>
 <!--
         <ul>
@@ -51,8 +51,8 @@
 -->
         <h2>Catapult</h2>
         <ul>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-catapult-0.7.1.tar.gz">
-            0.7.1 / Source code</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-catapult-0.7.2.tar.gz">
+            0.7.2 / Source code</a></li>
         </ul>
 <!--
         <ul>
