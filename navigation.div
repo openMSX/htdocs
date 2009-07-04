@@ -62,13 +62,13 @@
         <h2>Debugger</h2>
         <ul>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-latest-snapshot-windows-x86-vc-bin.zip">
-              Snapshot / Windows x86 (zip)</a></li>
+              Snapshot / Win x86 (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-latest-snapshot-windows-x64-vc-bin.zip">
-              Snapshot / Windows x64 (zip)</a></li>
+              Snapshot / Win x64 (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/Qt-4.4.3-x86.zip">
-              Qt binaries / Windows x86 (zip)</a></li>
+              Qt libs / Win x86 (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/Qt-4.4.3-x64.zip">
-              Qt binaries / Windows x64 (zip)</a></li>
+              Qt libs / Win x64 (zip)</a></li>
         </ul>
         <!--
         <ul>
