@@ -32,13 +32,13 @@
         <h2>openMSX</h2>
         <ul>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x86-msi.zip">
-            0.7.2 / Win32 (installer)</a></li>
+            0.7.2 / Win x86 (installer)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x86.zip">
-            0.7.2 / Win32 (zip)</a></li>
+            0.7.2 / Win x86 (zip)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x64-msi.zip">
-            0.7.2 / x64 (installer)</a></li>
+            0.7.2 / Win x64 (installer)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x64.zip">
-            0.7.2 / x64 (zip)</a></li>
+            0.7.2 / Win x64 (zip)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-mac-univ-bin.dmg">
             0.7.2 / Mac OS X (univ)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2.tar.gz">
