@@ -13,6 +13,7 @@
 ?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html><head><title>openMSX chat on <?php echo empty($server)  ? 'irc.mibbit.com' : $server; ?></title>
 <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+<meta HTTP-EQUIV="REFRESH" content="8; url=freenode.php">
 <style>
 body{font:93% verdana,sans-serif;background:#999;color:#fff;}
 iframe{width:800px;height:600px /* "%" doesn't work in strict mode*/;}
@@ -20,12 +21,10 @@ iframe{width:800px;height:600px /* "%" doesn't work in strict mode*/;}
 </head>
 <body><center>
 <h3>openMSX IRC channel</h3>
-<iframe  src="<?PHP echo $uri; ?>" frameborder="0">
- [Your user agent does not support frames or is currently configured
- not to display frames. However, you may want to open the
- <A href="<?PHP echo $uri; ?>"
- target="_blank"> chat in a new browser window ...</A>]
-</iframe>
+
+<h2>Alas, FreeNode stopped allowing Mibbit on their network... You will be redirected to FreeNode's alternative in a few moments...</h2>
+
 </center>
-<br>Quick help: please fill in your nickname and click the button to join the chatrooom. There may be no spaces, interpunctuation or leading ciphers in your nick name. After joining the chat room, you can type <tt>/nick</tt> to change your nickname. Type <tt>/help</tt>, for other available commands.
+<!--
+<br>Quick help: please fill in your nickname and click the button to join the chatrooom. There may be no spaces, interpunctuation or leading ciphers in your nick name. After joining the chat room, you can type <tt>/nick</tt> to change your nickname. Type <tt>/help</tt>, for other available commands.-->
 </body></html>

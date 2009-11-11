@@ -7,7 +7,7 @@
 <body>
   <?php require "title.div"; ?>
   <?php require "navigation.div"; ?>
-  
+
   <div id="content">
     <h1>Contact</h1>
 
@@ -24,7 +24,7 @@
       </dd>
 
       <dd>
-        For your convenience, we can also offer you web-based access to our IRC channel, thanks to the <a href="http://mibbit.com/">Mibbit.com</a> web site. <a href="mibbit.php" target="_blank">Try it by following this link!</a> It will open the chat room in a new window. Fill in your nickname and join the chatroom!
+        For your convenience, we can also offer you web-based access to our IRC channel. <a href="freenode.php" target="_blank">Try it by following this link!</a> It will open the chat room in a new window or a new tab. Change your nickname and join the chat!
       </dd>
     </dl>
 
@@ -42,10 +42,10 @@
       </dt>
       <dd>
         SourceForge hosts a number of forums (two, at the moment)
-        for openMSX. 
+        for openMSX.
       </dd>
-    </dl> 
-    
+    </dl>
+
     <h2>Mailing Lists and Trackers</h2>
     <dl>
       <dt>
