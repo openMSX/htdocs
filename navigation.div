@@ -20,7 +20,7 @@
 	createLink("features.php",    "Features");
 	createLink("3rdparty.php",    "3rd Party");
 	createLink("contact.php",     "Contact");
-	createLink("http://vampier.net/forum", "Forum");
+	createLink("http://forum.vampier.net/", "Forum");
         createLink("http://sourceforge.net/projects/openmsx/", "Project&nbsp;Page");
 ?>
         </ul>
