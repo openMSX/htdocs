@@ -70,6 +70,9 @@ html1/DTD/xhtml1-strict.dtd">
 </applet>
 </center>
 <br>Quick help: please change your nickname in the bottom right corner. There may be no spaces, interpunctuation or leading ciphers in your nick name. Click help above to get help. (Note: changing themes seems to mess up this applet... Apologies for that.)
+<p>
+An alternative that always works is the <a href="http://webchat.freenode.net/?channels=openMSX">webchat</a>.
+</p>
 </div>
 <div id="footer">
     $Id$
