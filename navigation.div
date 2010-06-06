@@ -31,14 +31,14 @@
       <div class="linkblock">
         <h2>openMSX</h2>
         <ul>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x86-msi.zip">
-            0.7.2 / Win x86 (install)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x86.zip">
-            0.7.2 / Win x86 (zip)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x64-msi.zip">
-            0.7.2 / Win x64 (install)</a></li>
-          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.7.2-VC-x64.zip">
-            0.7.2 / Win x64 (zip)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-windows-vc-x86-bin-msi.zip">
+            0.8.0 / Win x86 (install)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-windows-vc-x86-bin.zip">
+            0.8.0 / Win x86 (zip)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-windows-vc-x64-bin-msi.zip">
+            0.8.0 / Win x64 (install)</a></li>
+          <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-windows-vc-x64-bin.zip">
+            0.8.0 / Win x64 (zip)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-mac-univ-bin.dmg">
             0.8.0 / Mac OS X univ</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-dingux-bin.zip">
