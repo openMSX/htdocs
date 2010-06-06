@@ -7,7 +7,7 @@
 <body>
   <?php require "title.div"; ?>
   <?php require "navigation.div"; ?>
-  
+
   <div id="content">
     <h1>3rd Party</h1>
     <p>
@@ -16,7 +16,7 @@
       the openMSX authors do not support it, nor keep it up to date, as it is
       unofficial. But it can be very interesting for our users and we also
       like it very much that people write applications around openMSX or write
-      extra documentation. Keep up the good work, people!  
+      extra documentation. Keep up the good work, people!
     </p>
     <p>
       Oh, and if there's some interesting stuff we missed, please let us know!
@@ -28,37 +28,37 @@
       </dt>
       <dd>
         Because the old style Catapult does not run (properly) on Mac,
-	an active Japanese emulator user/programmer wrote an openMSX
-	variant of his NekoLauncher series. It looks like a simple launcher,
-	but also seems to be very user friendly.
+        an active Japanese emulator user/programmer wrote an openMSX
+        variant of his NekoLauncher series. It looks like a simple launcher,
+        but also seems to be very user friendly.
       </dd>
       <dt>
-        <a href="http://www.cescoware.com/">openMSX Peashooter</a>
+        <a href="http://cesco.it/il-mio-software-gratuito/openmsx-peashooter/">openMSX Peashooter</a>
       </dt>
       <dd>
-	For the same reason, Cesco made another launcher for openMSX on OS X.
-	It seems to be focused mainly on games and features image previews.
+        For the same reason, Cesco made another launcher for openMSX on OS X.
+        It seems to be focused mainly on games and features image previews.
       </dd>
     </dl>
-    
+
     <h2>Documentation</h2>
     <dl>
       <dt>
         <a href="http://www.passionmsx.org/msxgamesbox/Sections/emumac/openmsx.php">openMSX Compilation Guide for OS X</a>
       </dt>
       <dd>
-	This article on The MSX Games Box (now part of Passion MSX) explains
-	the compilation process of openMSX on MacOS X in great detail, however,
-	it is now mostly outdated.
-      </dd>      
+        This article on The MSX Games Box (now part of Passion MSX) explains
+        the compilation process of openMSX on MacOS X in great detail, however,
+        it is now mostly outdated.
+      </dd>
       <dt>
         <a href="http://www.passionmsx.org/modules/smartsection/item.php?itemid=26">Hyper-easy openMSX for Mac OS X</a>
       </dt>
       <dd>
-	This article on Passion MSX explains to install a binary
-	version of openMSX and NekoLauncher openMSX on your Mac.  
-      </dd>      
-    </dl> 
+        This article on Passion MSX explains to install a binary
+        version of openMSX and NekoLauncher openMSX on your Mac.
+      </dd>
+    </dl>
 
    <h2>Miscellaneous</h2>
     <dl>
@@ -67,11 +67,11 @@
       </dt>
       <dd>
         Rafael Jannone made an interesting thing: a plugin for Gedit, so that
-	you can easily test your MSX Basic programs in openMSX, while using
-	the Gedit text editor. He wrote a whole load of Python scripts to 
-	make this possible. They might be nice to reuse for other apps!
-      </dd>      
-    </dl> 
+        you can easily test your MSX Basic programs in openMSX, while using
+        the Gedit text editor. He wrote a whole load of Python scripts to
+        make this possible. They might be nice to reuse for other apps!
+      </dd>
+    </dl>
   </div>
   <div id="footer">
     $Id$

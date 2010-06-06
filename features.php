@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.7.1 and 0.7.2).
+      Here are some highlights of the features of the latest release (0.8.0).
     </p>
 
     <h2>Legend</h2>
@@ -27,7 +27,7 @@
       <li>
         <span class="first">1st!</span>
         <span class="descript">openMSX was the first MSX emulator to have
-           this feature</span>
+           this feature and we're proud of it</span>
       </li>
       <li>
         <span class="cool">Cool!</span>
@@ -87,7 +87,7 @@
         <span class="cool">Cool!</span>
         <span class="descript">
           On-Screen-Display, with LEDs for e.g. power, FDD, capsLock and
-          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and as of openMSX 0.7.0, a proof-of-concept of a completely programmable OSD menu, with some common actions in it (mostly meant for full screen usage on e.g. a GP2X handheld)
+          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and as of openMSX 0.7.0, a proof-of-concept of a completely programmable OSD menu, with some common actions in it (mostly meant for full screen usage on e.g. a Dingoo or GP2X handheld)
       </span></li>
        <li>
         <span class="uniq">Unique!</span>
@@ -102,6 +102,12 @@
         </span>
       </li>
        <li>
+        <span class="new">New!</span>
+        <span class="descript">
+           Reverse: go back in time to correct mistakes or replay your actions, optionally save the full event history to a file
+        </span>
+      </li>
+       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
            Possibility to run multiple machines in one openMSX instance ("tabbed" MSXing!)
@@ -110,12 +116,10 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          For Linux, Windows, MacOS X (also support for Tiger with GCC 4),
-          FreeBSD, NetBSD and OpenBSD systems
+          For Linux, Windows, MacOS X, FreeBSD, NetBSD, OpenBSD and Dingux (Dingoo) systems
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
         <span class="descript">
           Installer for Windows (also 64 bit binaries available)
         </span>
@@ -135,13 +139,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          About 85 MSX machine hardware configurations included
+          About 93 MSX machine hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          About 45 MSX extension hardware configurations included
+          About 47 MSX extension hardware configurations included
         </span>
       </li>
       <li>
@@ -187,6 +191,12 @@
         <span class="uniq">Unique!</span>
         <span class="descript">
           Sunrise GFX9000
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Pioneer Palcom Laserdisc system
         </span>
       </li>
       <li>
@@ -332,6 +342,12 @@
                 Manbow 2
               </span>
             </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                Arc
+              </span>
+            </li>
           </ul>
         </span>
       </li>
@@ -392,16 +408,16 @@
             <li>
               <span class="none">&nbsp;</span>
               <span class="descript">
-                Checkmark FM Stereo PAK
+                Checkmark FM Stereo PAK, including stereo effect
               </span>
             </li>
-	    <li>
+            <li>
               <span class="none">&nbsp;</span>
               <span class="descript">
                 VLM5030, the chip used in the unreleased Konami game Keyboard Master
               </span>
             </li>
-	    <li>
+            <li>
               <span class="none">&nbsp;</span>
               <span class="descript">
                 Yamaha SFG-05 (partial/experimental), which has an YM2151 chip
@@ -467,7 +483,6 @@
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
               <span class="descript">
                 Nowind (mostly useful for developers)
               </span>
@@ -490,7 +505,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Mouse, joystick (with option to use the keyboard as joystick), the Arkanoid pad and additionally the ninja-tap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
+          Mouse, joystick (with option to use the keyboard as joystick), the Arkanoid pad, trackball and additionally the ninja-tap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
         </span>
       </li>
       <li>
@@ -766,12 +781,6 @@
           Extended hot keys: you can bind any host event to any TCL command, which means you can e.g. let openMSX push the MSX F1 key if you press a certain button on your PC game pad
         </span>
       </li>
-       <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Event recording and replaying: record and reply entire gaming sessions (experimental)
-        </span>
-      </li>
     </ul>
 
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -782,7 +791,7 @@
     </p>
 
     <ul class="features">
-      <li>(nothing yet, we just released 0.7.2)</li>
+      <li>(nothing yet, we just released 0.8.0)</li>
      </ul>
   </div>
   <div id="footer">

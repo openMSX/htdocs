@@ -10,7 +10,14 @@
 
   <div id="content">
     <h1>News</h1>
-     <h2>
+    <h2>
+      <span class="date">2010 June 6</span>
+      openMSX 0.8.0 released
+    </h2>
+    <p>
+    openMSX 0.8.0&mdash;CSI Dresal&mdash;includes two major new features: reverse and Laserdisc. Reverse is similar to what you can do in meisei: you can 'rewind' time with your finger tip, to correct game playing mistakes or inspect what caused a crash. Laserdisc is the Palcom system introduced by Pioneer in 1984: now you can play all the Palcom MSX Laserdisc games in openMSX! With this release we also provide a first official binary package for Dingux on your Dingoo hand held. For the rest we have mostly fixed smaller issues and added smaller features. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.8.0/release-notes.txt/view">read the release notes</a> for details.
+    </p>
+    <h2>
       <span class="date">2009 June 30</span>
       openMSX 0.7.2 released
     </h2>
@@ -25,7 +32,7 @@
     Oops, we found a problem in openMSX 0.7.1, just after we had released it... Due to a small bug in a Tcl script,
 openMSX wasn't able to load savestates with paths that contain spaces, which is the most common case on standard Windows installations. 0.7.2 will be available very soon to fix that.
     </p>
-      <h2>
+    <h2>
       <span class="date">2009 June 28</span>
       openMSX 0.7.1 released
     </h2>
