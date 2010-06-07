@@ -32,13 +32,13 @@
         <h2>openMSX</h2>
         <ul>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-windows-vc-x86-bin-msi.zip">
-            0.8.0 / Win x86 (install)</a></li>
+            0.8.0 / Win 32bit (install)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-windows-vc-x86-bin.zip">
-            0.8.0 / Win x86 (zip)</a></li>
+            0.8.0 / Win 32bit (zip)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-windows-vc-x64-bin-msi.zip">
-            0.8.0 / Win x64 (install)</a></li>
+            0.8.0 / Win 64bit (install)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-windows-vc-x64-bin.zip">
-            0.8.0 / Win x64 (zip)</a></li>
+            0.8.0 / Win 64bit (zip)</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-mac-univ-bin.dmg">
             0.8.0 / Mac OS X univ</a></li>
           <li><a href="http://downloads.sourceforge.net/openmsx/openmsx-0.8.0-dingux-bin.zip">
@@ -64,13 +64,13 @@
         <h2>Debugger</h2>
         <ul>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-latest-snapshot-windows-x86-vc-bin.zip">
-              Snapshot / Win x86 (zip)</a></li>
+              Snapshot / Win 32bit (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-latest-snapshot-windows-x64-vc-bin.zip">
-              Snapshot / Win x64 (zip)</a></li>
+              Snapshot / Win 64bit (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/Qt-4.4.3-x86.zip">
-              Qt libs / Win x86 (zip)</a></li>
+              Qt libs / Win 32bit (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/Qt-4.4.3-x64.zip">
-              Qt libs / Win x64 (zip)</a></li>
+              Qt libs / Win 64bit (zip)</a></li>
         </ul>
         <!--
         <ul>
