@@ -24,7 +24,7 @@
     <h2>Launchers</h2>
     <dl>
       <dt>
-        <a href="http://www5f.biglobe.ne.jp/~nekocan/group_soft/ht_soft.html">NekoLauncher openMSX</a>
+        <a href="http://nekocan.sitemix.jp/?page_id=17">NekoLauncher openMSX</a>
       </dt>
       <dd>
         Because the old style Catapult does not run (properly) on Mac,
