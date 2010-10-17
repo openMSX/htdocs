@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2010 October 17</span>
+      openMSX approved for TAS
+    </h2>
+    <p>
+    <a href="http://tasvideos.org/WelcomeToTASVideos.html">TASing</a>&mdash;Tool-Assisted-Speedrun&mdash;is the hobby of creating run-throughs of video games that resemble superhuman-like playing sessions. Its main community web site is <a href="http://tasvideos.org/">tasvideos.org</a> and it has a <a href="http://tasvideos.org/EmulatorResources.html">limited list of approved emulators</a> which can be used to create a new TAS and is accepted for <a href="http://tasvideos.org/Subs-List.html">submission</a>. Today, the site <a href="http://tasvideos.org/forum/viewtopic.php?p=249886#249886">announced</a> that openMSX is now officially approved to submit TASes! The <a href="http://tasvideos.org/2884S.html">first MSX TAS</a> has already <a href="http://tasvideos.org/forum/viewtopic.php?p=249884">been submitted</a> by our team member Vampier, which is of course no surprise. Neither is the game: Metal Gear. Who will improve his speedrun and submit a better TAS? The game is on!
+    </p>
+    <h2>
       <span class="date">2010 June 6</span>
       openMSX 0.8.0 released
     </h2>
