@@ -166,27 +166,12 @@
 
     <h2>MSX hardware emulated</h2>
     <ul class="features">
-      <li><span class="none">&nbsp;</span>
+      <li>
+        <span class="none">&nbsp;</span>
         <span class="descript">
-          192kB VRAM (extended VRAM)
+          Almost all MSX systems: MSX, MSX2, MSX2+ and turboR generation
         </span>
       </li>
-      <li><span class="none">&nbsp;</span>
-        <span class="descript">
-          ADVRAM
-        </span>
-      </li>
-      <li><span class="none">&nbsp;</span>
-        <span class="descript">
-          Magic key dongle
-        </span>
-      </li>
-<!--      <li>
-        <span class="uniq">Unique!</span>
-        <span class="descript">
-          JoyNet (experimental; connected to TCP/IP of host OS)
-        </span>
-      </li>-->
       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
@@ -197,42 +182,6 @@
         <span class="new">New!</span>
         <span class="descript">
           Pioneer Palcom Laserdisc system
-        </span>
-      </li>
-      <li>
-        <span class="uniq">Unique!</span>
-        <span class="descript">
-          Slot expander
-        </span>
-      </li>
-      <li>
-        <span class="first">1st!</span>
-        <span class="descript">
-          Tetris II Special Edition dongle
-        </span>
-      </li>
-      <li>
-        <span class="first">1st!</span>
-        <span class="descript">
-          MSX Bunsetsu Henkan Jisyo ROM (National FS-SR021/FS-4000/FS-4500/4700F)
-        </span>
-      </li>
-      <li>
-        <span class="first">1st!</span>
-        <span class="descript">
-           12&times;12 dot kanji (National FS-4600)
-        </span>
-      </li>
-      <li>
-        <span class="cool">Cool!</span>
-        <span class="descript">
-          Interlacing, real or deinterlaced
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Almost all MSX systems
         </span>
       </li>
       <li>
@@ -493,18 +442,6 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Overscan
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Kanji JIS ROM 1 and 2
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
           Mouse, joystick (with option to use the keyboard as joystick), the Arkanoid pad, trackball and additionally the ninja-tap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
         </span>
       </li>
@@ -515,6 +452,69 @@
           CAS files can be converted to WAV on the fly, cassette sounds
           are audible, cassettes can be rewinded and one can record to
           a new WAV cassette image
+        </span>
+      </li>
+      <li>
+        <span class="uniq">Unique!</span>
+        <span class="descript">
+          Slot expander
+        </span>
+      </li>
+      <li>
+        <span class="first">1st!</span>
+        <span class="descript">
+          Tetris II Special Edition dongle
+        </span>
+      </li>
+      <li>
+        <span class="first">1st!</span>
+        <span class="descript">
+          MSX Bunsetsu Henkan Jisyo ROM (National FS-SR021/FS-4000/FS-4500/4700F)
+        </span>
+      </li>
+      <li>
+        <span class="first">1st!</span>
+        <span class="descript">
+           12&times;12 dot kanji (National FS-4600)
+        </span>
+      </li>
+      <li>
+        <span class="cool">Cool!</span>
+        <span class="descript">
+          Interlacing, real or deinterlaced
+        </span>
+      </li>
+       <li><span class="none">&nbsp;</span>
+        <span class="descript">
+          192kB VRAM (extended VRAM)
+        </span>
+      </li>
+      <li><span class="none">&nbsp;</span>
+        <span class="descript">
+          ADVRAM
+        </span>
+      </li>
+      <li><span class="none">&nbsp;</span>
+        <span class="descript">
+          Magic key dongle
+        </span>
+      </li>
+<!--      <li>
+        <span class="uniq">Unique!</span>
+        <span class="descript">
+          JoyNet (experimental; connected to TCP/IP of host OS)
+        </span>
+      </li>-->
+     <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Overscan
+        </span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Kanji JIS ROM 1 and 2
         </span>
       </li>
       <li>
@@ -787,9 +787,8 @@
 
     <h2>Coming Up &hellip;</h2>
     <p>
-    Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release (see our <a href="http://openmsx.svn.sourceforge.net/viewvc/openmsx/openmsx/trunk/ChangeLog">ChangeLog</a> for details and history):
+    Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release (see our <a href="http://openmsx.svn.sourceforge.net/viewvc/openmsx/openmsx/?view=log">commit log</a> (takes long to load) for details and history):
     </p>
-
     <ul class="features">
       <li>(nothing yet, we just released 0.8.0)</li>
      </ul>
