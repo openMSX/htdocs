@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.8.0).
+      Here are some highlights of the features of the latest release (0.8.1).
     </p>
 
     <h2>Legend</h2>
@@ -102,9 +102,9 @@
         </span>
       </li>
        <li>
-        <span class="new">New!</span>
+        <span class="cool">Cool!</span>
         <span class="descript">
-           Reverse: go back in time to correct mistakes or replay your actions, optionally save the full event history to a file
+           Reverse: go back in time to correct mistakes or replay your actions, optionally save the full event history to a file. As of 0.8.1 with quite complete support for <a href="http://www.tasvideos.org/">TAS</a>
         </span>
       </li>
        <li>
@@ -179,7 +179,7 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
           Pioneer Palcom Laserdisc system
         </span>
@@ -292,7 +292,7 @@
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="uniq">Unique!</span>
               <span class="descript">
                 Arc
               </span>
@@ -636,7 +636,8 @@
       <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-          Debug command (including conditional break points, watch points, an UMR detector):
+          Debug command (including conditional break points, watch points,
+          an UMR detector and as of 0.8.1 even a way to step one instruction <strong>back</strong>):
           read/write many parts of the MSX system; mainly useful to be used
           in external debug applications via the stdin/socket command
           interface
@@ -790,7 +791,7 @@
     Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release (see our <a href="http://openmsx.svn.sourceforge.net/viewvc/openmsx/openmsx/?view=log">commit log</a> (takes long to load) for details and history):
     </p>
     <ul class="features">
-      <li>(nothing yet, we just released 0.8.0)</li>
+      <li>(nothing yet, we just released 0.8.1)</li>
      </ul>
   </div>
   <div id="footer">
