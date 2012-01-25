@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2012 January 25</span>
+      openMSX 0.8.2 released
+    </h2>
+    <p>
+    openMSX 0.8.2&mdash;Small Guy&mdash; mostly fixes loads of bugs and adds many smaller features and improvements. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.8.2/README_release-notes.txt/view">read the release notes</a> for details.
+    </p>
+    <h2>
       <span class="date">2011 March 12</span>
       openMSX 0.8.1 released
     </h2>
