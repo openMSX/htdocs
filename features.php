@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.8.1).
+      Here are some highlights of the features of the latest release (0.8.2).
     </p>
 
     <h2>Legend</h2>
@@ -116,7 +116,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          For Linux, Windows, MacOS X, FreeBSD, NetBSD, OpenBSD and Dingux (Dingoo) systems
+          For Linux, Windows, MacOS X, FreeBSD, NetBSD, OpenBSD and OpenDingux (Dingoo) systems
         </span>
       </li>
       <li>
@@ -288,7 +288,7 @@
             <li>
               <span class="none">&nbsp;</span>
               <span class="descript">
-                Manbow 2
+                Manbow 2 (also 2nd release)
               </span>
             </li>
             <li>
@@ -673,8 +673,7 @@
              <span class="descript">
 	       OpenGL 2.0 based renderer that makes advantage of the processor
 	       of advanced modern graphics cards. Supports scaling factors up to 4 (=1280&times;960).
-	       Extra features: TV scaler, afterglow, horizontal stretch (to
-	       get the correct aspect ratio) and a 3D monitor effect.
+	       Extra features: TV scaler, afterglow and a 3D monitor effect.
 	       Does not support SaI scale algorithm.
              </span>
            </li>
@@ -682,6 +681,13 @@
        </span>
      </li>
      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Horizontal stretch (to get the correct aspect ratio)
+        </span>
+       </li>
+       <li>
+      <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
           Scanlines, blur and noise for TV emulation
@@ -791,7 +797,7 @@
     Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release (see our <a href="http://openmsx.svn.sourceforge.net/viewvc/openmsx/openmsx/?view=log">commit log</a> (takes long to load) for details and history):
     </p>
     <ul class="features">
-      <li>(nothing yet, we just released 0.8.1)</li>
+      <li>(nothing yet, we just released 0.8.2)</li>
      </ul>
   </div>
   <div id="footer">
