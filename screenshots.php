@@ -7,7 +7,7 @@
 <body>
 <?php require "title.div"; ?>
 <?php require "navigation.div"; ?>
-  
+
   <div id="content">
     <h1>Screenshots</h1>
 <?php 
@@ -20,8 +20,9 @@
     "vdp" => "VDP Features",
     "g9k" => "Graphics 9000",
     "tR"  => "MSX turbo R",
+    "ld"  => "Palcom Laserdisc",
     "spc" => "Special Machines and Extensions",
-    "emu" => "Emulator Extra's",
+    "emu" => "Emulator Extras",
 //    "ext" => "Extensions",
 //    "misc" => "Miscellaneous"
   );
@@ -43,6 +44,12 @@
     array ("g9k",
            "hispec_thumb.png", "hispec.png",
            "TNI's HiSpec Demo on Gfx9000 in Bx mode"),
+    array ("ld",
+           "badlands_thumb.png", "badlands.png",
+           "Konami's Badlands on a Pioneer PX-7 with laserdisc player"),
+    array ("ld",
+           "rollingblaster_thumb.png", "rollingblaster.png",
+           "Rolling Blaster on a Pioneer PX-7 with laserdisc player"),
     array ("spc",
            "ide_thumb.png", "ide.png",
            "Sunrise IDE interface emulation: IDEFDISK running in DOS2"),
@@ -167,7 +174,7 @@
     break;
   }
 ?>
-    
+
   </div>
   <div id="footer">
     $Id$
