@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.8.2).
+      Here are some highlights of the features of the latest release (0.9.0).
     </p>
 
     <h2>Legend</h2>
@@ -139,13 +139,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          About 93 MSX machine hardware configurations included
+          More than 100 MSX machine hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          About 47 MSX extension hardware configurations included
+          More than 50 MSX extension hardware configurations included
         </span>
       </li>
       <li>
@@ -175,7 +175,7 @@
       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
-          Sunrise GFX9000
+          Sunrise GFX9000 and part of Video 9000
         </span>
       </li>
       <li>
@@ -414,9 +414,9 @@
             <li>
               <span class="none">&nbsp;</span>
               <span class="descript">
-                Floppy disk controller (WD2793 and National MB8877A fully
-                supported, including formatting); also partial support for
-                TC8566AF and Microsol based FDCs (DDX 3.0 diskROM works, e.g.)
+                Floppy disk controller (WD2793 and compatibles, TC8566AF) fully
+                supported, including formatting); also support several ways the FDC's
+                are connected to the MSX (Microsol, National, Sanyo, AVT and Victor styles)
               </span>
             </li>
             <li>
@@ -576,7 +576,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Optional automatical speed up during disk or cassette action
+          Optional automatical speed up during disk, cassette and laserdisc (load) action
         </span>
       </li>
       <li>
@@ -608,6 +608,12 @@
         </span>
       </li>
       <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Support for .dmk diskimages, making it possible to run any MSX disk based software, without removing copy protections
+        </span>
+      </li>
+       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
           Support for .xsa (compressed) diskimages
@@ -797,7 +803,7 @@
     Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release (see our <a href="http://openmsx.svn.sourceforge.net/viewvc/openmsx/openmsx/?view=log">commit log</a> (takes long to load) for details and history):
     </p>
     <ul class="features">
-      <li>(nothing yet, we just released 0.8.2)</li>
+      <li>(nothing yet, we just released 0.9.0)</li>
      </ul>
   </div>
   <div id="footer">

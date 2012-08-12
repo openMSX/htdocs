@@ -11,18 +11,25 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2012 August 12</span>
+      openMSX 0.9.0 released
+    </h2>
+    <p>
+    openMSX 0.9.0&mdash;Enigma&mdash;improves a lot on accuracy of floppy support, especially by the introduction of support for the DMK format. This means it should be possible to run all MSX disk software without patching it. Furthermore, our efforts to improve performance has some results: start up time has almost halved on a Dingoo A320! Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.9.0/README_release-notes.txt/view">read the release notes</a> for details.
+    </p>
+    <h2>
       <span class="date">2012 January 25</span>
       openMSX 0.8.2 released
     </h2>
     <p>
-    openMSX 0.8.2&mdash;Small Guy&mdash; mostly fixes loads of bugs and adds many smaller features and improvements. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.8.2/README_release-notes.txt/view">read the release notes</a> for details.
+    openMSX 0.8.2&mdash;Small Guy&mdash;mostly fixes loads of bugs and adds many smaller features and improvements. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.8.2/README_release-notes.txt/view">read the release notes</a> for details.
     </p>
     <h2>
       <span class="date">2011 March 12</span>
       openMSX 0.8.1 released
     </h2>
     <p>
-    openMSX 0.8.1&mdash;Tasmania&mdash; builds on the previous release, in the sense that we worked out the features a little more. We added a lot of scripts to help you with Tool Assisted Speedruns (TAS), one of the reasons openMSX got <a href="http://tasvideos.org/forum/viewtopic.php?p=249886#249886">officially approved</a> as a TAS capable emulator on <a href="http://tasvideos.org/">tasvideos.org</a>. The reverse feature also got some updates while doing this. For the rest we have again mostly fixed smaller issues and added smaller features. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.8.1/README_release-notes.txt/view">read the release notes</a> for details.
+    openMSX 0.8.1&mdash;Tasmania&mdash;builds on the previous release, in the sense that we worked out the features a little more. We added a lot of scripts to help you with Tool Assisted Speedruns (TAS), one of the reasons openMSX got <a href="http://tasvideos.org/forum/viewtopic.php?p=249886#249886">officially approved</a> as a TAS capable emulator on <a href="http://tasvideos.org/">tasvideos.org</a>. The reverse feature also got some updates while doing this. For the rest we have again mostly fixed smaller issues and added smaller features. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.8.1/README_release-notes.txt/view">read the release notes</a> for details.
     </p>
     <h2>
       <span class="date">2010 October 17</span>
