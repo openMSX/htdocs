@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.9.0).
+      Here are some highlights of the features of the latest release (0.9.1).
     </p>
 
     <h2>Legend</h2>
@@ -803,7 +803,7 @@
     Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release (see our <a href="http://openmsx.svn.sourceforge.net/viewvc/openmsx/openmsx/?view=log">commit log</a> (takes long to load) for details and history):
     </p>
     <ul class="features">
-      <li>(nothing yet, we just released 0.9.0)</li>
+      <li>(nothing yet, we just released 0.9.1)</li>
      </ul>
   </div>
   <div id="footer">

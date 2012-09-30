@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2012 September 30</span>
+      openMSX 0.9.1 released
+    </h2>
+    <p>
+    openMSX 0.9.1&mdash;Enigma Take Two&mdash;mostly fixes a bug in dir-as-disk that was introduced in openMSX 0.9.0, when adding support for the DMK format and low level disk emulation. We not only fixed that bug, we rewrote dir-as-disk almost completely, making it a lot more robust. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.9.1/README_release-notes.txt/view">read the release notes</a> for details.
+    </p>
+    <h2>
       <span class="date">2012 August 12</span>
       openMSX 0.9.0 released
     </h2>
