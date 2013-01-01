@@ -69,7 +69,7 @@
         FiXato created a great web site which provides you with daily built
         binaries of openMSX. Very much recommended if you want to try out
         development versions of openMSX without compiling them yourself!
-        Currently supporting Windows and Mac OS X platforms.
+        Currently supporting Windows, Mac OS X and OpenDingux platforms.
       </dd>
       <dt>
         <a href="http://msx.jannone.org/openMSXcontrol/">OpenMSX Control Plugin for Gedit</a>
