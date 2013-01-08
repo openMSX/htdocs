@@ -74,6 +74,11 @@
           <li><a href="http://openmsx.sourceforge.net/temp/Qt-4.4.3-x64.zip">
               Qt libs / Win 64bit (zip)</a></li>
         </ul>
+        <h2>Development builds</h2>
+        </ul>
+        <ul>
+          <li><a href="http://openmsx.fixato.net/">FiXato's openMSX Builder site</a></li>
+        </ul>
         <!--
         <ul>
           <li><a href="#">Source</a></li>
