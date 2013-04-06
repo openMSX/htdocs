@@ -112,6 +112,10 @@
       <dd>
         Source code documentation generated using Doxygen.
       </dd>
+      <dt class="toc"><a href="http://openmsx.sourceforge.net/vdp-vram-timing/vdp-timing.html">V9938 timing information</a></dt>
+      <dd>
+        Specific V9938 timing information as measured and analyzed by some openMSX Team members.
+      </dd>
     </dl>
     <p>
     There is additional documentation for (would-be) developers in <a class="external" href="http://svn.sourceforge.net/viewvc/openmsx/openmsx/trunk/doc/">the
