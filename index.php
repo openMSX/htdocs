@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2013 April 23</span>
+      openMSX moves to Git
+    </h2>
+    <p>
+    Today we moved all openMSX projects to Git (still on SourceForge.net), after having used Subversion for about 6 and a half years. Git is now the state of the art on source code management and rapidly getting more popular. Anyway, this means that you have to use a different way to get the latest openMSX sources now: click on <a href="https://sourceforge.net/p/openmsx/_list/git">one of the repos</a> to see the instructions at the top. The Subversion repository will be deleted soon. Also, we've converted the project on SF.net from classic to Allura. You'll notice that when visiting <a href="https://sourceforge.net/projects/openmsx/">the project page</a>, especially when you check the new Tickets system, e.g. the <a href="https://sourceforge.net/p/openmsx/bugs/">bug tracker</a>.
+    </p>
+    <h2>
       <span class="date">2012 September 30</span>
       openMSX 0.9.1 released
     </h2>
