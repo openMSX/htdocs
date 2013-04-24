@@ -118,8 +118,7 @@
       </dd>
     </dl>
     <p>
-    There is additional documentation for (would-be) developers in <a class="external" href="http://svn.sourceforge.net/viewvc/openmsx/openmsx/trunk/doc/">the
-<code>doc</code> directory in the openMSX SVN tree</a>.
+    There is additional documentation for (would-be) developers in <a class="external" href="https://sourceforge.net/p/openmsx/openmsx/ci/master/tree/doc/">the <code>doc</code> directory in the openMSX code tree</a>.
     </p>
   </div>
   <div id="footer">

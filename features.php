@@ -800,10 +800,10 @@
 
     <h2>Coming Up &hellip;</h2>
     <p>
-    Here are some highlights of features and improvements that are already in Subversion and are likely to be in the next release (see our <a href="http://openmsx.svn.sourceforge.net/viewvc/openmsx/openmsx/?view=log">commit log</a> (takes long to load) for details and history):
+    Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://sourceforge.net/p/openmsx/openmsx/ci/HEAD/log/?path=">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing yet, we just released 0.9.1)</li>
+      <li>(nothing added here yet, perhaps we just released 0.9.1? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
   <div id="footer">
