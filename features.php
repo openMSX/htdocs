@@ -806,8 +806,5 @@
       <li>(nothing added here yet, perhaps we just released 0.9.1? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
-  <div id="footer">
-    $Id$
-  </div>
 </body>
 </html>

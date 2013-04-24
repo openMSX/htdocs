@@ -148,9 +148,6 @@ openMSX wasn't able to load savestates with paths that contain spaces, which is 
     </p>
 
   </div>
-  <div id="footer">
-    $Id$
-  </div>
 
 <!-- Piwik -->
 <script type="text/javascript">

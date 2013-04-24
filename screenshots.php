@@ -176,8 +176,5 @@
 ?>
 
   </div>
-  <div id="footer">
-    $Id$
-  </div>
 </body>
 </html>

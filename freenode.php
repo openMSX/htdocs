@@ -74,7 +74,4 @@ html1/DTD/xhtml1-strict.dtd">
 An alternative that always works is the <a href="http://webchat.freenode.net/?channels=openMSX">webchat</a>.
 </p>
 </div>
-<div id="footer">
-    $Id$
-  </div>
 </body></html>
