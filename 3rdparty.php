@@ -24,16 +24,24 @@
     <h2>Launchers</h2>
     <dl>
       <dt>
-        <a href="http://nekocan.sitemix.jp/?page_id=17">NekoLauncher openMSX</a>
+        <a href="http://msxlaunchers.info/">openMSX Launcher</a>
+      </dt>
+      <dd>
+        An openMSX version of the blueMSX Launcher, mostly targeted at
+        launching games. It supports screenshots for games and a large number
+        of languages. Multiplatform: Windows, Mac, Linux, BSD.
+      </dd>
+      <dt>
+        <a href="http://nekocan.sitemix.jp/?page_id=17">NekoLauncher openMSX</a> (unfortunately the site seems to be down)
       </dt>
       <dd>
         Because the old style Catapult does not run (properly) on Mac,
         an active Japanese emulator user/programmer wrote an openMSX
-        variant of his NekoLauncher series. It looks like a simple launcher,
-        but also seems to be very user friendly.
+        variant of his NekoLauncher series. It's not only getting more and
+        more advanced, but also seems to be very user friendly.
       </dd>
       <dt>
-        <a href="http://cesco.it/il-mio-software-gratuito/openmsx-peashooter/">openMSX Peashooter</a>
+        <a href="http://cesco.it/il-mio-software-gratuito/openmsx-peashooter/">openMSX Peashooter</a> (unfortunately the site seems to have disappeared)
       </dt>
       <dd>
         For the same reason, Cesco made another launcher for openMSX on OS X.
@@ -44,7 +52,7 @@
     <h2>Documentation</h2>
     <dl>
       <dt>
-        <a href="http://www.passionmsx.org/msxgamesbox/Sections/emumac/openmsx.php">openMSX Compilation Guide for OS X</a>
+        <a href="http://www.msxgamesbox.com/passion/msxgamesbox/Sections/emumac/openmsx.php">openMSX Compilation Guide for OS X</a>
       </dt>
       <dd>
         This article on The MSX Games Box (now part of Passion MSX) explains
