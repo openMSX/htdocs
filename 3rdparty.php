@@ -32,7 +32,7 @@
         of languages. Multiplatform: Windows, Mac, Linux, BSD.
       </dd>
       <dt>
-        <a href="http://nekocan.sitemix.jp/?page_id=17">NekoLauncher openMSX</a> (unfortunately the site seems to be down)
+        <a href="http://nekocan.sitemix.jp/?page_id=17">NekoLauncher openMSX</a>
       </dt>
       <dd>
         Because the old style Catapult does not run (properly) on Mac,
