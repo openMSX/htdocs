@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2014 January 5</span>
+      openMSX 0.10.0 released
+    </h2>
+    <p>
+    openMSX 0.10.0&mdash;StillNotOne&mdash;adds many larger and smaller features, but most outstanding are: cycle accurate VDP command engine timing, an Android port, subdirectory support for dir-as-disk and Neos MA-20 support. These features meant a lot of work was done in practically all parts of the code, but at the same time we also freshened up much of the code using many of the new C++11 language features. All in all, it was time to release this stuff officially... Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. We actually made some improvements to it this time, mostly code cleanups to make it easier to help us with this subproject, but also some small features, like ability to set up multiple IPS files, control video source and disable sprite settings and DMK support in the file filters, next to some smaller bug fixes. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.10.0/README_release-notes.txt/view">read the release notes</a> for details of the openMSX changes.
+    </p>
+    <h2>
       <span class="date">2013 April 23</span>
       openMSX moves to Git
     </h2>

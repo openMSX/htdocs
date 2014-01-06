@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.9.1).
+      Here are some highlights of the features of the latest release (0.10.0).
     </p>
 
     <h2>Legend</h2>
@@ -65,16 +65,16 @@
         </span>
       </li>
       <li>
-        <span class="first">1st!</span>
+        <span class="new">New!</span>
         <span class="descript">
-          Pixel accurate rendering: horizontal screen splits are rendered
-          almost correctly (Unknown Reality, Verti-demo)
+          Cycle accurate VDP command engine timing
         </span>
       </li>
       <li>
-        <span class="cool">Cool!</span>
+        <span class="first">1st!</span>
         <span class="descript">
-          Debian and Gentoo packaging, shortly after the release
+          Pixel accurate rendering: horizontal screen splits are rendered
+          (almost) correctly (Unknown Reality, Verti-demo)
         </span>
       </li>
       <li>
@@ -87,7 +87,7 @@
         <span class="cool">Cool!</span>
         <span class="descript">
           On-Screen-Display, with LEDs for e.g. power, FDD, capsLock and
-          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and as of openMSX 0.7.0, a proof-of-concept of a completely programmable OSD menu, with some common actions in it (mostly meant for full screen usage on e.g. a Dingoo or GP2X handheld)
+          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and a completely programmable OSD menu, with many common actions/settings in it (mostly meant for full screen usage on e.g. a Dingoo or Android device)
       </span></li>
        <li>
         <span class="uniq">Unique!</span>
@@ -104,7 +104,7 @@
        <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-           Reverse: go back in time to correct mistakes or replay your actions, optionally save the full event history to a file. As of 0.8.1 with quite complete support for <a href="http://www.tasvideos.org/">TAS</a>
+           Reverse: go back in time to correct mistakes or replay your actions, optionally save the full event history to a file. Also with quite complete support for <a href="http://www.tasvideos.org/">TAS</a>
         </span>
       </li>
        <li>
@@ -139,19 +139,19 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 100 MSX machine hardware configurations included
+          More than 110 MSX machine hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 50 MSX extension hardware configurations included
+          More than 60 MSX extension hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          MMX and extended-MMX optimisations for rendering
+          SSE2 optimisations for rendering and resampling
         </span>
       </li>
       <li>
@@ -297,18 +297,42 @@
                 Arc
               </span>
             </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                Super Swangi (a.k.a. Super Altered Beast)
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                MSXtra (a debugging tool released by PTC which has its own RAM)
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                MultiROM Collection
+              </span>
+            </li>
           </ul>
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Almost all MSX sound devices:
+          (Almost) all MSX sound devices:
           <ul class="features">
             <li>
               <span class="first">1st!</span>
               <span class="descript">
                 MSX-MIDI (turboR)
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                mu-PACK (MIDI module to upgrade turboR ST)
               </span>
             </li>
             <li>
@@ -566,6 +590,12 @@
           support to emulate any non-colour monitor, like monochrome-green, amber or white
         </span>
       </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Neos MA-20 Version-Up Adapter (cartridge to adapt MSX1 to MSX2 with separate video output)
+        </span>
+      </li>
 
     </ul>
 
@@ -608,7 +638,7 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
           Support for .dmk diskimages, making it possible to run any MSX disk based software, without removing copy protections
         </span>
@@ -636,14 +666,15 @@
         <span class="first">1st!</span>
         <span class="descript">
           Dir-as-disk feature: Use a directory on your hard
-          disk as disk image in openMSX (with full read and write transparency)
+          disk as disk image in openMSX (with full read and write transparency),
+          including support for sub directories
         </span>
       </li>
       <li>
         <span class="cool">Cool!</span>
         <span class="descript">
           Debug command (including conditional break points, watch points,
-          an UMR detector and as of 0.8.1 even a way to step one instruction <strong>back</strong>):
+          an UMR detector and even a way to step one instruction <strong>back</strong>):
           read/write many parts of the MSX system; mainly useful to be used
           in external debug applications via the stdin/socket command
           interface
@@ -751,13 +782,6 @@
           (for example, Seed of Dragon) -->
         </span>
       </li>
-<!--      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          Adjustable keymap (e.g. for Japanese PC keyboards or to use
-          Russian MSX keyboards on a US English PC keyboard)
-        </span>
-      </li> -->
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
@@ -794,6 +818,19 @@
           Extended hot keys: you can bind any host event to any TCL command, which means you can e.g. let openMSX push the MSX F1 key if you press a certain button on your PC game pad
         </span>
       </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Interleaving with black frame for monitors with LightBoost support
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Configurable host-to-MSX joystick mapping (e.g. bind the
+  crawl command (button A+B) in Metal Gear 2 to a single PC joystick button)
+        </span>
+      </li>
     </ul>
 
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -803,7 +840,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://sourceforge.net/p/openmsx/openmsx/ci/HEAD/log/?path=">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 0.9.1? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 0.10.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>
