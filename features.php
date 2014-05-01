@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.10.0).
+      Here are some highlights of the features of the latest release (0.10.1).
     </p>
 
     <h2>Legend</h2>
@@ -65,7 +65,7 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
           Cycle accurate VDP command engine timing
         </span>
@@ -298,19 +298,19 @@
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="uniq">Unique!</span>
               <span class="descript">
                 Super Swangi (a.k.a. Super Altered Beast)
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="uniq">Unique!</span>
               <span class="descript">
                 MSXtra (a debugging tool released by PTC which has its own RAM)
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="uniq">Unique!</span>
               <span class="descript">
                 MultiROM Collection
               </span>
@@ -330,7 +330,7 @@
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="uniq">Unique!</span>
               <span class="descript">
                 mu-PACK (MIDI module to upgrade turboR ST)
               </span>
@@ -591,9 +591,15 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
           Neos MA-20 Version-Up Adapter (cartridge to adapt MSX1 to MSX2 with separate video output)
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Sharp/Epcom HB-4000 80 column cartridge extension
         </span>
       </li>
 
@@ -819,16 +825,20 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
           Interleaving with black frame for monitors with LightBoost support
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
         <span class="descript">
           Configurable host-to-MSX joystick mapping (e.g. bind the
   crawl command (button A+B) in Metal Gear 2 to a single PC joystick button)
+        </span>
+      </li>
+      <li>
+        <span class="descript">
+          MIDI connectivity to host frameworks for Windows and Mac: connect to the MIDI of your emulated MSX device with applications running on your host
         </span>
       </li>
     </ul>
@@ -840,7 +850,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://sourceforge.net/p/openmsx/openmsx/ci/HEAD/log/?path=">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 0.10.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 0.10.1? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>

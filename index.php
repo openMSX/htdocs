@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2014 May 1</span>
+      openMSX 0.10.1 released
+    </h2>
+    <p>
+    openMSX 0.10.1&mdash;StillNotOneToo&mdash;mostly fixes mostly bugs we introduced with 0.10.0 or were already present for a bit longer... sorry for those, but most should be fixed now :) There are also some small but nice additions, like much extended MIDI support on Mac (thanks Grauw!), support for harddisk images in the OSD menu and more fine grained control in which slots carts and extensions will end up. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Again, we actually made some improvements to it this time, mostly more code cleanups to enable quite some bug fixes (mainly in the settings tab), but also some features, like ability to change cartridges at run time and support for hard disks. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.10.1/README_release-notes.txt/view">read the release notes</a> for details of the openMSX changes.
+    </p>
+    <h2>
       <span class="date">2014 January 5</span>
       openMSX 0.10.0 released
     </h2>
