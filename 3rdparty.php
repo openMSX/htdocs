@@ -32,13 +32,14 @@
         of languages. Multiplatform: Windows, Mac, Linux, BSD.
       </dd>
       <dt>
-        <a href="http://nekocan.sitemix.jp/?page_id=17">NekoLauncher openMSX</a>
+        <a href="https://nekocanmac.wordpress.com/software/">NekoLauncher openMSX</a>
       </dt>
       <dd>
         Because the old style Catapult does not run (properly) on Mac,
         an active Japanese emulator user/programmer wrote an openMSX
         variant of his NekoLauncher series. It's not only getting more and
-        more advanced, but also seems to be very user friendly.
+        more advanced, but also seems to be very user friendly. However, it
+        doesn't seem to be up-to-date with the latest openMSX releases.
       </dd>
       <dt>
         <a href="http://cesco.it/il-mio-software-gratuito/openmsx-peashooter/">openMSX Peashooter</a> (unfortunately the site seems to have disappeared)
