@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.10.1).
+      Here are some highlights of the features of the latest release (0.11.0).
     </p>
 
     <h2>Legend</h2>
@@ -61,13 +61,25 @@
       <li>
         <span class="first">1st!</span>
         <span class="descript">
-          `Real time timing', using the specially developed EmuTime model
+          Timestamped on-demand sync timing: maximum accuracy at the best performance
         </span>
       </li>
       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
           Cycle accurate VDP command engine timing
+        </span>
+      </li>
+      <li>
+        <span class="uniq">Unique!</span>
+        <span class="descript">
+          Accurate VDP VRAM access timing: like on real hardware, accessing the VDP too fast will result in VRAM corruption
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Emulation of most differences between the different MSX1 VDP's
         </span>
       </li>
       <li>
@@ -139,13 +151,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 110 MSX machine hardware configurations included
+          About 130 MSX machine hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 60 MSX extension hardware configurations included
+          More than 70 MSX extension hardware configurations included
         </span>
       </li>
       <li>
@@ -450,9 +462,9 @@
               </span>
             </li>
             <li>
-              <span class="none">&nbsp;</span>
+              <span class="new">New!</span>
               <span class="descript">
-                MegaFlashROM SCC
+                MegaFlashROM SCC / MegaFlashROM SCC+ / MegaFlashROM SCC+ SD
               </span>
             </li>
             <li>
@@ -597,7 +609,7 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
           Sharp/Epcom HB-4000 80 column cartridge extension
         </span>
@@ -743,6 +755,12 @@
          </span>
        </li>
        <li>
+         <span class="new">New!</span>
+         <span class="descript">
+           Deflicker filter, for removing flickering in cases like the dvik demos where 105 colors are simulated on MSX1 by alternating different native colors.
+         </span>
+       </li>
+       <li>
          <span class="none">&nbsp;</span>
          <span class="descript">
            Option to run at maximum possible speed
@@ -831,12 +849,14 @@
         </span>
       </li>
       <li>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Configurable host-to-MSX joystick mapping (e.g. bind the
   crawl command (button A+B) in Metal Gear 2 to a single PC joystick button)
         </span>
       </li>
       <li>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           MIDI connectivity to host frameworks for Windows and Mac: connect to the MIDI of your emulated MSX device with applications running on your host
         </span>
@@ -850,7 +870,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://sourceforge.net/p/openmsx/openmsx/ci/HEAD/log/?path=">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 0.10.1? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 0.11.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>

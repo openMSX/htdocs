@@ -11,11 +11,18 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2014 November 8</span>
+      openMSX 0.11.0 released
+    </h2>
+    <p>
+    openMSX 0.11.0&mdash;NotOneButDoubleOne&mdash;brings you the following important new features: VDP access timing now also for MSX1 modes (corruption with too fast VRAM access will be visible now), implementation of most defailed differences between all used VDP chips and emulation of MegaFlashROM SCC+ SD. On top of that, there are some important (long standing) bug fixes, like the proper implementation of envelopes for MSX-AUDIO, fixing for example "Copy is Crime" by Impact. And last but not least, a lot of work was done under the bonnet, giving you even better performance and preparations for the future. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. We only made some minor improvements to it this time. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.11.0/README_release-notes.txt/view">read the release notes</a> for details of the openMSX changes.
+    </p>
+     <h2>
       <span class="date">2014 May 1</span>
       openMSX 0.10.1 released
     </h2>
     <p>
-    openMSX 0.10.1&mdash;StillNotOneToo&mdash;mostly fixes mostly bugs we introduced with 0.10.0 or were already present for a bit longer... sorry for those, but most should be fixed now :) There are also some small but nice additions, like much extended MIDI support on Mac (thanks Grauw!), support for harddisk images in the OSD menu and more fine grained control in which slots carts and extensions will end up. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Again, we actually made some improvements to it this time, mostly more code cleanups to enable quite some bug fixes (mainly in the settings tab), but also some features, like ability to change cartridges at run time and support for hard disks. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.10.1/README_release-notes.txt/view">read the release notes</a> for details of the openMSX changes.
+    openMSX 0.10.1&mdash;StillNotOneToo&mdash;mostly fixes bugs we introduced with 0.10.0 or were already present for a bit longer... sorry for those, but most should be fixed now :) There are also some small but nice additions, like much extended MIDI support on Mac (thanks Grauw!), support for harddisk images in the OSD menu and more fine grained control in which slots carts and extensions will end up. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Again, we actually made some improvements to it this time, mostly more code cleanups to enable quite some bug fixes (mainly in the settings tab), but also some features, like ability to change cartridges at run time and support for hard disks. Please <a href="http://sourceforge.net/projects/openmsx/files/openmsx/0.10.1/README_release-notes.txt/view">read the release notes</a> for details of the openMSX changes.
     </p>
     <h2>
       <span class="date">2014 January 5</span>
@@ -162,19 +169,6 @@ openMSX wasn't able to load savestates with paths that contain spaces, which is 
     </p>
 
   </div>
-
-<!-- Piwik -->
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://apps.sourceforge.net/piwik/openmsx/" : "http://apps.sourceforge.net/piwik/openmsx/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-piwik_action_name = '';
-piwik_idsite = 1;
-piwik_url = pkBaseURL + "piwik.php";
-piwik_log(piwik_action_name, piwik_idsite, piwik_url);
-</script>
-<object><noscript><p><img src="http://apps.sourceforge.net/piwik/openmsx/piwik.php?idsite=1" alt="piwik"/></p></noscript></object>
-<!-- End Piwik Tag -->
 
 </body>
 </html>
