@@ -31,13 +31,13 @@
     <h2>Discussion Forums</h2>
     <dl>
       <dt>
-        <a href="http://forum.openmsx.org">openMSX forum</a>
+        <a href="http://www.msx.org/forum/semi-msx-talk/openmsx">openMSX forum on MSX Resource Center</a>
       </dt>
       <dd>
         Discussions on openMSX, Catapult and C-BIOS.
       </dd>
       <dt>
-        <a href="http://sourceforge.net/forum/?group_id=38274">
+        <a href="http://sourceforge.net/p/openmsx/discussion/">
           SourceForge openMSX forums</a>
       </dt>
       <dd>
@@ -49,21 +49,22 @@
     <h2>Mailing Lists and Trackers</h2>
     <dl>
       <dt>
-        <a href="http://sourceforge.net/mail/?group_id=38274">
+        <a href="http://sourceforge.net/p/openmsx/mailman/">
           SourceForge openMSX mailing lists</a>
       </dt>
       <dd>
         SourceForge hosts a number of mailing lists for openMSX.
         None of these mailing lists is high-volume; expect just a couple
-        of messages per week.
+        of messages per week. In practice, IRC has replaced these mailing
+        lists.
       </dd>
       <dt>
-        <a href="http://sourceforge.net/tracker/?group_id=38274">
-          SourceForge openMSX Trackers</a></dt>
+        <a href="https://sourceforge.net/p/openmsx/_list/tickets">
+          SourceForge openMSX Tickets</a></dt>
       <dd>
-        SourceForge also hosts trackers, that enable you to reports bugs,
+        SourceForge also hosts ticket trackers, that enable you to reports bugs,
         request new features etc. Note that you do need a SourceForge
-        account to create new tracker items.
+        account to create new tickets.
       </dd>
     </dl>
   </div>
