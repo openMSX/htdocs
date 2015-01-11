@@ -112,9 +112,13 @@
       <dd>
         Source code documentation generated using Doxygen.
       </dd>
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/vdp-vram-timing/vdp-timing.html">V9938 timing information</a></dt>
+      <dt class="toc"><a href="http://openmsx.sourceforge.net/vdp-vram-timing/vdp-timing.html">V9938 VRAM timings</a></dt>
       <dd>
-        Specific V9938 timing information as measured and analyzed by some openMSX Team members.
+        Specific V9938 timing information as measured and analyzed by some openMSX Team members. Part 1.
+      </dd>
+      <dt class="toc"><a href="http://openmsx.sourceforge.net/vdp-vram-timing/vdp-timing-2.html">V9938 VRAM timings, part II</a></dt>
+      <dd>
+        Specific V9938 timing information as measured and analyzed by some openMSX Team members. Part 2.
       </dd>
     </dl>
     <p>
