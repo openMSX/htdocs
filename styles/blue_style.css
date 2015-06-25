@@ -147,19 +147,19 @@ div#navidownloads a:hover {
   background: rgb(128,192,255);
 }
 
-div#sflink {
+div#openhub {
   position: absolute;
   left: 5px;
   top: 5px;
   color: rgb(255,255,255);
 }
 
-div#sflink h1 {
+div#openhub h1 {
   font-size: 8px;
   font-weight: normal;
 }
 
-div#sflink img {
+div#openhub img {
   border: none;
 }
 
