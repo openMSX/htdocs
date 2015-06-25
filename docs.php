@@ -25,7 +25,7 @@
       </dd>
 
       <dt class="toc">
-        <a href="http://openmsx.sourceforge.net/manual/faq.html#c-bios">
+        <a href="/manual/faq.html#c-bios">
           All I get is "Cartridge not found." What's wrong?
         </a>
       </dt>
@@ -35,12 +35,12 @@
         for MSX, which&mdash;like openMSX&mdash;is still in development, and
         therefore doesn't provide all functionality to run a complete MSX
         machine, yet. 
-        Read the <a href="http://openmsx.sourceforge.net/manual/setup.html">Setup Guide</a>
+        Read the <a href="/manual/setup.html">Setup Guide</a>
         to learn how to make openMSX emulate real MSX machines.
       </dd>
 
       <dt class="toc">
-        <a href="http://openmsx.sourceforge.net/manual/faq.html">More Frequenty Asked Questions<!-- &raquo; --></a>
+        <a href="/manual/faq.html">More Frequenty Asked Questions<!-- &raquo; --></a>
       </dt>
       <dd>
         The openMSX FAQ answers more frequently asked questions. 
@@ -50,13 +50,13 @@
     <h2>Installing and Running openMSX</h2>
 
     <dl>
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/manual/compile.html">Compilation Guide</a></dt>
+      <dt class="toc"><a href="/manual/compile.html">Compilation Guide</a></dt>
       <dd>
         This guide describes how you can get the openMSX sources and compile
         them. If you downloaded a binary release, you can skip this.
       </dd>
 
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/manual/setup.html">Setup Guide</a></dt>
+      <dt class="toc"><a href="/manual/setup.html">Setup Guide</a></dt>
       <dd>
         This guide describes how you can configure openMSX to emulate
         actual MSX machines.  It also describes how you can have openMSX
@@ -65,18 +65,18 @@
         configuration related topics.
       </dd>
 
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/manual/user.html">User's Manual</a></dt>
+      <dt class="toc"><a href="/manual/user.html">User's Manual</a></dt>
       <dd>
         This manual describes all the things you can do with openMSX once
         it is fully running.
       </dd>
 
-      <dt class="toc"><a class="external" href="http://openmsx.sourceforge.net/manual/commands.html">Console Command Reference</a></dt>
+      <dt class="toc"><a class="external" href="/manual/commands.html">Console Command Reference</a></dt>
       <dd>
       An overview of all commands and settings that can be used from the openMSX built in console. Check this if you want to know exactly how to control openMSX. Because the current openMSX Catapult GUI is running behind in functionality, it is also useful to read this for some common settings not supported in Catapult yet.
       </dd>
 
-      <dt class="toc"><a class="external" href="http://openmsx.sourceforge.net/manual/diskmanipulator.html">Diskmanipulator</a></dt>
+      <dt class="toc"><a class="external" href="/manual/diskmanipulator.html">Diskmanipulator</a></dt>
       <dd>
       The <code>diskmanipulator</code> command is so powerful that we made a separate
       manual for it. Use it to create (hard)disk images, import files to them, export
@@ -88,13 +88,13 @@
     <h2>Installing and Running Catapult</h2>
 
     <dl>
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/catapult-manual/compile.html">Compilation Guide</a></dt>
+      <dt class="toc"><a href="/catapult-manual/compile.html">Compilation Guide</a></dt>
       <dd>
         This guide describes how you can get the Catapult sources and
         compile them. If you downloaded a binary release, you can skip this.
       </dd>
 
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/catapult-manual/user.html">User's Manual</a></dt>
+      <dt class="toc"><a href="/catapult-manual/user.html">User's Manual</a></dt>
       <dd>
         This manual describes all the things you can do with Catapult
         once it is fully running.
@@ -104,25 +104,25 @@
     <h2>Documentation For Developers</h2>
 
     <dl>
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/manual/openmsx-control.html">Controlling openMSX from External Applications</a></dt>
+      <dt class="toc"><a href="/manual/openmsx-control.html">Controlling openMSX from External Applications</a></dt>
       <dd>
 	A guide for application developers who want to control openMSX from their own programs. Very useful if you're planning to make a launcher, GUI, debugger or another kind of external program that needs to control openMSX.
       </dd>
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/doxygen">Source Code Documentation</a></dt>
+      <dt class="toc"><a href="/doxygen">Source Code Documentation</a></dt>
       <dd>
         Source code documentation generated using Doxygen.
       </dd>
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/vdp-vram-timing/vdp-timing.html">V9938 VRAM timings</a></dt>
+      <dt class="toc"><a href="/vdp-vram-timing/vdp-timing.html">V9938 VRAM timings</a></dt>
       <dd>
         Specific V9938 timing information as measured and analyzed by some openMSX Team members. Part 1.
       </dd>
-      <dt class="toc"><a href="http://openmsx.sourceforge.net/vdp-vram-timing/vdp-timing-2.html">V9938 VRAM timings, part II</a></dt>
+      <dt class="toc"><a href="/vdp-vram-timing/vdp-timing-2.html">V9938 VRAM timings, part II</a></dt>
       <dd>
         Specific V9938 timing information as measured and analyzed by some openMSX Team members. Part 2.
       </dd>
     </dl>
     <p>
-    There is additional documentation for (would-be) developers in <a class="external" href="https://sourceforge.net/p/openmsx/openmsx/ci/master/tree/doc/">the <code>doc</code> directory in the openMSX code tree</a>.
+    There is additional documentation for (would-be) developers in <a class="external" href="https://github.com/openMSX/openMSX/tree/master/doc">the <code>doc</code> directory in the openMSX code tree</a>.
     </p>
   </div>
 </body>
