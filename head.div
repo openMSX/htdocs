@@ -12,12 +12,6 @@
         rel="alternate stylesheet"
         type="text/css"
         title="Blue" />
-<!--
-  <link href="styles/yellow_style.css"
-        rel="alternate stylesheet"
-        type="text/css"
-        title="Yellow" />
--->
   <script type="text/javascript" 
          src="styleswitcher.js"></script>
 </head>

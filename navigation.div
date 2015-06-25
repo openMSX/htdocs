@@ -113,13 +113,6 @@
              onclick="setActiveStyleSheet('Blue'); return false;">
           <img src="images/theme-blue.png"
                alt="Theme: blue"/></a></li>
-        <!--
-        <li>
-          <a href="#"
-             onclick="setActiveStyleSheet('Yellow'); return false;">
-          <img src="images/theme-yellow.png"
-               alt="Theme: yellow"/></a></li>
-         -->
       </ul>
     </div>
   </div>
