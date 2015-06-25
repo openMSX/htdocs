@@ -36,17 +36,31 @@
       <dd>
         Discussions on openMSX, Catapult and C-BIOS.
       </dd>
+    </dl>
+
+    <h2>Bug Reports and Feature Requests</h2>
+    <dl>
       <dt>
-        <a href="http://sourceforge.net/p/openmsx/discussion/">
-          SourceForge openMSX forums</a>
-      </dt>
+        <a href="https://github.com/openMSX/openMSX/issues">
+          openMSX Issue Tracker</a></dt>
       <dd>
-        SourceForge hosts a number of forums (two, at the moment)
-        for openMSX.
+        You can report bugs or request new features for openMSX itself in the issue tracker on GitHub.
+      </dd>
+      <dt>
+        <a href="https://github.com/openMSX/wxcatapult/issues">
+          Catapult Issue Tracker</a></dt>
+      <dd>
+        You can report bugs or request new features for openMSX Catapult in the issue tracker on GitHub.
+      </dd>
+      <dt>
+        <a href="https://github.com/openMSX/debugger/issues">
+          Debugger Issue Tracker</a></dt>
+      <dd>
+        You can report bugs or request new features for the openMSX Debugger in the issue tracker on GitHub.
       </dd>
     </dl>
 
-    <h2>Mailing Lists and Trackers</h2>
+    <h2>Mailing Lists</h2>
     <dl>
       <dt>
         <a href="http://sourceforge.net/p/openmsx/mailman/">
@@ -57,14 +71,6 @@
         None of these mailing lists is high-volume; expect just a couple
         of messages per week. In practice, IRC has replaced these mailing
         lists.
-      </dd>
-      <dt>
-        <a href="https://sourceforge.net/p/openmsx/_list/tickets">
-          SourceForge openMSX Tickets</a></dt>
-      <dd>
-        SourceForge also hosts ticket trackers, that enable you to reports bugs,
-        request new features etc. Note that you do need a SourceForge
-        account to create new tickets.
       </dd>
     </dl>
   </div>
