@@ -21,7 +21,7 @@
 	createLink("3rdparty.php",    "3rd Party");
 	createLink("contact.php",     "Contact");
 	createLink("http://www.msx.org/forum/semi-msx-talk/openmsx", "Forum (MRC)");
-        createLink("http://sourceforge.net/projects/openmsx/", "Project&nbsp;Page");
+	createLink("https://github.com/openMSX/", "Project&nbsp;Page");
 ?>
         </ul>
       </div>
@@ -98,7 +98,6 @@
     </div>
     <div id="sflink">
       <h1>
-        <a href="http://sourceforge.net/projects/openmsx/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=38274&type=12" width="120" height="30" border="0" alt="Get openMSX at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
         <script type="text/javascript" src="http://www.ohloh.net/p/5389/widgets/project_thin_badge.js"></script>  
       </h1>
     </div>
