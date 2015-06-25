@@ -867,7 +867,7 @@
 
     <h2>Coming Up &hellip;</h2>
     <p>
-    Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://sourceforge.net/p/openmsx/openmsx/ci/HEAD/log/?path=">commit log</a> for details and history):
+    Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
       <li>(nothing added here yet, perhaps we just released 0.11.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
