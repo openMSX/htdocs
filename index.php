@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2015 June 25</span>
+      openMSX on the move
+    </h2>
+    <p>
+    As some core openMSX developers felt uncomfortable at SourceForge.net given the <a href="http://arstechnica.com/information-technology/2015/05/sourceforge-grabs-gimp-for-windows-account-wraps-installer-in-bundle-pushing-adware/">recent events</a>, we decided to say goodbye to them after 14 years. So far we have moved our code and tickets to GitHub and our website to private hosting. With that, please update your git clones and links to our website! Our GitHub project page (where you can find the code and the ticket system) is at <a href="https://github.com/openMSX/">https://github.com/openMSX/</a> and the official URL of our web site is now <a href="http://openmsx.org/">http://openmsx.org</a>. The coming weeks we will see if and how we will move the rest of our stuff off of SourceForge.net.
+    </p>
+    <h2>
       <span class="date">2014 November 8</span>
       openMSX 0.11.0 released
     </h2>
