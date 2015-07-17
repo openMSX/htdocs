@@ -24,7 +24,11 @@
       </dd>
 
       <dd>
-        For your convenience, we can also offer you web-based access to our IRC channel. <a href="freenode.php" target="_blank">Try it by following this link!</a> It will open the chat room in a new window or a new tab. Change your nickname and join the chat!
+        For your convenience, we can also offer you web-based access to our IRC channel. <a href="http://webchat.freenode.net/?channels=openMSX" target="_blank">Try it by following this link!</a> It will open the chat room in a new window or a new tab.
+      </dd>
+
+      <dd>
+        Note that we are not reading IRC 24 hours per day, so if no-one responds, please stick around or try again later.
       </dd>
     </dl>
 
