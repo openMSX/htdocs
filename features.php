@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <?php
-    $current="Features";
-    require "head.div";
+<!DOCTYPE html>
+<html>
+<?php
+  $current="Features";
+  require "head.div";
 ?>
 <body>
   <?php require "title.div"; ?>
@@ -208,272 +208,272 @@
         <span class="descript">
           Almost all known cartridge mapper types via auto detection or the
           included ROM database, including:
-          <ul class="features">
-            <li>
-              <span class="first">1st!</span>
-              <span class="descript">
-                Panasonic FS-CA1 MSX Audio
-              </span>
-            </li>
-            <li>
-              <span class="first">1st!</span>
-              <span class="descript">
-                National mapper type used for internal software
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Panasonic FS-A1FM internal mapper, with firmware switch
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Panasonic mapper type used for internal software
-                (e.g. MSX-View)
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                ROMs with special headers or which start from basic,
-                like Nausicaa, Pairs, etc.
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                All (?) ROMs with SRAM (Hydlide 2, Xanadu, Wizardry,
-                many Koei games, Daisenryaku, etc.)
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                 Cross Blaim
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                R-Type
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Harry Fox Yuki No Maou-Hen
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Korean multi-game ROMs: Zemmix 126, Game's 80, Zemmix 64
-                and MSX90-collection
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Playball and Moero!! Nettou Yakyuu '88 with sample replay
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Super Lode Runner
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Halnote
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Ink (Matra)
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Manbow 2 (also 2nd release)
-              </span>
-            </li>
-            <li>
-              <span class="uniq">Unique!</span>
-              <span class="descript">
-                Arc
-              </span>
-            </li>
-            <li>
-              <span class="uniq">Unique!</span>
-              <span class="descript">
-                Super Swangi (a.k.a. Super Altered Beast)
-              </span>
-            </li>
-            <li>
-              <span class="uniq">Unique!</span>
-              <span class="descript">
-                MSXtra (a debugging tool released by PTC which has its own RAM)
-              </span>
-            </li>
-            <li>
-              <span class="uniq">Unique!</span>
-              <span class="descript">
-                MultiROM Collection
-              </span>
-            </li>
-          </ul>
         </span>
+        <ul class="features">
+          <li>
+            <span class="first">1st!</span>
+            <span class="descript">
+              Panasonic FS-CA1 MSX Audio
+            </span>
+          </li>
+          <li>
+            <span class="first">1st!</span>
+            <span class="descript">
+              National mapper type used for internal software
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Panasonic FS-A1FM internal mapper, with firmware switch
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Panasonic mapper type used for internal software
+              (e.g. MSX-View)
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              ROMs with special headers or which start from basic,
+              like Nausicaa, Pairs, etc.
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              All (?) ROMs with SRAM (Hydlide 2, Xanadu, Wizardry,
+              many Koei games, Daisenryaku, etc.)
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+               Cross Blaim
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              R-Type
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Harry Fox Yuki No Maou-Hen
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Korean multi-game ROMs: Zemmix 126, Game's 80, Zemmix 64
+              and MSX90-collection
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Playball and Moero!! Nettou Yakyuu '88 with sample replay
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Super Lode Runner
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Halnote
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Ink (Matra)
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Manbow 2 (also 2nd release)
+            </span>
+          </li>
+          <li>
+            <span class="uniq">Unique!</span>
+            <span class="descript">
+              Arc
+            </span>
+          </li>
+          <li>
+            <span class="uniq">Unique!</span>
+            <span class="descript">
+              Super Swangi (a.k.a. Super Altered Beast)
+            </span>
+          </li>
+          <li>
+            <span class="uniq">Unique!</span>
+            <span class="descript">
+              MSXtra (a debugging tool released by PTC which has its own RAM)
+            </span>
+          </li>
+          <li>
+            <span class="uniq">Unique!</span>
+            <span class="descript">
+              MultiROM Collection
+            </span>
+          </li>
+        </ul>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
           (Almost) all MSX sound devices:
-          <ul class="features">
-            <li>
-              <span class="first">1st!</span>
-              <span class="descript">
-                MSX-MIDI (turboR)
-              </span>
-            </li>
-            <li>
-              <span class="uniq">Unique!</span>
-              <span class="descript">
-                mu-PACK (MIDI module to upgrade turboR ST)
-              </span>
-            </li>
-            <li>
-              <span class="uniq">Unique!</span>
-              <span class="descript">
-                PCM input (sampling) for turbo R via a .wav file
-              </span>
-            </li>
-            <li>
-              <span class="first">1st!</span>
-              <span class="descript">
-                PCM output and hardware PCM mute (turboR)
-              </span>
-            </li>
-            <li>
-              <span class="first">1st!</span>
-              <span class="descript">
-                SIMPL/Covox (sound via the printer port)
-              </span>
-            </li>
-            <li>
-              <span class="cool">Cool!</span>
-              <span class="descript">
-                Moonsound (and the Brazilian OPL3 cartridge)
-              </span>
-            </li>
-            <li>
-              <span class="cool">Cool!</span>
-              <span class="descript">
-                "Moonblaster Stereo": MSX Music on one channel,
-                MSX Audio on the other
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Konami's Majutsushi and Synthesizer DAC
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                SCC and SCC+
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Checkmark FM Stereo PAK, including stereo effect
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                VLM5030, the chip used in the unreleased Konami game Keyboard Master
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Yamaha SFG-05 (partial/experimental), which has an YM2151 chip
-              </span>
-            </li>
-          </ul>
         </span>
+        <ul class="features">
+          <li>
+            <span class="first">1st!</span>
+            <span class="descript">
+              MSX-MIDI (turboR)
+            </span>
+          </li>
+          <li>
+            <span class="uniq">Unique!</span>
+            <span class="descript">
+              mu-PACK (MIDI module to upgrade turboR ST)
+            </span>
+          </li>
+          <li>
+            <span class="uniq">Unique!</span>
+            <span class="descript">
+              PCM input (sampling) for turbo R via a .wav file
+            </span>
+          </li>
+          <li>
+            <span class="first">1st!</span>
+            <span class="descript">
+              PCM output and hardware PCM mute (turboR)
+            </span>
+          </li>
+          <li>
+            <span class="first">1st!</span>
+            <span class="descript">
+              SIMPL/Covox (sound via the printer port)
+            </span>
+          </li>
+          <li>
+            <span class="cool">Cool!</span>
+            <span class="descript">
+              Moonsound (and the Brazilian OPL3 cartridge)
+            </span>
+          </li>
+          <li>
+            <span class="cool">Cool!</span>
+            <span class="descript">
+              "Moonblaster Stereo": MSX Music on one channel,
+              MSX Audio on the other
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Konami's Majutsushi and Synthesizer DAC
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              SCC and SCC+
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Checkmark FM Stereo PAK, including stereo effect
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              VLM5030, the chip used in the unreleased Konami game Keyboard Master
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Yamaha SFG-05 (partial/experimental), which has an YM2151 chip
+            </span>
+          </li>
+        </ul>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
           Many MSX storage (disk/SRAM) systems:
-          <ul class="features">
-            <li>
-              <span class="first">1st!</span>
-              <span class="descript">
-                Sunrise IDE interface with harddisk and CD-ROM (audio tracks not supported yet)
-              </span>
-            </li>
-            <li>
-              <span class="uniq">Unique!</span>
-              <span class="descript">MegaRAM Disk</span>
-            </li>
-            <li>
-              <span class="first">1st!</span>
-              <span class="descript">
-                PAC (Panasonic SW-M001)
-              </span>
-            </li>
-            <li>
-              <span class="first">1st!</span>
-              <span class="descript">
-                Sony HBI-55 datacartridge
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">MegaRAM</span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                MSX-DOS2</span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Floppy disk controller (WD2793 and compatibles, TC8566AF) fully
-                supported, including formatting); also support several ways the FDC's
-                are connected to the MSX (Microsol, National, Sanyo, AVT and Victor styles)
-              </span>
-            </li>
-            <li>
-              <span class="none">&nbsp;</span>
-              <span class="descript">
-                Experimental: Gouda SCSI (Novaxis), MEGA-SCSI, ESE-SCC, WAVE-SCSI and ESE RAMdisk
-              </span>
-            </li>
-            <li>
-              <span class="new">New!</span>
-              <span class="descript">
-                MegaFlashROM SCC / MegaFlashROM SCC+ / MegaFlashROM SCC+ SD
-              </span>
-            </li>
-            <li>
-              <span class="descript">
-                Nowind (mostly useful for developers)
-              </span>
-            </li>
-          </ul>
         </span>
+        <ul class="features">
+          <li>
+            <span class="first">1st!</span>
+            <span class="descript">
+              Sunrise IDE interface with harddisk and CD-ROM (audio tracks not supported yet)
+            </span>
+          </li>
+          <li>
+            <span class="uniq">Unique!</span>
+            <span class="descript">MegaRAM Disk</span>
+          </li>
+          <li>
+            <span class="first">1st!</span>
+            <span class="descript">
+              PAC (Panasonic SW-M001)
+            </span>
+          </li>
+          <li>
+            <span class="first">1st!</span>
+            <span class="descript">
+              Sony HBI-55 datacartridge
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">MegaRAM</span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              MSX-DOS2</span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Floppy disk controller (WD2793 and compatibles, TC8566AF) fully
+              supported, including formatting); also support several ways the FDC's
+              are connected to the MSX (Microsol, National, Sanyo, AVT and Victor styles)
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Experimental: Gouda SCSI (Novaxis), MEGA-SCSI, ESE-SCC, WAVE-SCSI and ESE RAMdisk
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              MegaFlashROM SCC / MegaFlashROM SCC+ / MegaFlashROM SCC+ SD
+            </span>
+          </li>
+          <li>
+            <span class="descript">
+              Nowind (mostly useful for developers)
+            </span>
+          </li>
+        </ul>
       </li>
       <li>
         <span class="none">&nbsp;</span>
@@ -711,29 +711,29 @@
        <span class="none">&nbsp;</span>
        <span class="descript">
          Various screen renderers available:
-         <ul class="features">
-           <li>
-             <span class="none">&nbsp;</span>
-             <span class="descript">
-               Plain SDL renderer, with support for 3 different scaling
-               factors (1&times;=320&times;240, 2&times;=640&times;480
-               and 3&times;=960&times;720) and several scaling algorithms
-               like: <a href="http://www.hiend3d.com/">hq</a>, hqlite,
-               <a href="http://elektron.its.tudelft.nl/~dalikifa/">SaI</a>
-               and <a href="http://scale2x.sf.net/">scaleNx</a>
-             </span>
-           </li>
-           <li>
-             <span class="cool">Cool!</span>
-             <span class="descript">
-	       OpenGL 2.0 based renderer that makes advantage of the processor
-	       of advanced modern graphics cards. Supports scaling factors up to 4 (=1280&times;960).
-	       Extra features: TV scaler, afterglow and a 3D monitor effect.
-	       Does not support SaI scale algorithm.
-             </span>
-           </li>
-         </ul>
        </span>
+       <ul class="features">
+         <li>
+           <span class="none">&nbsp;</span>
+           <span class="descript">
+             Plain SDL renderer, with support for 3 different scaling
+             factors (1&times;=320&times;240, 2&times;=640&times;480
+             and 3&times;=960&times;720) and several scaling algorithms
+             like: <a href="http://www.hiend3d.com/">hq</a>, hqlite,
+             <a href="http://elektron.its.tudelft.nl/~dalikifa/">SaI</a>
+             and <a href="http://scale2x.sf.net/">scaleNx</a>
+           </span>
+         </li>
+         <li>
+           <span class="cool">Cool!</span>
+           <span class="descript">
+             OpenGL 2.0 based renderer that makes advantage of the processor
+             of advanced modern graphics cards. Supports scaling factors up to 4 (=1280&times;960).
+             Extra features: TV scaler, afterglow and a 3D monitor effect.
+             Does not support SaI scale algorithm.
+           </span>
+         </li>
+       </ul>
      </li>
      <li>
         <span class="none">&nbsp;</span>

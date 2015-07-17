@@ -107,12 +107,12 @@
           <a href="#"
              onclick="setActiveStyleSheet('Keyboard'); return false;">
           <img src="images/theme-keys.png"
-               alt="Theme: keys"/></a></li>
+               alt="Theme: keys"></a></li>
         <li>
           <a href="#"
              onclick="setActiveStyleSheet('Blue'); return false;">
           <img src="images/theme-blue.png"
-               alt="Theme: blue"/></a></li>
+               alt="Theme: blue"></a></li>
       </ul>
     </div>
   </div>
