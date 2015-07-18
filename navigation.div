@@ -98,7 +98,7 @@
     </div>
     <div id="openhub">
       <h1>
-        <script type="text/javascript" src="http://www.openhub.net/p/5389/widgets/project_thin_badge.js"></script>
+        <iframe src="https://www.openhub.net/p/5389/widgets/project_thin_badge.html" scrolling="no" marginHeight=0 marginWidth=0 style="height: 32px; width: 145px; border: none;"></iframe>
       </h1>
     </div>
     <div id="styleswitcher">
