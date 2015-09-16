@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2015 September 15</span>
+      openMSX 0.12.0 released
+    </h2>
+    <p>
+    openMSX 0.12.0&mdash;Mulligan&mdash;was going to be (mostly) a bug fix release. But at the end we also got inspired by Grauw to add a lot of MIDI devices. And, reviewing what we changed the last 10 months, we saw that we also got loads of help from several people to add many new machine configurations and added some fun stuff like Sensor Kid and (experimental) Beer IDE emulation. On the emulator features category we give you stuff like triplesize video recording, some TAS enhancements and a callback for too fast VRAM access. So, enjoy this 'various features and bug fixes' release! Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. We again made a small amount of improvements: no need to specify the share dir anymore, automatically fetch the list of supported mappers from openMSX, fix handling of MIDI connectors and some small bug fixes. Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_0_12_0/doc/release-notes.txt">read the release notes</a> for details of the openMSX changes.
+    </p>
+    <h2>
       <span class="date">2015 June 25</span>
       openMSX on the move
     </h2>

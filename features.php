@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.11.0).
+      Here are some highlights of the features of the latest release (0.12.0).
     </p>
 
     <h2>Legend</h2>
@@ -73,11 +73,11 @@
       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
-          Accurate VDP VRAM access timing: like on real hardware, accessing the VDP too fast will result in VRAM corruption
+          Accurate VDP VRAM access timing: like on real hardware, accessing the VDP too fast will result in VRAM corruption. Includes a Tcl callback to debug your programs on this phenomenon
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Emulation of most differences between the different MSX1 VDP's
         </span>
@@ -116,7 +116,7 @@
        <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-           Reverse: go back in time to correct mistakes or replay your actions, optionally save the full event history to a file. Also with quite complete support for <a href="http://www.tasvideos.org/">TAS</a>
+           Reverse: go back in time to correct mistakes, replay your actions, or step back in time with the debugger to find the cause of a crash. Optionally save the full event history to a file. Also with quite complete support for <a href="http://www.tasvideos.org/">TAS</a>
         </span>
       </li>
        <li>
@@ -336,6 +336,12 @@
           (Almost) all MSX sound devices:
           <ul class="features">
             <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                Philips NMS1205 Music Module, including MIDI in/out
+              </span>
+            </li>
+            <li>
               <span class="first">1st!</span>
               <span class="descript">
                 MSX-MIDI (turboR)
@@ -405,7 +411,13 @@
             <li>
               <span class="none">&nbsp;</span>
               <span class="descript">
-                Yamaha SFG-05 (partial/experimental), which has an YM2151 chip
+                Yamaha SFG-01/05, which has an YM2151 OPM and YM2148 for MIDI
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                FAC MIDI Interface
               </span>
             </li>
           </ul>
@@ -462,9 +474,15 @@
               </span>
             </li>
             <li>
-              <span class="new">New!</span>
+              <span class="uniq">Unique!</span>
               <span class="descript">
                 MegaFlashROM SCC / MegaFlashROM SCC+ / MegaFlashROM SCC+ SD
+              </span>
+            </li>
+            <li>
+              <span class="new">New!</span>
+              <span class="descript">
+                BeerIDE interface with harddisk (experimental)
               </span>
             </li>
             <li>
@@ -614,6 +632,12 @@
           Sharp/Epcom HB-4000 80 column cartridge extension
         </span>
       </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Sony/Dempa's Sensor Kid cartridge
+        </span>
+      </li>
 
     </ul>
 
@@ -755,7 +779,7 @@
          </span>
        </li>
        <li>
-         <span class="new">New!</span>
+         <span class="none">&nbsp;</span>
          <span class="descript">
            Deflicker filter, for removing flickering in cases like the dvik demos where 105 colors are simulated on MSX1 by alternating different native colors.
          </span>
@@ -870,7 +894,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 0.11.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 0.12.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>
