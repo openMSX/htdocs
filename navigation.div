@@ -98,7 +98,7 @@
     </div>
     <div id="openhub">
       <h1>
-        <script type="text/javascript" src="http://www.openhub.net/p/5389/widgets/project_thin_badge.js"></script>
+        <iframe src="https://www.openhub.net/p/5389/widgets/project_thin_badge.html" scrolling="no" marginHeight=0 marginWidth=0 style="height: 32px; width: 145px; border: none;"></iframe>
       </h1>
     </div>
     <div id="styleswitcher">
@@ -107,12 +107,12 @@
           <a href="#"
              onclick="setActiveStyleSheet('Keyboard'); return false;">
           <img src="images/theme-keys.png"
-               alt="Theme: keys"/></a></li>
+               alt="Theme: keys"></a></li>
         <li>
           <a href="#"
              onclick="setActiveStyleSheet('Blue'); return false;">
           <img src="images/theme-blue.png"
-               alt="Theme: blue"/></a></li>
+               alt="Theme: blue"></a></li>
       </ul>
     </div>
   </div>

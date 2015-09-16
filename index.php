@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <?php 
   $current="Home";
   require "head.div";
@@ -114,21 +114,21 @@ openMSX wasn't able to load savestates with paths that contain spaces, which is 
       openMSX 0.7.1 released
     </h2>
     <p>
-    openMSX 0.7.1&mdash;IWCA approved&mdash;includes a brand new installer with binaries which have been created in a brand new way, using Microsoft Visual C++ 2008. This means smaller binaries and also support for 64-bit Windows operating systems. Also, several long standing problems have been fixed in the Windows release of openMSX. E.g., it now includes full support for unicode! For the rest we have mostly fixed smaller issues and added some cool demonstrations of what one can do with the combination of (Tcl) scripting, the debug command and the OSD. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&release_id=693184">read the release notes</a> for details.
+    openMSX 0.7.1&mdash;IWCA approved&mdash;includes a brand new installer with binaries which have been created in a brand new way, using Microsoft Visual C++ 2008. This means smaller binaries and also support for 64-bit Windows operating systems. Also, several long standing problems have been fixed in the Windows release of openMSX. E.g., it now includes full support for unicode! For the rest we have mostly fixed smaller issues and added some cool demonstrations of what one can do with the combination of (Tcl) scripting, the debug command and the OSD. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&amp;release_id=693184">read the release notes</a> for details.
     </p>
      <h2>
       <span class="date">2009 January 7</span>
       openMSX 0.7.0 released
     </h2>
     <p>
-    openMSX 0.7.0&mdash;Lazarus&mdash;includes the long awaited save states feature, fully automatic host to MSX keyboard mapping and an improved dir-as-disk feature with full transparency. Furthermore, we have added a technology preview of our new On-Screen-Display. Also we have an even better performance and several other enhancements and bug fixes on many places. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&release_id=652096">read the release notes</a> for details.
+    openMSX 0.7.0&mdash;Lazarus&mdash;includes the long awaited save states feature, fully automatic host to MSX keyboard mapping and an improved dir-as-disk feature with full transparency. Furthermore, we have added a technology preview of our new On-Screen-Display. Also we have an even better performance and several other enhancements and bug fixes on many places. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&amp;release_id=652096">read the release notes</a> for details.
     </p>
     <h2>
       <span class="date">2007 December 11</span>
       openMSX 0.6.3 released
     </h2>
     <p>
-    openMSX 0.6.3&mdash;Crystal Clear&mdash;includes advanced resampling for aliasing-free sound, a stereo balance setting for each sound chip, recording of separate channels, PSG detune and vibrato and some non-sound-related improvements as well. Also, a hang on Windows PCs with multi-core/HT CPUs is fixed. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&release_id=560483">read the release notes</a> for details.
+    openMSX 0.6.3&mdash;Crystal Clear&mdash;includes advanced resampling for aliasing-free sound, a stereo balance setting for each sound chip, recording of separate channels, PSG detune and vibrato and some non-sound-related improvements as well. Also, a hang on Windows PCs with multi-core/HT CPUs is fixed. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&amp;release_id=560483">read the release notes</a> for details.
     </p>
      <h2>
       <span class="date">2007 August 27</span>
@@ -142,7 +142,7 @@ openMSX wasn't able to load savestates with paths that contain spaces, which is 
       openMSX 0.6.2 released
     </h2>
     <p>
-    openMSX 0.6.2&mdash;Oscar&mdash;includes video recording, more realistic PSG and SCC sound, significant optimizations, easier to use game trainers, as well as a lot of other improvements and bugfixes. Together with openMSX a new version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&release_id=501347">read the release notes</a> for details.
+    openMSX 0.6.2&mdash;Oscar&mdash;includes video recording, more realistic PSG and SCC sound, significant optimizations, easier to use game trainers, as well as a lot of other improvements and bugfixes. Together with openMSX a new version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?group_id=38274&amp;release_id=501347">read the release notes</a> for details.
     </p>
     <h2>
       <span class="date">2006 September 17</span>
@@ -159,7 +159,7 @@ openMSX wasn't able to load savestates with paths that contain spaces, which is 
       openMSX 0.6.1 released
     </h2>
     <p>
-    openMSX 0.6.1&mdash;Chernoton Meltdown&mdash;includes runtime switchable machines and extensions, a lot of new video filters (some of which use pixel shaders), as well as a lot of other improvements and bugfixes. Together with openMSX a new version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?release_id=435794&group_id=38274">read the release notes</a> for details.
+    openMSX 0.6.1&mdash;Chernoton Meltdown&mdash;includes runtime switchable machines and extensions, a lot of new video filters (some of which use pixel shaders), as well as a lot of other improvements and bugfixes. Together with openMSX a new version of Catapult, our user-friendly GUI, was released. Please <a href="http://sourceforge.net/project/shownotes.php?release_id=435794&amp;group_id=38274">read the release notes</a> for details.
     </p>
     <h2>
       <span class="date">2006 July 23</span>

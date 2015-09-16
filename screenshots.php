@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <?php
   $current="Screenshots";
   require "head.div";
@@ -70,7 +70,7 @@
            "Sandstone"),
     array ("sar",
            "sbb-3d_thumb.png", "sbb-3d.png",
-           "Sex Bomb Bunny in the latest SDLGL-PP renderer, showing the 3D arcade effect!<br/>(Image scaled down)"),
+           "Sex Bomb Bunny in the latest SDLGL-PP renderer, showing the 3D arcade effect!<br>(Image scaled down)"),
     array ("sar",
            "scalers-mog_thumb.png", "scalers-mog.gif",
            "Maze of Galious, showing some of the available scale algorithms"),
@@ -121,7 +121,7 @@
           $thumb = $imginfo[$i_thumb];
           echo '    <span class="thumb" id="thumb'.$id.'">'."\n";
           echo '      <a href="screenshots.php?n='.$id.'">'."\n";
-          echo '        <img src="images/screenshots/'.$thumb.'" alt="'.$thumb.'" />'."\n";
+          echo '        <img src="images/screenshots/'.$thumb.'" alt="'.$thumb.'">'."\n";
           echo '      </a>'."\n";
           echo '    </span>'."\n";
         }
@@ -141,7 +141,7 @@
       $imginfo = $images[$show];
       $image = $imginfo[$i_image];
       $text = $imginfo[$i_descrip];
-      echo '    <img src="images/screenshots/'.$image.'" alt="'.$image.'" />'."\n";
+      echo '    <img src="images/screenshots/'.$image.'" alt="'.$image.'">'."\n";
       echo '    <p>'.$text.'</p>'."\n";
     }
   }
@@ -153,7 +153,7 @@
     foreach($images as $id => $imginfo) {
       $image = $imginfo[$i_image];
       $text = $imginfo[$i_descrip];
-      echo '    <p><img src="images/screenshots/'.$image.'" alt="'.$image.'" />'."\n";
+      echo '    <p><img src="images/screenshots/'.$image.'" alt="'.$image.'">'."\n";
       echo '    </p><p>'.$text.'</p>'."\n";
     }
   }  

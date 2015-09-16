@@ -222,7 +222,7 @@ div#content ul.features li {
   display: inline;
 }
 
-div#content span.descript {
+div#content span.descript, div#content ul.features ul {
   display: block;
   margin-left: 6em;
 }
