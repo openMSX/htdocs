@@ -337,6 +337,12 @@
         </span>
         <ul class="features">
           <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Philips NMS1205 Music Module, including MIDI in/out
+            </span>
+          </li>
+          <li>
             <span class="first">1st!</span>
             <span class="descript">
               MSX-MIDI (turboR)
@@ -406,7 +412,13 @@
           <li>
             <span class="none">&nbsp;</span>
             <span class="descript">
-              Yamaha SFG-05 (partial/experimental), which has an YM2151 chip
+              Yamaha SFG-01/05, which has an YM2151 OPM and YM2148 for MIDI
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              FAC MIDI Interface
             </span>
           </li>
         </ul>
@@ -463,9 +475,15 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="uniq">Unique!</span>
             <span class="descript">
               MegaFlashROM SCC / MegaFlashROM SCC+ / MegaFlashROM SCC+ SD
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              BeerIDE interface with harddisk (experimental)
             </span>
           </li>
           <li>
