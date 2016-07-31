@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.12.0).
+      Here are some highlights of the features of the latest release (0.13.0).
     </p>
 
     <h2>Legend</h2>
@@ -99,7 +99,7 @@
         <span class="cool">Cool!</span>
         <span class="descript">
           On-Screen-Display, with LEDs for e.g. power, FDD, capsLock and
-          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and a completely programmable OSD menu, with many common actions/settings in it (mostly meant for full screen usage on e.g. a Dingoo or Android device)
+          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and a completely programmable OSD menu, with many common actions/settings in it (mostly meant for full screen usage on e.g. a GCW Zero or Android device)
       </span></li>
        <li>
         <span class="uniq">Unique!</span>
@@ -128,7 +128,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          For Linux, Windows, MacOS X, FreeBSD, NetBSD, OpenBSD and OpenDingux (Dingoo) systems
+          For Linux, Windows, MacOS X, FreeBSD, NetBSD, OpenBSD and OpenDingux (GCW Zero) systems
         </span>
       </li>
       <li>
@@ -151,13 +151,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          About 130 MSX machine hardware configurations included
+          More than 150 MSX machine hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 70 MSX extension hardware configurations included
+          More than 80 MSX extension hardware configurations included
         </span>
       </li>
       <li>
@@ -328,6 +328,12 @@
               MultiROM Collection
             </span>
           </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              MSX Write
+            </span>
+          </li>
         </ul>
       </li>
       <li>
@@ -337,7 +343,7 @@
         </span>
         <ul class="features">
           <li>
-            <span class="new">New!</span>
+            <span class="uniq">Unique!</span>
             <span class="descript">
               Philips NMS1205 Music Module, including MIDI in/out
             </span>
@@ -416,7 +422,7 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="uniq">Unique!</span>
             <span class="descript">
               FAC MIDI Interface
             </span>
@@ -453,7 +459,7 @@
           </li>
           <li>
             <span class="none">&nbsp;</span>
-            <span class="descript">MegaRAM</span>
+            <span class="descript">MegaRAM (512kB and 2MB versions)</span>
           </li>
           <li>
             <span class="none">&nbsp;</span>
@@ -465,7 +471,7 @@
             <span class="descript">
               Floppy disk controller (WD2793 and compatibles, TC8566AF) fully
               supported, including formatting); also support several ways the FDC's
-              are connected to the MSX (Microsol, National, Sanyo, AVT and Victor styles)
+              are connected to the MSX (Microsol, National, Sanyo, AVT, Spectravideo and Victor styles)
             </span>
           </li>
           <li>
@@ -481,7 +487,7 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="none">&nbsp;</span>
             <span class="descript">
               BeerIDE interface with harddisk (experimental)
             </span>
@@ -633,11 +639,18 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Sony/Dempa's Sensor Kid cartridge
         </span>
       </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Epson's Chakkari Copy cartridge
+        </span>
+      </li>
+
 
     </ul>
 
@@ -882,7 +895,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          MIDI connectivity to host frameworks for Windows and Mac: connect to the MIDI of your emulated MSX device with applications running on your host
+          MIDI connectivity to host frameworks for Windows, Mac and Linux (ALSA): connect to the MIDI of your emulated MSX device with applications running on your host
         </span>
       </li>
     </ul>
@@ -894,7 +907,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 0.12.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 0.13.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>

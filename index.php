@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2016 July 31</span>
+      openMSX 0.13.0 released
+    </h2>
+    <p>
+    openMSX 0.13.0&mdash;Black Cat&mdash;again was meant to be (mostly) a bug fix release, but again it also has some nice additions and improvements to enjoy. Important improvements are much better support for VDP I/O delay in turbo machines (fixing graphics issues due to too fast VDP access there), more accurate MSX1 color palette, progress reporting for long operations and ALSA MIDI-out support for Linux. This is also one of the first releases that drops support for older platforms: Windows XP, Dingoo A320 (but introducing support for GCW Zero) and non-64-bit MacOSX. If you still want to run openMSX on these, you'll be stuck on using a previous release or start maintaining these platforms yourself. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. We again made a small amount of improvements: fixed Catapult interrupting replay directly after loading it, performance improvements while reversing, fixed drag-and-drop for media and some smaller bug fixes. Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_0_13_0/doc/release-notes.txt">read the release notes</a> for details of the openMSX changes.
+    </p>
+    <h2>
       <span class="date">2015 September 15</span>
       openMSX 0.12.0 released
     </h2>
