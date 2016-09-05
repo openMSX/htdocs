@@ -67,7 +67,7 @@
         <ul>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-win32-bin-snapshot.zip">
               Snapshot / Win 32bit (MinGW build, zip)</a></li>
-          <li><a href="http://openmsx.fixato.net/builds/mac/debugger/openMSX-debugger-246-g33957cc-mac-x86_64.tbz">
+          <li><a href="http://openmsx.fixato.net/builds/mac/debugger/openMSX-debugger-255-g415ed68-mac-x86_64.tbz">
               Snapshot / Mac OS X 64bit (tbz, requires separate Qt5 download)</a></li>
           <li><a href="https://github.com/openMSX/debugger/archive/master.zip">
               Snapshot / Source code (zip)</a></li>
