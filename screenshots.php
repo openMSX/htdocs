@@ -120,7 +120,7 @@
         if($imginfo[$i_cat] == $v) {
           $thumb = $imginfo[$i_thumb];
           echo '    <span class="thumb" id="thumb'.$id.'">'."\n";
-          echo '      <a href="screenshots.html?n='.$id.'">'."\n";
+          echo '      <a href="screenshot_'.$id.'.html">'."\n";
           echo '        <img src="images/screenshots/'.$thumb.'" alt="'.$thumb.'">'."\n";
           echo '      </a>'."\n";
           echo '    </span>'."\n";
@@ -161,6 +161,9 @@
   // ---------------------------------------
   
   $show = $_GET["n"]; // if _GET["n"] is not set, $show will be 0
+  if ($show == 0) {
+      $show = $argv[1];
+  }
   
   switch($show) {
   case 0:
