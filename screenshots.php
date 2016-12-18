@@ -109,7 +109,7 @@
     global $categories, $images;
     global $i_cat, $i_thumb, $i_image, $i_descrip;
     
-//    echo '    <p><a href="screenshots.php?n=all" class="button">'."\n";
+//    echo '    <p><a href="screenshots.html?n=all" class="button">'."\n";
 //    echo '      Show all images</a></p>'."\n";
     
     foreach($categories as $v => $category) {
@@ -120,7 +120,7 @@
         if($imginfo[$i_cat] == $v) {
           $thumb = $imginfo[$i_thumb];
           echo '    <span class="thumb" id="thumb'.$id.'">'."\n";
-          echo '      <a href="screenshots.php?n='.$id.'">'."\n";
+          echo '      <a href="screenshots.html?n='.$id.'">'."\n";
           echo '        <img src="images/screenshots/'.$thumb.'" alt="'.$thumb.'">'."\n";
           echo '      </a>'."\n";
           echo '    </span>'."\n";

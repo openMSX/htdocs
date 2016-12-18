@@ -14,12 +14,12 @@
 	  echo '><a href="'.$link.'">'.$name.'</a></li>'."\n";
 	}
 
-	createLink("index.php",       "Home");
-	createLink("docs.php",        "Documentation");
-	createLink("screenshots.php", "Screenshots");
-	createLink("features.php",    "Features");
-	createLink("3rdparty.php",    "3rd Party");
-	createLink("contact.php",     "Contact");
+	createLink("index.html",       "Home");
+	createLink("docs.html",        "Documentation");
+	createLink("screenshots.html", "Screenshots");
+	createLink("features.html",    "Features");
+	createLink("3rdparty.html",    "3rd Party");
+	createLink("contact.html",     "Contact");
 	createLink("http://www.msx.org/forum/semi-msx-talk/openmsx", "Forum (MRC)");
 	createLink("https://github.com/openMSX/", "Project&nbsp;Page");
 ?>
