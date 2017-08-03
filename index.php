@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2017 August 3</span>
+      openMSX 0.14.0 released
+    </h2>
+    <p>
+    openMSX 0.14.0&mdash;Blasphemy&mdash;is another mix of some new features and additions and a lot of smaller fixes and improvements. This release adds support for Konami Ultimate Collection and basic emulation for the Spectravideo SVI-318 and SVI-328 pre-MSX computers, increases FDC accuracy in such a way that we think all copy protections (captured in a DMK file) should now run in openMSX. Moreover, we now put the SDLGL-PP renderer as the default, so let us know how that works for you. You can of course always set the old default setting for your system if you don't like SDLGL-PP. But then we would really like to know why... We also removed the Windows DirectX sound driver, as it was buggy and caused a lot of complaints. And finally, we added a button in the top left corner to easily invoke the OSD menu.Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. We again made a small amount of improvements: added noise control to Video Control Page, fixed the browse extension for the openMSX executable and some build support improvements. Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_0_14_0/doc/release-notes.txt">read the release notes</a> for details of the openMSX changes.
+    </p>
+    <h2>
       <span class="date">2016 July 31</span>
       openMSX 0.13.0 released
     </h2>

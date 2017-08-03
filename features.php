@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.13.0).
+      Here are some highlights of the features of the latest release (0.14.0).
     </p>
 
     <h2>Legend</h2>
@@ -48,7 +48,7 @@
       </li>
       <li><span class="uniq">Unique!</span>
         <span class="descript">
-          TCL scripting: enhance openMSX with powerful scripts
+          TCL scripting: enhance openMSX with powerful scripts. There are dozens of scripts included with various purposes: SCC viewer, cheat finder, VGM recorder, audio channel recorder, VU-meters, FPS display, game HUDs/overlays, sprite viewer, info panel, music keyboard display of sound being played, TAS tools, debugging tools, session management, etc. etc.
         </span>
       </li>
       <li>
@@ -99,7 +99,7 @@
         <span class="cool">Cool!</span>
         <span class="descript">
           On-Screen-Display, with LEDs for e.g. power, FDD, capsLock and
-          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and a completely programmable OSD menu, with many common actions/settings in it (mostly meant for full screen usage on e.g. a GCW Zero or Android device)
+          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and a completely programmable OSD menu, with many common actions/settings in it.)
       </span></li>
        <li>
         <span class="uniq">Unique!</span>
@@ -182,6 +182,12 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Almost all MSX systems: MSX, MSX2, MSX2+ and turboR generation
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Initial/experimental emulation of the MSX-precursor system Spectravideo SVI-318 and SVI-328. Note that we are no SVI enthusiasts ourselves, so we rely on others to support these systems properly.
         </span>
       </li>
       <li>
@@ -331,7 +337,7 @@
           <li>
             <span class="new">New!</span>
             <span class="descript">
-              MSX Write
+              ASCII Japanese MSX-Write and MSX-Write II
             </span>
           </li>
         </ul>
@@ -471,7 +477,7 @@
             <span class="descript">
               Floppy disk controller (WD2793 and compatibles, TC8566AF) fully
               supported, including formatting); also support several ways the FDC's
-              are connected to the MSX (Microsol, National, Sanyo, AVT, Spectravideo and Victor styles)
+              are connected to the MSX (Microsol, National, Sanyo, AVT, Spectravideo and Victor styles). The WD2793 emulation is highly accurate: all copy protections (stored in a DMK disk image) we know are supported.
             </span>
           </li>
           <li>
@@ -487,6 +493,12 @@
             </span>
           </li>
           <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Konami Ultimate Collection
+            </span>
+          </li>
+          <li>
             <span class="none">&nbsp;</span>
             <span class="descript">
               BeerIDE interface with harddisk (experimental)
@@ -497,12 +509,18 @@
               Nowind (mostly useful for developers)
             </span>
           </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Tecall TM220 MSX-RAMFILE
+            </span>
+          </li>
         </ul>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Mouse, joystick (with option to use the keyboard as joystick), the Arkanoid pad, trackball and additionally the ninja-tap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
+          Mouse, joystick (with option to use the keyboard as joystick), the Arkanoid pad, ASCII paddle (1 and 2), trackball and additionally the ninja-tap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
         </span>
       </li>
       <li>
@@ -645,7 +663,7 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Epson's Chakkari Copy cartridge
         </span>
@@ -907,7 +925,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 0.13.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 0.14.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>
