@@ -65,6 +65,8 @@
 -->
         <h2>Debugger</h2>
         <ul>
+          <li><a href="http://openmsx.fixato.net/builds/windows/debugger/openMSX_Debugger_x64_20180220.zip">
+              Snapshot / Win 64bit (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-win32-bin-snapshot.zip">
               Snapshot / Win 32bit (MinGW build, zip)</a></li>
           <li><a href="http://openmsx.fixato.net/builds/mac/debugger/openMSX-debugger-255-g415ed68-mac-x86_64.tbz">
