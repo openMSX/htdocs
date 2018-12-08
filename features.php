@@ -128,7 +128,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          For Linux, Windows (7+), MacOS X, Android 4.1+, FreeBSD, NetBSD, OpenBSD and OpenDingux (GCW Zero) systems
+          For Linux, Windows (7+), macOS, Android 4.1+, FreeBSD, NetBSD, OpenBSD and OpenDingux (GCW Zero) systems
         </span>
       </li>
       <li>

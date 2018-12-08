@@ -56,7 +56,7 @@
       </dt>
       <dd>
         This article on The MSX Games Box (now part of Passion MSX) explains
-        the compilation process of openMSX on MacOS X in great detail, however,
+        the compilation process of openMSX on macOS in great detail, however,
         it is now mostly outdated.
       </dd>
       <dt>
@@ -78,7 +78,7 @@
         FiXato created a great web site which provides you with daily built
         binaries of openMSX. Very much recommended if you want to try out
         development versions of openMSX without compiling them yourself!
-        Currently supporting Windows, Mac OS X, Android and OpenDingux platforms.
+        Currently supporting Windows, macOS, Android and OpenDingux platforms.
       </dd>
       <dt>
         <a href="http://msx.jannone.org/openMSXcontrol/">OpenMSX Control Plugin for Gedit</a>
