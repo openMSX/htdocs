@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2018 December 8</span>
+      openMSX 0.15.0 released
+    </h2>
+    <p>
+    openMSX 0.15.0&mdash;Sinterklaasphemy&mdash;is a release which was due because we did quite a lot! This time the major new stuff is support for ColecoVision (including Super Game Module and MegaCart mapper), Musical Memory Mapper and Carnivore 2. And we have fixed a lot of long-standing OPL4 emulation issues, thanks to Valley Bell. Furthermore, we overhauled the Android port, but you'll mostly notice the scale factor 2 there. And several other (sometimes very long standing) issues were fixed.Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. We again made a small amount of improvements: disable controls for joystick/printer port if the machine doesn't have them, fix trashing the replay at time 0 (when reversing back to time 0), added the .hdd extension when browsing for harddisk images and made the test machine for extensions C-BIOS_MSX2+ (if available). Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_0_15_0/doc/release-notes.txt">read the release notes</a> for details of the openMSX changes.
+    </p>
+    <h2>
       <span class="date">2017 August 3</span>
       openMSX 0.14.0 released
     </h2>

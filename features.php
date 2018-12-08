@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.14.0).
+      Here are some highlights of the features of the latest release (0.15.0).
     </p>
 
     <h2>Legend</h2>
@@ -186,6 +186,12 @@
       </li>
       <li>
         <span class="new">New!</span>
+        <span class="descript">
+          Initial/experimental emulation of the ColecoVision video game system. Includes support for the Super Game Module and the MegaCart mapper, used by many modern homebrew games.
+        </span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Initial/experimental emulation of the MSX-precursor system Spectravideo SVI-318 and SVI-328. Note that we are no SVI enthusiasts ourselves, so we rely on others to support these systems properly.
         </span>
@@ -433,6 +439,12 @@
               FAC MIDI Interface
             </span>
           </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Musical Memory Mapper (with SN76489 DCSG sound chip)
+            </span>
+          </li>
         </ul>
       </li>
       <li>
@@ -495,6 +507,12 @@
           <li>
             <span class="new">New!</span>
             <span class="descript">
+              Carnivore 2
+            </span>
+          </li>
+          <li>
+            <span class="uniq">Unique!</span>
+            <span class="descript">
               Konami Ultimate Collection
             </span>
           </li>
@@ -505,12 +523,13 @@
             </span>
           </li>
           <li>
+            <span class="none">&nbsp;</span>
             <span class="descript">
               Nowind (mostly useful for developers)
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="uniq">Unique!</span>
             <span class="descript">
               Tecall TM220 MSX-RAMFILE
             </span>
@@ -925,7 +944,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 0.14.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 0.15.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>
