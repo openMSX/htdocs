@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (0.15.0).
+      Here are some highlights of the features of the latest release (16.0).
     </p>
 
     <h2>Legend</h2>
@@ -99,12 +99,16 @@
         <span class="cool">Cool!</span>
         <span class="descript">
           On-Screen-Display, with LEDs for e.g. power, FDD, capsLock and
-          Rensha Turbo, icons showing openMSX state, graphics shown by auxiliary scripts and a completely programmable OSD menu, with many common actions/settings in it.)
+          Rensha Turbo, icons showing openMSX state, graphics shown by
+          auxiliary scripts and a completely programmable OSD menu, with many
+          common actions/settings in it.)
       </span></li>
        <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
-           Fully automatic host to MSX keyboard mapping. You can type on any machine with any keyboard layout with any PC keyboard layout. Very easy on a Japanese machine, for example!
+           Fully automatic host to MSX keyboard mapping. You can type on any
+           machine with any keyboard layout with any PC keyboard layout. Very
+           easy on a Japanese machine, for example!
         </span>
       </li>
        <li>
@@ -116,7 +120,10 @@
        <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-           Reverse: go back in time to correct mistakes, replay your actions, or step back in time with the debugger to find the cause of a crash. Optionally save the full event history to a file. Also with quite complete support for <a href="http://www.tasvideos.org/">TAS</a>
+           Reverse: go back in time to correct mistakes, replay your actions,
+           or step back in time with the debugger to find the cause of a crash.
+           Optionally save the full event history to a file. Also with quite
+           complete support for <a href="http://www.tasvideos.org/">TAS</a>
         </span>
       </li>
        <li>
@@ -128,12 +135,12 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          For Linux, Windows (7+), macOS, Android 4.1+, FreeBSD, NetBSD, OpenBSD and OpenDingux (GCW Zero) systems
+          For Linux, Windows (7+), macOS, (Android 4.1+ up to openMSX 0.15.0), FreeBSD, NetBSD, OpenBSD and OpenDingux (GCW Zero) systems
         </span>
       </li>
       <li>
         <span class="descript">
-          Installer for Windows (also 64 bit binaries available)
+          Installer for Windows
         </span>
       </li>
       <li>
@@ -151,25 +158,19 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 150 MSX machine hardware configurations included
+          More than 170 MSX machine hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 80 MSX extension hardware configurations included
+          More than 90 MSX extension hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
           SSE2 optimisations for rendering and resampling
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          DirectSound sound driver for MS Windows
         </span>
       </li>
     </ul>
@@ -185,7 +186,7 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Initial/experimental emulation of the ColecoVision video game system. Includes support for the Super Game Module and the MegaCart mapper, used by many modern homebrew games.
         </span>
@@ -341,7 +342,7 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="none">&nbsp;</span>
             <span class="descript">
               ASCII Japanese MSX-Write and MSX-Write II
             </span>
@@ -442,6 +443,12 @@
           <li>
             <span class="new">New!</span>
             <span class="descript">
+              JVC MSX MIDI
+            </span>
+          </li>
+          <li>
+            <span class="uniq">Unique!</span>
+            <span class="descript">
               Musical Memory Mapper (with SN76489 DCSG sound chip)
             </span>
           </li>
@@ -505,7 +512,7 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="uniq">Unique!</span>
             <span class="descript">
               Carnivore 2
             </span>
@@ -658,6 +665,18 @@
         </span>
       </li>
       <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Copy from the MSX screen and paste to the MSX (and paste to console)
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Drag and drop support (drop files on openMSX window)
+        </span>
+      </li>
+      <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
           support to emulate any non-colour monitor, like monochrome-green, amber or white
@@ -685,6 +704,12 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Epson's Chakkari Copy cartridge
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          ROM Hunter Mk2 cartridge
         </span>
       </li>
 
@@ -944,7 +969,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 0.15.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 16.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>

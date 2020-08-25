@@ -11,6 +11,13 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2020 August 25</span>
+      openMSX 16.0 released
+    </h2>
+    <p>
+    openMSX 16.0&mdash;Oh Shucks&mdash;is a major release in which we finally migrated to SDL2 and Tcl 8.6. And we moved to a simpler versioning scheme, stripping off that 0. prefix now :) Other than that, there are loads and loads of improvements. Some often requested ones are copy/paste functionality and drag and drop support. But we also added a super accurate YM2413 emulation (originally written by NukeYKT), fixed MIDI-in/out support on Windows, a new keyboard mode, much improved OSD menu, etc. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. We again made a small amount of improvements: fix hidden openMSX window when launching from Catapult, migration to Python 3 and wxWidgets 3.0, make supported extensions consistent with openMSX command line, replaced Accuracy control with VSync button and Min and Max Frameskip controls with fast forward speed controls and added a button to enable full speed when loading ("Fast Load"). Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_16_0/doc/release-notes.txt">read the release notes</a> for details of the openMSX changes.
+    </p>
+    <h2>
       <span class="date">2018 December 8</span>
       openMSX 0.15.0 released
     </h2>
