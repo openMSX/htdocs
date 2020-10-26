@@ -38,7 +38,7 @@
 	<br />
 	It can, however, still load and run ROM files 
 	(for instance homebrew games obtained from the 
-	<a href="http://www.msxdev.org/">MSXdev competition</a>), 
+	<a href="https://www.msxdev.org/">MSXdev competition</a>), 
 	or for example 
 	<a href="https://www.msx.org/wiki/Copying_cartridge_software">dumped</a>
 	from your own cartridges.<br />
