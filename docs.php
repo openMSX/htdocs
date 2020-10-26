@@ -34,7 +34,17 @@
         <a href="http://cbios.sourceforge.net/">C-BIOS</a> is a free BIOS
         for MSX, which&mdash;like openMSX&mdash;is still in development, and
         therefore doesn't provide all functionality to run a complete MSX
-        machine, yet. 
+        machine, yet. <br />
+	<br />
+	It can, however, still load and run ROM files,
+	such as homebrew games obtained from the 
+	<a href="https://www.msxdev.org/">MSXdev competition</a>, or
+	<a href="https://www.msx.org/wiki/Copying_cartridge_software">dumped</a>
+	from your own cartridges.<br />
+	To run these files, just drag-and-drop them onto the open openMSX
+	window or shortcut, or watch this video showcasing one of the other 
+	<a href="https://www.youtube.com/watch?v=H7nPJdsRaRM">ways to load ROMs</a>.<br />
+	<br />
         Read the <a href="/manual/setup.html">Setup Guide</a>
         to learn how to make openMSX emulate real MSX machines.
       </dd>
