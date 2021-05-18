@@ -19,7 +19,7 @@
       </dt>
       <dd>
         openMSX is an emulator for the MSX home computer system. Its goal is to emulate all
-        aspects of the MSX with 100% accuracy: perfection in emulation. 
+        aspects of the MSX with 100% accuracy: perfection in emulation.
 	You can find everything you ever wanted to know about MSX, and more, in
         <a href="http://faq.msxnet.org/">the Ultimate MSX FAQ</a>.
       </dd>
@@ -37,12 +37,12 @@
         machine, yet. <br />
 	<br />
 	It can, however, still load and run ROM files,
-	such as homebrew games obtained from the 
+	such as homebrew games obtained from the
 	<a href="https://www.msxdev.org/">MSXdev competition</a>, or
 	<a href="https://www.msx.org/wiki/Copying_cartridge_software">dumped</a>
 	from your own cartridges.<br />
 	To run these files, just drag-and-drop them onto the open openMSX
-	window or shortcut, or watch this video showcasing one of the other 
+	window or shortcut, or watch this video showcasing one of the other
 	<a href="https://www.youtube.com/watch?v=H7nPJdsRaRM">ways to load ROMs</a>.<br />
 	<br />
         Read the <a href="/manual/setup.html">Setup Guide</a>
