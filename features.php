@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (16.0).
+      Here are some highlights of the features of the latest release (17.0).
     </p>
 
     <h2>Legend</h2>
@@ -158,7 +158,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 170 MSX machine hardware configurations included
+          More than 190 MSX machine (and similar) hardware configurations included
         </span>
       </li>
       <li>
@@ -198,7 +198,7 @@
         </span>
       </li>
       <li>
-        <span class="uniq">Unique!</span>
+        <span class="first">1st!</span>
         <span class="descript">
           Sunrise GFX9000 and part of Video 9000
         </span>
@@ -283,7 +283,7 @@
           <li>
             <span class="none">&nbsp;</span>
             <span class="descript">
-              Korean multi-game ROMs: Zemmix 126, Game's 80, Zemmix 64
+              Korean multi-game ROMs: Zemmix 126, Game's 80, Zemmix 64, Zemina 25-in-1
               and MSX90-collection
             </span>
           </li>
@@ -441,7 +441,7 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="uniq">Unique!</span>
             <span class="descript">
               JVC MSX MIDI
             </span>
@@ -450,6 +450,12 @@
             <span class="uniq">Unique!</span>
             <span class="descript">
               Musical Memory Mapper (with SN76489 DCSG sound chip)
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Popolon Sound Cartridge (with configurable size)
             </span>
           </li>
         </ul>
@@ -665,18 +671,6 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
-        <span class="descript">
-          Copy from the MSX screen and paste to the MSX (and paste to console)
-        </span>
-      </li>
-      <li>
-        <span class="new">New!</span>
-        <span class="descript">
-          Drag and drop support (drop files on openMSX window)
-        </span>
-      </li>
-      <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
           support to emulate any non-colour monitor, like monochrome-green, amber or white
@@ -707,7 +701,7 @@
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="uniq">Unique!</span>
         <span class="descript">
           ROM Hunter Mk2 cartridge
         </span>
@@ -826,7 +820,7 @@
          <li>
            <span class="cool">Cool!</span>
            <span class="descript">
-             OpenGL 2.0 based renderer that makes advantage of the processor
+             OpenGL 2.1 based renderer that makes advantage of the processor
              of advanced modern graphics cards. Supports scaling factors up to 4 (=1280&times;960).
              Extra features: TV scaler, afterglow and a 3D monitor effect.
              Does not support SaI scale algorithm.
@@ -960,6 +954,18 @@
           MIDI connectivity to host frameworks for Windows, Mac and Linux (ALSA): connect to the MIDI of your emulated MSX device with applications running on your host
         </span>
       </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Copy from the MSX screen and paste to the MSX (and paste to console)
+        </span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          Drag and drop support (drop files on openMSX window)
+        </span>
+      </li>
     </ul>
 
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -969,7 +975,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 16.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 17.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>

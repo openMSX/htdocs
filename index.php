@@ -11,6 +11,12 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2021 May 18</span>
+      openMSX 17.0 released
+    </h2>
+    <p>openMSX 17.0&mdash;Quibus Birthday Release&mdash;is a major release with mostly bug fixes and smaller improvements. Most notable may be the usability improvements of the OSD menu. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released. We again only made a few small bug fixes. Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_17_0/doc/release-notes.txt">read the release notes</a> for details of the openMSX changes. Special thanks to all the contributors of this release who are not in the core team! Keep these pull requests coming!
+    </p>
+    <h2>
       <span class="date">2020 August 25</span>
       openMSX 16.0 released
     </h2>
