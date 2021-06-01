@@ -14,7 +14,7 @@
     <h2>IRC</h2>
     <dl>
       <dt>
-        <a href="irc://irc.freenode.net/openmsx">#openmsx on Freenode</a>
+        <a href="irc://libera.chat/openmsx">#openmsx on Libera.Chat</a>
       </dt>
       <dd>
         You'll find most of the developers here on a regular basis.
@@ -24,7 +24,7 @@
       </dd>
 
       <dd>
-        For your convenience, we can also offer you web-based access to our IRC channel. <a href="http://webchat.freenode.net/?channels=openMSX" target="_blank">Try it by following this link!</a> It will open the chat room in a new window or a new tab.
+        For your convenience, we can also offer you web-based access to our IRC channel. <a href="https://web.libera.chat/#openMSX" target="_blank">Try it by following this link!</a> It will open the chat room in a new window or a new tab.
       </dd>
 
       <dd>
