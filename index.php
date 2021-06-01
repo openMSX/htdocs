@@ -11,6 +11,12 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2021 Jun 01</span>
+      IRC channel moved to Libera.Chat 
+    </h2>
+    <p>As most of our IRC regulars weren't feeling comfortable anymore on the FreenNode IRC network lately (please see elsewhere for what happened), we have moved to the Libera.Chat network. Come and visit us there! We also have a Discord channel nowadays, which has an IRC bridge.
+    </p>
+    <h2>
       <span class="date">2021 May 18</span>
       openMSX 17.0 released
     </h2>
