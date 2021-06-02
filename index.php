@@ -11,7 +11,7 @@
   <div id="content">
     <h1>News</h1>
     <h2>
-      <span class="date">2021 Jun 01</span>
+      <span class="date">2021 Jun 1</span>
       IRC channel moved to Libera.Chat 
     </h2>
     <p>As some of our IRC regulars weren't feeling comfortable anymore on the freenode IRC network lately (<a href="https://arstechnica.com/gadgets/2021/05/freenode-irc-has-been-taken-over-by-the-crown-prince-of-korea/">this article</a> does a reasonable job of summarizing events), we have moved to <a href="ircs://irc.libera.chat:6697/#openMSX">#openMSX on the Libera.Chat network</a>. If you don't have an IRC client installed, you can use <a href="https://web.libera.chat/#openMSX">web chat</a> instead. Come and visit us there!</p>
