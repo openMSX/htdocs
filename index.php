@@ -11,6 +11,12 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2022 June 12</span>
+      openMSX 18.0 released
+    </h2>
+    <p>openMSX 18.0&mdash;Lucky Number&mdash;is again a release with mostly bug fixes and smaller improvements. And of course a little more blasphemy out there adding support for Sega SG-1000. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released, but there were no functional changes this time. Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_18_0/doc/release-notes.txt">read the release notes</a> for details of the openMSX changes. Special thanks to all the contributors of this release who are not in the core team! Keep these pull requests coming!
+    </p>
+    <h2>
       <span class="date">2021 Jun 1</span>
       IRC channel moved to Libera.Chat 
     </h2>

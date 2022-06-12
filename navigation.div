@@ -31,10 +31,10 @@
       <div class="linkblock">
         <h2>openMSX</h2>
         <ul>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_17_0/openmsx-17.0-windows-vc-x64-bin-msi.zip">
-            17.0 / Win 64bit (install)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_17_0/openmsx-17.0-windows-vc-x64-bin.zip">
-            17.0 / Win 64bit (zip)</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_18_0/openmsx-18.0-windows-vc-x64-bin-msi.zip">
+            18.0 / Win 64bit (install)</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_18_0/openmsx-18.0-windows-vc-x64-bin.zip">
+            18.0 / Win 64bit (zip)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-16.0-windows-vc-x86-bin-msi.zip">
             16.0 / Win 32bit (install)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-16.0-windows-vc-x86-bin.zip">
@@ -47,8 +47,8 @@
             0.15.0 / Android 4.1+ ARM (apk)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_0_15_0/openmsx-0.15.0.opk">
             0.15.0 / OpenDingux (opk)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_17_0/openmsx-17.0.tar.gz">
-            17.0 / Source code</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_18_0/openmsx-18.0.tar.gz">
+            18.0 / Source code</a></li>
         </ul>
 <!--
         <ul>
@@ -57,8 +57,8 @@
 -->
         <h2>Catapult</h2>
         <ul>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_17_0/openmsx-catapult-17.0.tar.gz">
-            17.0 / Source code</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_18_0/openmsx-catapult-18.0.tar.gz">
+            18.0 / Source code</a></li>
         </ul>
 <!--
         <ul>
@@ -71,7 +71,7 @@
               Snapshot / Win 64bit (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-win32-bin-snapshot.zip">
               Snapshot / Win 32bit (MinGW build, zip)</a></li>
-          <li><a href="http://openmsx.fixato.net/builds/mac/debugger/openMSX-debugger-255-g415ed68-mac-x86_64.tbz">
+          <li><a href="https://openmsx.dev/builds/mac/debugger/openMSX-debugger-469-g9b57b83-mac-x86_64.tbz">
               Snapshot / macOS 64bit (tbz, requires separate Qt5 download)</a></li>
           <li><a href="https://github.com/openMSX/debugger/archive/master.zip">
               Snapshot / Source code (zip)</a></li>

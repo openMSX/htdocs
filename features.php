@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (17.0).
+      Here are some highlights of the features of the latest release (18.0).
     </p>
 
     <h2>Legend</h2>
@@ -158,13 +158,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 190 MSX machine (and similar) hardware configurations included
+          More than 210 MSX machine (and similar) hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 90 MSX extension hardware configurations included
+          More than 100 MSX (and similar) extension hardware configurations included
         </span>
       </li>
       <li>
@@ -195,6 +195,12 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Initial/experimental emulation of the MSX-precursor system Spectravideo SVI-318 and SVI-328. Note that we are no SVI enthusiasts ourselves, so we rely on others to support these systems properly.
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Initial/experimental emulation of the Sega SG-1000 console. Note that we are no Sega enthusiasts ourselves, so we rely on others to support these systems properly.
         </span>
       </li>
       <li>
@@ -347,6 +353,12 @@
               ASCII Japanese MSX-Write and MSX-Write II
             </span>
           </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Konami EC-701
+            </span>
+          </li>
         </ul>
       </li>
       <li>
@@ -431,7 +443,7 @@
           <li>
             <span class="none">&nbsp;</span>
             <span class="descript">
-              Yamaha SFG-01/05, which has an YM2151 OPM and YM2148 for MIDI
+              Yamaha SFG-01/05, which has an YM2151 OPM/YM2164 OPP and YM2148 for MIDI
             </span>
           </li>
           <li>
@@ -453,7 +465,7 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="uniq">Unique!</span>
             <span class="descript">
               Popolon Sound Cartridge (with configurable size)
             </span>
@@ -500,9 +512,9 @@
           <li>
             <span class="none">&nbsp;</span>
             <span class="descript">
-              Floppy disk controller (WD2793 and compatibles, TC8566AF) fully
+              Floppy disk controller (WD2793 and compatibles, TC8566AF, ) fully
               supported, including formatting); also support several ways the FDC's
-              are connected to the MSX (Microsol, National, Sanyo, AVT, Spectravideo and Victor styles). The WD2793 emulation is highly accurate: all copy protections (stored in a DMK disk image) we know are supported.
+              are connected to the MSX (Microsol, National, Sanyo, AVT, Spectravideo, Canon and Victor styles). The WD2793 emulation is highly accurate: all copy protections (stored in a DMK disk image) we know are supported.
             </span>
           </li>
           <li>
@@ -975,7 +987,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 17.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 18.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>
