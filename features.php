@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (18.0).
+      Here are some highlights of the features of the latest release (19.0).
     </p>
 
     <h2>Legend</h2>
@@ -158,13 +158,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 210 MSX machine (and similar) hardware configurations included
+          Over 220 MSX machine (and similar) hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          More than 100 MSX (and similar) extension hardware configurations included
+          Over 100 MSX (and similar) extension hardware configurations included
         </span>
       </li>
       <li>
@@ -344,7 +344,7 @@
           <li>
             <span class="uniq">Unique!</span>
             <span class="descript">
-              MultiROM Collection
+              Collection ROMs like MultiROM Collection, Al Alamiah 30-in-1, RetroHard MultiCart 31 in 1
             </span>
           </li>
           <li>
@@ -481,7 +481,7 @@
           <li>
             <span class="first">1st!</span>
             <span class="descript">
-              Sunrise IDE interface with harddisk and CD-ROM (audio tracks not supported yet)
+              Sunrise IDE interface with harddisk and CD-ROM (audio tracks not supported yet), also a version with Nextor ROM
             </span>
           </li>
           <li>
@@ -987,7 +987,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 18.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 19.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>

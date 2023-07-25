@@ -11,6 +11,14 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2023 July 25</span>
+      openMSX 19.0 released
+    </h2>
+    <p>openMSX 19.0&mdash;Last Attack&mdash;is again a release with mostly bug fixes and smaller improvements. Biggest improvements are on the OSD menu and the diskmanipulator. Together with openMSX an updated version of Catapult, our user-friendly GUI, was released, but there were again no functional changes this time. Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_19_0/doc/release-notes.txt">read the release notes</a> for details of the openMSX changes. Special thanks to all the contributors of this release who are not in the core team! Keep these pull requests coming!
+    </p>
+    <p>Also, please note that this will be the last release that supports systems without OpenGL 2 or later.
+    </p>
+    <h2>
       <span class="date">2022 June 12</span>
       openMSX 18.0 released
     </h2>

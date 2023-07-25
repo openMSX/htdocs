@@ -39,16 +39,20 @@
             16.0 / Win 32bit (install)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-16.0-windows-vc-x86-bin.zip">
             16.0 / Win 32bit (zip)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_18_0/openmsx-18.0-mac-x86_64-bin.dmg">
-            18.0 / macOS Intel 64bit</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_18_0/openmsx-18.0-mac-aarch64-bin.dmg">
-            18.0 / macOS Apple 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_0/openmsx-19.0-mac-x86_64-bin.dmg">
+            19.0 / macOS Intel 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_0/openmsx-19.0-mac-aarch64-bin.dmg">
+            19.0 / macOS Apple 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_0/openmsx-19.0-linux-x86_64-bin.zip">
+            19.0 / Linux x86 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_0/openmsx-19.0-linux-aarch64-bin.zip">
+            19.0 / Linux ARM 64bit</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_0_15_0/openMSX-openmsx-0.15.0.apk">
             0.15.0 / Android 4.1+ ARM (apk)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_0_15_0/openmsx-0.15.0.opk">
-            0.15.0 / OpenDingux (opk)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_18_0/openmsx-18.0.tar.gz">
-            18.0 / Source code</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_0/openmsx-19.0.opk">
+            19.0 / OpenDingux (opk)</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_0/openmsx-19.0.tar.gz">
+            19.0 / Source code</a></li>
         </ul>
 <!--
         <ul>
@@ -57,8 +61,8 @@
 -->
         <h2>Catapult</h2>
         <ul>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_18_0/openmsx-catapult-18.0.tar.gz">
-            18.0 / Source code</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_0/openmsx-catapult-19.0.tar.gz">
+            19.0 / Source code</a></li>
         </ul>
 <!--
         <ul>
@@ -83,6 +87,7 @@
               Qt libs / Win 32bit (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/Qt-4.4.3-x64.zip">
               Qt libs / Win 64bit (zip)</a></li> -->
+          <li><a href="https://github.com/openMSX/debugger/releases/tag/nightly/">GitHub nightly builds</a></li>
         </ul>
         <h2>Development builds</h2>
         <ul>
