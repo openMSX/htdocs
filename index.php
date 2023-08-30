@@ -11,6 +11,14 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2023 August 30</span>
+      openMSX 19.1 released
+    </h2>
+    <p>openMSX 19.1&mdash;Reflection&mdash;is a bug fix release for openMSX 19.0, as we found some rather nasty issues after releasing, mostly that LaserDisc support was broken. No new Catapult will be released, as it has no changes. Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_19_1/doc/release-notes.txt">read the release notes</a> for details of the changes. Thanks for those who gave us the feedback so that we found out about these issues.
+    </p>
+    <p>Reminder: please note that this will be the last release that supports systems without OpenGL 2 or later.
+    </p>
+    <h2>
       <span class="date">2023 July 25</span>
       openMSX 19.0 released
     </h2>

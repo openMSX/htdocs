@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (19.0).
+      Here are some highlights of the features of the latest release (19.1).
     </p>
 
     <h2>Legend</h2>
@@ -987,7 +987,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 19.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 19.1? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>
