@@ -31,9 +31,9 @@
       <div class="linkblock">
         <h2>openMSX</h2>
         <ul>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19.1/openmsx-19.1-windows-vc-x64-bin-msi.zip">
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1-windows-vc-x64-bin-msi.zip">
             19.1 / Win 64bit (install)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19.1/openmsx-19.1-windows-vc-x64-bin.zip">
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1-windows-vc-x64-bin.zip">
             19.1 / Win 64bit (zip)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-16.0-windows-vc-x86-bin-msi.zip">
             16.0 / Win 32bit (install)</a></li>
