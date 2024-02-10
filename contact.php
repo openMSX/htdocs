@@ -11,6 +11,23 @@
   <div id="content">
     <h1>Contact</h1>
 
+    <h2>Discord</h2>
+    <dl>
+      <dt>
+        <a href="https://discord.gg/JV56gzh2qG">openMSX Channel on Discord</a>
+      </dt>
+      <dd>
+        A more modern alternative to IRC (see below), with an IRC bridge,
+        as not all openMSX developers are on Discord (yet).
+        Same as IRC: don't hesitate to visit, don't hesitate to ask anything
+        openMSX related.  Remarks, suggestions, ideas are most welcome!
+      </dd>
+
+      <dd>
+        Note that we are not reading Discord 24 hours per day, so if no-one responds, please stick around or try again later.
+      </dd>
+    </dl>
+
     <h2>IRC</h2>
     <dl>
       <dt>
@@ -19,8 +36,7 @@
       <dd>
         You'll find most of the developers here on a regular basis.
         Don't hesitate to visit, don't hesitate to ask anything openMSX
-        related.  Remarks, suggestions, ideas&mdash;also for Catapult and
-        C-BIOS&mdash;are most welcome!
+        related.  Remarks, suggestions, ideas are most welcome!
       </dd>
 
       <dd>
