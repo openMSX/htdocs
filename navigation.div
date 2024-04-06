@@ -71,12 +71,12 @@
 -->
         <h2>Debugger</h2>
         <ul>
-          <li><a href="https://openmsx.dev/builds/windows/x64/debugger/openMSX_Debugger_x64_20201008.zip">
+          <!--<li><a href="https://openmsx.dev/builds/windows/x64/debugger/openMSX_Debugger_x64_20201008.zip">
               Snapshot / Win 64bit (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-win32-bin-snapshot.zip">
               Snapshot / Win 32bit (MinGW build, zip)</a></li>
           <li><a href="https://openmsx.dev/builds/mac/debugger/openMSX-debugger-469-g9b57b83-mac-x86_64.tbz">
-              Snapshot / macOS 64bit (tbz, requires separate Qt5 download)</a></li>
+              Snapshot / macOS 64bit (tbz, requires separate Qt5 download)</a></li> -->
           <li><a href="https://github.com/openMSX/debugger/archive/master.zip">
               Snapshot / Source code (zip)</a></li>
           <!--<li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-latest-snapshot-windows-x86-vc-bin.zip">
@@ -91,6 +91,8 @@
         </ul>
         <h2>Development builds</h2>
         <ul>
+          <li><a href="https://openmsx.vampier.net/zips/">Vampier's Windows Builds</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/actions/workflows/build_snapshots.yml">GitHub Actions Snapshot builds</a></li>
           <li><a href="http://openmsx.fixato.net/">FiXato's openMSX Builder site</a></li>
         </ul>
         <!--
