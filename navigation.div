@@ -91,9 +91,10 @@
         </ul>
         <h2>Development builds</h2>
         <ul>
-          <li><a href="https://openmsx.vampier.net/zips/">Vampier's Windows Builds</a></li>
+          <li><a href="https://archive.org/download/openMSX_Windows_Installer">Vampier's Windows Builds (install)</a></li>
+          <li><a href="https://archive.org/download/openMSX_Windows_Bin">Vampier's Windows Builds (zip)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/actions/workflows/build_snapshots.yml">GitHub Actions Snapshot builds</a></li>
-          <li><a href="http://openmsx.fixato.net/">FiXato's openMSX Builder site</a></li>
+          <!-- <li><a href="http://openmsx.fixato.net/">FiXato's openMSX Builder site</a></li> -->
         </ul>
         <!--
         <ul>
