@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (19.1).
+      Here are some highlights of the features of the latest release (20.0).
     </p>
 
     <h2>Legend</h2>
@@ -39,7 +39,13 @@
 
     <h2>General</h2>
     <ul class="features">
-     <li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Built in graphical user interface, that works the same for all supported operating systems
+        </span>
+      </li>
+      <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
           Command interface via pipes or a (UNIX domain) socket:
@@ -48,7 +54,11 @@
       </li>
       <li><span class="uniq">Unique!</span>
         <span class="descript">
-          TCL scripting: enhance openMSX with powerful scripts. There are dozens of scripts included with various purposes: SCC viewer, cheat finder, VGM recorder, audio channel recorder, VU-meters, FPS display, game HUDs/overlays, sprite viewer, info panel, music keyboard display of sound being played, TAS tools, debugging tools, session management, etc. etc.
+          Tcl scripting: enhance openMSX with powerful scripts. There are
+          dozens of scripts included with various purposes:  VGM recorder,
+          audio channel recorder, VU-meters, FPS display, game HUDs/overlays,
+          info panel, music keyboard display of sound being played, TAS tools,
+          debugging tools, session management, etc. etc.
         </span>
       </li>
       <li>
@@ -73,7 +83,9 @@
       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
-          Accurate VDP VRAM access timing: like on real hardware, accessing the VDP too fast will result in VRAM corruption. Includes a Tcl callback to debug your programs on this phenomenon
+          Accurate VDP VRAM access timing: like on real hardware, accessing the
+          VDP too fast will result in VRAM corruption. Includes a Tcl callback
+          to debug your programs on this phenomenon
         </span>
       </li>
       <li>
@@ -92,18 +104,17 @@
       <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-          openMSX Catapult: the optional GUI for openMSX
+          On-Screen (but detachable) display of LEDs for e.g. power, FDD,
+          capsLock and Rensha Turbo and icons showing openMSX state.
         </span>
-        </li>
+      </li>
       <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-          On-Screen-Display, with LEDs for e.g. power, FDD, capsLock and
-          Rensha Turbo, icons showing openMSX state, graphics shown by
-          auxiliary scripts and a completely programmable OSD menu, with many
-          common actions/settings in it.)
-      </span></li>
-       <li>
+          Programmable On-Screen-Display, enabling graphics shown by auxiliary scripts.
+        </span>
+      </li>
+      <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
            Fully automatic host to MSX keyboard mapping. You can type on any
@@ -114,7 +125,8 @@
        <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-           Save states, which are designed to be fully backwards compatible in future releases and interchangeable between platforms/OS/machines
+           Save states, which are designed to be fully backwards compatible in
+           future releases and interchangeable between platforms/OS/machines
         </span>
       </li>
        <li>
@@ -135,7 +147,9 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          For Linux, Windows (7+), macOS, (Android 4.1+ up to openMSX 0.15.0), FreeBSD, NetBSD, OpenBSD and OpenDingux (GCW Zero) systems
+          For Linux, Windows (7+), macOS, (Android 4.1+ up to openMSX 0.15.0),
+          FreeBSD, NetBSD and OpenBSD systems. (And OpenDingux (GCW Zero) up to
+          openMSX 19.1.)
         </span>
       </li>
       <li>
@@ -188,19 +202,19 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Initial/experimental emulation of the ColecoVision video game system. Includes support for the Super Game Module and the MegaCart mapper, used by many modern homebrew games.
+          Experimental emulation of the ColecoVision video game system. Includes support for the Super Game Module and the MegaCart mapper, used by many modern homebrew games. Note that we are no ColecoVision enthusiasts ourselves, so we rely on others to support these systems properly.
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Initial/experimental emulation of the MSX-precursor system Spectravideo SVI-318 and SVI-328. Note that we are no SVI enthusiasts ourselves, so we rely on others to support these systems properly.
+          Experimental emulation of the MSX-precursor system Spectravideo SVI-318 and SVI-328. Note that we are no SVI enthusiasts ourselves, so we rely on others to support these systems properly.
         </span>
       </li>
       <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
-          Initial/experimental emulation of the Sega SG-1000 console. Note that we are no Sega enthusiasts ourselves, so we rely on others to support these systems properly.
+          Experimental emulation of the Sega SG-1000 console. Note that we are no Sega enthusiasts ourselves, so we rely on others to support these systems properly.
         </span>
       </li>
       <li>
@@ -354,9 +368,15 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="none">&nbps;</span>
             <span class="descript">
               Konami EC-701
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Support for "16-bit" mappers that will be used in upcoming new games (ASCII16-X, Neo-8/16)
             </span>
           </li>
         </ul>
@@ -564,7 +584,11 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Mouse, joystick (with option to use the keyboard as joystick), the Arkanoid pad, ASCII paddle (1 and 2), trackball and additionally the ninja-tap multiplayer controller, so that you can use up to 4 joysticks for software that supports it
+          Mouse, joystick (including JoyMega more than 2 button support, also
+          supporting keyboard input to map on joystick inputs), the Arkanoid
+          pad, ASCII paddle (1 and 2), trackball and additionally the ninja-tap
+          multiplayer controller, so that you can use up to 4 joysticks for
+          software that supports it
         </span>
       </li>
       <li>
@@ -621,12 +645,12 @@
           Magic key dongle
         </span>
       </li>
-<!--      <li>
+      <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
-          JoyNet (experimental; connected to TCP/IP of host OS)
+          RS232Net: connect MSX RS-232C interfaces to the local network
         </span>
-      </li>-->
+      </li>
      <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
@@ -727,6 +751,12 @@
     <h2>Emulator Extras</h2>
     <ul class="features">
       <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Built-in debugger, with watchpoints, breakpoints, tile-mode viewer, bitmap-mode viewer, sprite-viewer, rasterbeam display, generic binary viewers of all debuggable devices, symbol manager, etc. All data is shown in real time!
+        </span>
+      </li>
+      <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
           Optional automatical speed up during disk, cassette and laserdisc (load) action
@@ -739,7 +769,7 @@
         </span>
       </li>
       <li>
-        <span class="none">&nbsp;</span>
+        <span class="first">First!</span>
         <span class="descript">
           XML files to specify the hardware to be emulated, so you actually
           emulate specific MSX machines
@@ -813,32 +843,16 @@
         </span>
       </li>
       <li>
-       <span class="none">&nbsp;</span>
+       <span class="cool">Cool!</span>
        <span class="descript">
-         Various screen renderers available:
+          OpenGL 2.1 based renderer that makes advantage of the processor
+          of advanced modern graphics cards, with special features: TV scaler,
+          afterglow and a 3D monitor effect and support for 3 different scaling
+          factors (2&times;=640&times;480, 3&times;=960&times;720 and
+          4&times;=1280&times;960) and several other scaling algorithms like:
+          <a href="http://www.hiend3d.com/">hq</a>, hqlite, and <a
+          href="http://scale2x.sf.net/">scaleNx</a>.
        </span>
-       <ul class="features">
-         <li>
-           <span class="none">&nbsp;</span>
-           <span class="descript">
-             Plain SDL renderer, with support for 3 different scaling
-             factors (1&times;=320&times;240, 2&times;=640&times;480
-             and 3&times;=960&times;720) and several scaling algorithms
-             like: <a href="http://www.hiend3d.com/">hq</a>, hqlite,
-             <a href="http://elektron.its.tudelft.nl/~dalikifa/">SaI</a>
-             and <a href="http://scale2x.sf.net/">scaleNx</a>
-           </span>
-         </li>
-         <li>
-           <span class="cool">Cool!</span>
-           <span class="descript">
-             OpenGL 2.1 based renderer that makes advantage of the processor
-             of advanced modern graphics cards. Supports scaling factors up to 4 (=1280&times;960).
-             Extra features: TV scaler, afterglow and a 3D monitor effect.
-             Does not support SaI scale algorithm.
-           </span>
-         </li>
-       </ul>
      </li>
      <li>
         <span class="none">&nbsp;</span>
@@ -944,7 +958,7 @@
       <li>
         <span class="cool">Cool!</span>
         <span class="descript">
-          Extended hot keys: you can bind any host event to any TCL command, which means you can e.g. let openMSX push the MSX F1 key if you press a certain button on your PC game pad
+          Extended hot keys: you can bind any host event to any Tcl command, which means you can e.g. let openMSX push the MSX F1 key if you press a certain button on your PC game pad
         </span>
       </li>
       <li>
@@ -957,7 +971,7 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Configurable host-to-MSX joystick mapping (e.g. bind the
-  crawl command (button A+B) in Metal Gear 2 to a single PC joystick button)
+          crawl command (button A+B) in Metal Gear 2 to a single PC joystick button)
         </span>
       </li>
       <li>
@@ -987,7 +1001,7 @@
     Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
     </p>
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 19.1? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released 20.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   </div>
 </body>

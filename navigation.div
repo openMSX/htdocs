@@ -31,28 +31,26 @@
       <div class="linkblock">
         <h2>openMSX</h2>
         <ul>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1-windows-vc-x64-bin-msi.zip">
-            19.1 / Win 64bit (install)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1-windows-vc-x64-bin.zip">
-            19.1 / Win 64bit (zip)</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_20_0/openmsx-20.0-windows-vc-x64-bin-msi.zip">
+            20.0 / Win 64bit (install)</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_20_0/openmsx-20.0-windows-vc-x64-bin.zip">
+            20.0 / Win 64bit (zip)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-16.0-windows-vc-x86-bin-msi.zip">
             16.0 / Win 32bit (install)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-16.0-windows-vc-x86-bin.zip">
             16.0 / Win 32bit (zip)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1-mac-x86_64-bin.dmg">
-            19.1 / macOS Intel 64bit</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1-mac-aarch64-bin.dmg">
-            19.1 / macOS Apple 64bit</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1-linux-x86_64-bin.zip">
-            19.1 / Linux x86 64bit</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1-linux-aarch64-bin.zip">
-            19.1 / Linux ARM 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_20_0/openmsx-20.0-mac-x86_64-bin.dmg">
+            20.0 / macOS Intel 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_20_0/openmsx-20.0-mac-aarch64-bin.dmg">
+            20.0 / macOS Apple 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_20_0/openmsx-20.0-linux-x86_64-bin.zip">
+            20.0 / Linux x86 64bit</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_0_15_0/openMSX-openmsx-0.15.0.apk">
             0.15.0 / Android 4.1+ ARM (apk)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1.opk">
             19.1 / OpenDingux (opk)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1.tar.gz">
-            19.1 / Source code</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_20_0/openmsx-20.0.tar.gz">
+            20.0 / Source code</a></li>
         </ul>
 <!--
         <ul>
@@ -60,6 +58,7 @@
         </ul>
 -->
         <h2>Catapult</h2>
+        <p>(deprecated)</p>
         <ul>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_0/openmsx-catapult-19.0.tar.gz">
             19.0 / Source code</a></li>
@@ -70,6 +69,7 @@
         </ul> 
 -->
         <h2>Debugger</h2>
+        <p>(deprecated)</p>
         <ul>
           <!--<li><a href="https://openmsx.dev/builds/windows/x64/debugger/openMSX_Debugger_x64_20201008.zip">
               Snapshot / Win 64bit (zip)</a></li>

@@ -97,6 +97,10 @@
 
     <h2>Installing and Running Catapult</h2>
 
+    <p>
+    Please note that Catapult isn't maintained anymore. We encourage you to use the built-in GUI in openMSX 20.0 and later instead. Use the documentation below only as a historic reference or when you insist on using Catapult.
+    </p>
+
     <dl>
       <dt class="toc"><a href="/catapult-manual/compile.html">Compilation Guide</a></dt>
       <dd>

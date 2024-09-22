@@ -11,6 +11,14 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2024 September 22</span>
+      openMSX 20.0 released
+    </h2>
+    <p>openMSX 20.0&mdash;Autumn Spring&mdash;is a major release, in which we introduce the new Graphical User Interface, replacing the OSD menu. A faster and more powerful debugger is now included in openMSX itself. Configuration for MSX joystick/JoyMega has been improved drastically using the new GUI. If you still want to use Catapult, you can use the Catapult release that came with openMSX 19.0. Please <a hef="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_20_0/doc/release-notes.txt">read the release notes</a> for details of the openMSX changes.
+    </p>
+    <p>Please note that as of now, a system with OpenGL 2 support is required to run openMSX.
+    </p>
+    <h2>
       <span class="date">2023 August 30</span>
       openMSX 19.1 released
     </h2>
