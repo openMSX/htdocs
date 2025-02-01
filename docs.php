@@ -122,10 +122,10 @@
       <dd>
 	A guide for application developers who want to control openMSX from their own programs. Very useful if you're planning to make a launcher, GUI, debugger or another kind of external program that needs to control openMSX.
       </dd>
-      <dt class="toc"><a href="/doxygen">Source Code Documentation</a></dt>
+      <!--<dt class="toc"><a href="/doxygen">Source Code Documentation</a></dt>
       <dd>
         Source code documentation generated using Doxygen.
-      </dd>
+      </dd>-->
       <dt class="toc"><a href="/vdp-vram-timing/vdp-timing.html">V9938 VRAM timings</a></dt>
       <dd>
         Specific V9938 timing information as measured and analyzed by some openMSX Team members. Part 1.
