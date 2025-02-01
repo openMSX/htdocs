@@ -14,6 +14,8 @@
   // The no-ca$h image database:
   //
   // Let's have some categories...
+
+  error_reporting(E_ALL ^ E_WARNING);
   
   $categories = array (
     "sar" => "Scalers and Renderers",
