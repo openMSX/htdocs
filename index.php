@@ -11,6 +11,16 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2025 September 26</span>
+      openMSX 21.0 released
+    </h2>
+    <p>openMSX 21.0 has many improvements on the new GUI introduced in openMSX 20.0 (especially the debugger) and several other smaller features. It also introduces the "setups" concept, which enables you to define an MSX setup (e.g. a Philips VG 8020 with an external disk drive and a joystick, data recorder and printer connected). These can be created, loaded, and automatically started. They can also be saved automatically when you exit.
+    </p>
+    <p>Furthermore, flash chip emulation has become a lot more accurate, thanks to Laurens Holst.
+    </p>
+    <p>Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_21_0/doc/release-notes.txt">read the release notes</a> for details of all the changes.
+    </p>
+    <h2>
       <span class="date">2024 September 22</span>
       openMSX 20.0 released
     </h2>

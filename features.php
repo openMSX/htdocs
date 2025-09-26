@@ -40,10 +40,24 @@
     <h2>General</h2>
     <ul class="features">
       <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
-          Built in graphical user interface, that works the same for all supported operating systems
+          Built in graphical user interface, that works the same for all supported operating systems. Some special features include:
         </span>
+        <ul class="features">
+          <li>
+            <span class="cool">Cool!</span>
+            <span class="descript">
+              Sound channel viewer, showing VU-meters, spectrum analyser and audio scope in real time, for all sound channels in the machine
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              MSX-MUSIC viewer, showing details about the Yamaha OPLL/YM2413 MSX-MUSIC chip in real time
+            </span>
+          </li>
+        </ul>
       </li>
       <li>
         <span class="uniq">Unique!</span>
@@ -56,8 +70,8 @@
         <span class="descript">
           Tcl scripting: enhance openMSX with powerful scripts. There are
           dozens of scripts included with various purposes:  VGM recorder,
-          audio channel recorder, VU-meters, FPS display, game HUDs/overlays,
-          info panel, music keyboard display of sound being played, TAS tools,
+          audio channel recorder, game HUDs/overlays, game shuffler,
+          music keyboard display of sound being played, TAS tools,
           debugging tools, session management, etc. etc.
         </span>
       </li>
@@ -148,8 +162,8 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           For Linux, Windows (7+), macOS, (Android 4.1+ up to openMSX 0.15.0),
-          FreeBSD, NetBSD and OpenBSD systems. (And OpenDingux (GCW Zero) up to
-          openMSX 19.1.)
+          FreeBSD, NetBSD and OpenBSD systems with OpenGL 2 support or higher.
+          (And OpenDingux (GCW Zero) up to openMSX 19.1.)
         </span>
       </li>
       <li>
@@ -160,7 +174,7 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Advanced build system
+          Advanced build system that downloads dependencies and compiles them on the fly
         </span>
       </li>
       <li>
@@ -172,13 +186,13 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Over 220 MSX machine (and similar) hardware configurations included
+          Over 230 MSX machine (and similar) hardware configurations included
         </span>
       </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Over 100 MSX (and similar) extension hardware configurations included
+          Over 110 MSX (and similar) extension hardware configurations included
         </span>
       </li>
       <li>
@@ -374,7 +388,7 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="first">1st!</span>
             <span class="descript">
               Support for "16-bit" mappers that will be used in upcoming new games (ASCII16-X, Neo-8/16)
             </span>
@@ -426,7 +440,7 @@
           <li>
             <span class="cool">Cool!</span>
             <span class="descript">
-              Moonsound (and the Brazilian OPL3 cartridge)
+              Moonsound, DalSoRi R2 and the Brazilian OPL3 cartridge
             </span>
           </li>
           <li>
@@ -488,6 +502,12 @@
             <span class="uniq">Unique!</span>
             <span class="descript">
               Popolon Sound Cartridge (with configurable size)
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Yamanooto mapper/cartridge
             </span>
           </li>
         </ul>
@@ -594,8 +614,8 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Tape via CAS and WAV files (real recorded tape image);
-          CAS files can be converted to WAV on the fly, cassette sounds
+          Tape via CAS, TSX and WAV files (real recorded tape image);
+          CAS and TSX files are converted to WAV on the fly, cassette sounds
           are audible, cassettes can be rewinded and one can record to
           a new WAV cassette image
         </span>
@@ -751,9 +771,9 @@
     <h2>Emulator Extras</h2>
     <ul class="features">
       <li>
-        <span class="new">New!</span>
+        <span class="none">&nbsp;</span>
         <span class="descript">
-          Built-in debugger, with watchpoints, breakpoints, tile-mode viewer, bitmap-mode viewer, sprite-viewer, rasterbeam display, generic binary viewers of all debuggable devices, symbol manager, etc. All data is shown in real time!
+          Built-in debugger, with watchpoints, breakpoints, tile-mode viewer, bitmap-mode viewer, sprite-viewer, rasterbeam display, visualisation of VDP block commands in progress, generic binary viewers of all debuggable devices, symbol manager, etc. All data is shown in real time!
         </span>
       </li>
       <li>
@@ -765,7 +785,7 @@
       <li>
         <span class="uniq">Unique!</span>
         <span class="descript">
-          Optional automatical loading of cassettes in CAS format
+          Optional automatical loading of cassettes in CAS and TSX format and other formats if the instruction is in the file name
         </span>
       </li>
       <li>
@@ -850,7 +870,7 @@
           afterglow and a 3D monitor effect and support for 3 different scaling
           factors (2&times;=640&times;480, 3&times;=960&times;720 and
           4&times;=1280&times;960) and several other scaling algorithms like:
-          <a href="http://www.hiend3d.com/">hq</a>, hqlite, and <a
+          <a href="http://www.hiend3d.com/">hq</a> and <a
           href="http://scale2x.sf.net/">scaleNx</a>.
        </span>
      </li>
@@ -998,11 +1018,13 @@
 
     <h2>Coming Up &hellip;</h2>
     <p>
-    Here are some highlights of features and improvements that are already in our source code and are likely to be in the next release (see our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a> for details and history):
+    If you're interested to see what's in the next release, check our <a href="https://github.com/openMSX/openMSX/commits/master">commit log</a>. We invite you to try out our development builds (see the bottom part of the Download box on the left) and provide us feedback before we create a new release.
     </p>
+    <!--
     <ul class="features">
       <li>(nothing added here yet, perhaps we just released 20.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
+  -->
   </div>
 </body>
 </html>
