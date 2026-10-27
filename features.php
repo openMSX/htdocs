@@ -11,7 +11,7 @@
   <div id="content">
     <h1>Features</h1>
     <p>
-      Here are some highlights of the features of the latest release (20.0).
+      Here are some highlights of the features of the latest release (22.0).
     </p>
 
     <h2>Legend</h2>
@@ -52,9 +52,15 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="cool">Cool!</span>
             <span class="descript">
               MSX-MUSIC viewer, showing details about the Yamaha OPLL/YM2413 MSX-MUSIC chip in real time
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Quick Setup Editor, to create or change your MSX setup in one window
             </span>
           </li>
         </ul>
@@ -396,6 +402,12 @@
               Support for "16-bit" mappers that will be used in upcoming new games (ASCII16-X, Neo-8/16)
             </span>
           </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Korean 128-in-1, Namco (A13 not connected) and ASCII8-R (reversed) mapper types
+            </span>
+          </li>
         </ul>
       </li>
       <li>
@@ -508,9 +520,15 @@
             </span>
           </li>
           <li>
-            <span class="new">New!</span>
+            <span class="none">&nbsp;</span>
             <span class="descript">
               Yamanooto mapper/cartridge
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              SuperSoniqs Makoto (OPNA sound cartridge)
             </span>
           </li>
         </ul>
@@ -602,6 +620,12 @@
               Tecall TM220 MSX-RAMFILE
             </span>
           </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              SD Mapper V1
+            </span>
+          </li>
         </ul>
       </li>
       <li>
@@ -612,6 +636,20 @@
           pad, ASCII paddle (1 and 2), trackball and additionally the ninja-tap
           multiplayer controller, so that you can use up to 4 joysticks for
           software that supports it
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Light guns (MHT GUN-STICK, ASCII Plus-X Terminator Laser), controlled
+          with the mouse on the host
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Panasonic FS-JH1 Joy Handle steering wheel (that came with Konami's
+          A1 Spirit)
         </span>
       </li>
       <li>
@@ -674,6 +712,27 @@
           RS232Net: connect MSX RS-232C interfaces to the local network
         </span>
       </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          SM-X WiFi (UNAPI compatible ESP WiFi module), connecting either to a
+          real ESP32 on a host serial port or to an emulated one that uses the
+          host network
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          UnapiNet: a synthetic MSX-UNAPI TCP/IP device, to try out network
+          programs in openMSX
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          MSXPi
+        </span>
+      </li>
      <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
@@ -702,6 +761,12 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Dot-matrix graphical printer emulation
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Sony PRN-C41 (like) plotters, including a viewer in the GUI
         </span>
       </li>
       <li>
@@ -739,6 +804,12 @@
         <span class="uniq">Unique!</span>
         <span class="descript">
           Neos MA-20 Version-Up Adapter (cartridge to adapt MSX1 to MSX2 with separate video output)
+        </span>
+      </li>
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          SuperSoniqs Franky (allows playing Sega Master System games on MSX)
         </span>
       </li>
       <li>
@@ -824,19 +895,31 @@
           <li>
             <span class="none">&nbsp;</span>
             <span class="descript">
-              Raster beam display
-            </span>
-          </li>
-          <li>
-            <span class="none">&nbsp;</span>
-            <span class="descript">
-              Generic binary viewers of all debuggable devices
+              Generic binary and bitmap viewers of all debuggable devices
             </span>
           </li>
           <li>
             <span class="none">&nbsp;</span>
             <span class="descript">
               Symbol manager
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Raster Beam Viewer, showing the screen while it is being built up, with the position of the beam
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Tracer, plotting events (like VDP commands or function calls) on a timeline in the Trace Viewer, which can also be used as a profiler
+            </span>
+          </li>
+          <li>
+            <span class="new">New!</span>
+            <span class="descript">
+              Tile, sprite and register viewers for the Sega VDP of the SuperSoniqs Franky
             </span>
           </li>
         </ul>
@@ -865,6 +948,13 @@
 
     <h2>Emulator Extras</h2>
     <ul class="features">
+      <li>
+        <span class="new">New!</span>
+        <span class="descript">
+          Slot map and I/O ports viewers, showing which device is in which slot
+          and which device is connected to which I/O port
+        </span>
+      </li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">

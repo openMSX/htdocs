@@ -11,6 +11,16 @@
   <div id="content">
     <h1>News</h1>
     <h2>
+      <span class="date">2026 October 28</span>
+      openMSX 22.0 released
+    </h2>
+    <p>openMSX 22.0 again has a very long list of changes. The debugger GUI got major new features: a Raster Beam Viewer, which shows the screen while it is being built up, and a Tracer, which plots events on a timeline in the Trace Viewer and can also be used as a profiler. The new Quick Setup Editor gives one-window access to all major setup settings.
+    </p>
+    <p>Many contributions, often made with the help of AI tools, improved the accuracy of the VDP emulation and added emulation of new devices, like plotters, the Panasonic FS-JH1 Joy Handle steering wheel (that came with Konami's A1 Spirit), light guns, the Franky, the Makoto, the SD Mapper V1 and SM-X WiFi. There's even a synthetic TCP/IP UNAPI device to try out network programs in openMSX.
+    </p>
+    <p>Please <a href="https://raw.githubusercontent.com/openMSX/openMSX/RELEASE_22_0/doc/release-notes.txt">read the release notes</a> for details of all the changes.
+    </p>
+    <h2>
       <span class="date">2025 September 26</span>
       openMSX 21.0 released
     </h2>

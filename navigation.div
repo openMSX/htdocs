@@ -31,18 +31,18 @@
       <div class="linkblock">
         <h2>openMSX</h2>
         <ul>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-windows-vc-x64-bin-msi.zip">
-            21.0 / Win 64bit (install)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-windows-vc-x64-bin.zip">
-            21.0 / Win 64bit (zip)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-mac-aarch64-bin.dmg">
-            21.0 / macOS Apple 64bit</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-mac-x86_64-bin.dmg">
-            21.0 / macOS Intel 64bit</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-linux-x86_64-bin.zip">
-            21.0 / Linux x86 64bit</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0.tar.gz">
-            21.0 / Source code</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_22_0/openmsx-22.0-windows-vc-x64-bin-msi.zip">
+            22.0 / Win 64bit (install)</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_22_0/openmsx-22.0-windows-vc-x64-bin.zip">
+            22.0 / Win 64bit (zip)</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_22_0/openmsx-22.0-mac-aarch64-bin.dmg">
+            22.0 / macOS Apple 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_22_0/openmsx-22.0-mac-x86_64-bin.dmg">
+            22.0 / macOS Intel 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_22_0/openmsx-22.0-linux-x86_64-bin.zip">
+            22.0 / Linux x86 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_22_0/openmsx-22.0.tar.gz">
+            22.0 / Source code</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1.opk">
             19.1 / OpenDingux (opk)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-16.0-windows-vc-x86-bin-msi.zip">
