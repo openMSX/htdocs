@@ -35,22 +35,22 @@
             21.0 / Win 64bit (install)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-windows-vc-x64-bin.zip">
             21.0 / Win 64bit (zip)</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-mac-aarch64-bin.dmg">
+            21.0 / macOS Apple 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-mac-x86_64-bin.dmg">
+            21.0 / macOS Intel 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-linux-x86_64-bin.zip">
+            21.0 / Linux x86 64bit</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0.tar.gz">
+            21.0 / Source code</a></li>
+          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1.opk">
+            19.1 / OpenDingux (opk)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-16.0-windows-vc-x86-bin-msi.zip">
             16.0 / Win 32bit (install)</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_16_0/openmsx-16.0-windows-vc-x86-bin.zip">
             16.0 / Win 32bit (zip)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-mac-x86_64-bin.dmg">
-            21.0 / macOS Intel 64bit</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-mac-aarch64-bin.dmg">
-            21.0 / macOS Apple 64bit</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0-linux-x86_64-bin.zip">
-            21.0 / Linux x86 64bit</a></li>
           <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_0_15_0/openMSX-openmsx-0.15.0.apk">
             0.15.0 / Android 4.1+ ARM (apk)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_19_1/openmsx-19.1.opk">
-            19.1 / OpenDingux (opk)</a></li>
-          <li><a href="https://github.com/openMSX/openMSX/releases/download/RELEASE_21_0/openmsx-21.0.tar.gz">
-            21.0 / Source code</a></li>
         </ul>
 <!--
         <ul>
@@ -77,8 +77,6 @@
               Snapshot / Win 32bit (MinGW build, zip)</a></li>
           <li><a href="https://openmsx.dev/builds/mac/debugger/openMSX-debugger-469-g9b57b83-mac-x86_64.tbz">
               Snapshot / macOS 64bit (tbz, requires separate Qt5 download)</a></li> -->
-          <li><a href="https://github.com/openMSX/debugger/archive/master.zip">
-              Snapshot / Source code (zip)</a></li>
           <!--<li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-latest-snapshot-windows-x86-vc-bin.zip">
               Snapshot / Win 32bit (VC build, zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/openmsx-debugger-latest-snapshot-windows-x64-vc-bin.zip">
@@ -87,7 +85,8 @@
               Qt libs / Win 32bit (zip)</a></li>
           <li><a href="http://openmsx.sourceforge.net/temp/Qt-4.4.3-x64.zip">
               Qt libs / Win 64bit (zip)</a></li> -->
-          <li><a href="https://github.com/openMSX/debugger/releases/tag/nightly/">GitHub nightly builds</a></li>
+          <li><a href="https://github.com/openMSX/debugger/releases/tag/nightly/">
+              Final builds / Source code</a></li>
         </ul>
         <h2>Development builds</h2>
         <ul>

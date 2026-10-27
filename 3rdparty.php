@@ -37,8 +37,7 @@
         <dd>
           Novo Player is a new, versatile, multi-platform front-end designed
           primarily for openMSX and is currently very much under active
-          development. Currently, the <a href="http://msxlaunchers.info/download.html">
-          latest version is 1.10.1</a>.
+          development.
         </dd>
       <dt>
         <a href="http://nekocanmac.seesaa.net/">NekoLauncher openMSX</a> (unsecured link)
@@ -50,29 +49,10 @@
         openMSX variant of his NekoLauncher</a> series. It's not only getting more and
         more advanced, but also seems to be very user friendly.
       </dd>
-      <dt>
-        <a href="https://web.archive.org/web/20110123115755/http://cesco.it/openmsx-peashooter/">openMSX Peashooter</a>
-      </dt>
-      <dd>
-        For the same reason, Cesco made another launcher for openMSX on OS X.
-        It seemed to be focused mainly on games and features image previews.
-        Unfortunately, the site and download links have disappeared.
-      </dd>
     </dl>
 
    <h2>Miscellaneous</h2>
     <dl>
-      <dt>
-        <a href="https://openmsx.fixato.net/">openMSX Daily Builds</a>
-      </dt>
-      <dd>
-        FiXato created a great web site which provides you with daily built
-        binaries of openMSX. Very much recommended if you want to try out
-        development versions of openMSX without compiling them yourself!
-        Currently supporting Windows, macOS, Android and OpenDingux platforms.
-        Unfortunately, the disk space seems to have run full and it no longer
-        hosts recent builds.
-      </dd>
       <dt>
         <a href="https://msx.jannone.org/openMSXcontrol/">OpenMSX Control Plugin for Gedit</a>
       </dt>

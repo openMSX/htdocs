@@ -161,12 +161,21 @@
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          For Linux, Windows (7+), macOS, (Android 4.1+ up to openMSX 0.15.0),
-          FreeBSD, NetBSD and OpenBSD systems with OpenGL 2 support or higher.
-          (And OpenDingux (GCW Zero) up to openMSX 19.1.)
+          Setups: save your complete MSX setup (machine, extensions, media and
+          connected devices) and start it again later, optionally automatically
+          when openMSX starts
         </span>
       </li>
       <li>
+        <span class="none">&nbsp;</span>
+        <span class="descript">
+          For Linux, Windows, macOS, FreeBSD, NetBSD and OpenBSD systems with
+          OpenGL 2 support or higher. (Older releases also ran on Android and
+          OpenDingux (GCW Zero).)
+        </span>
+      </li>
+      <li>
+        <span class="none">&nbsp;</span>
         <span class="descript">
           Installer for Windows
         </span>
@@ -193,12 +202,6 @@
         <span class="none">&nbsp;</span>
         <span class="descript">
           Over 110 MSX (and similar) extension hardware configurations included
-        </span>
-      </li>
-      <li>
-        <span class="none">&nbsp;</span>
-        <span class="descript">
-          SSE2 optimisations for rendering and resampling
         </span>
       </li>
     </ul>
@@ -382,7 +385,7 @@
             </span>
           </li>
           <li>
-            <span class="none">&nbps;</span>
+            <span class="none">&nbsp;</span>
             <span class="descript">
               Konami EC-701
             </span>
@@ -779,7 +782,19 @@
           <li>
             <span class="none">&nbsp;</span>
             <span class="descript">
-              Breakpoints and watchpoints
+              Disassembly view, with CPU registers, flags, slots and stack
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Breakpoints, watchpoints and conditions
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Watch expressions
             </span>
           </li>
           <li>
@@ -798,6 +813,12 @@
             <span class="none">&nbsp;</span>
             <span class="descript">
               Sprite viewer
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              VDP register viewer and palette editor
             </span>
           </li>
           <li>
@@ -857,7 +878,7 @@
         </span>
       </li>
       <li>
-        <span class="first">First!</span>
+        <span class="first">1st!</span>
         <span class="descript">
           XML files to specify the hardware to be emulated, so you actually
           emulate specific MSX machines
@@ -920,7 +941,7 @@
           afterglow and a 3D monitor effect and support for 3 different scaling
           factors (2&times;=640&times;480, 3&times;=960&times;720 and
           4&times;=1280&times;960) and several other scaling algorithms like:
-          <a href="http://www.hiend3d.com/">hq</a> and <a
+          <a href="https://en.wikipedia.org/wiki/Hqx">hq</a> and <a
           href="http://scale2x.sf.net/">scaleNx</a>.
        </span>
      </li>
@@ -930,7 +951,6 @@
           Horizontal stretch (to get the correct aspect ratio)
         </span>
        </li>
-       <li>
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
@@ -1072,7 +1092,7 @@
     </p>
     <!--
     <ul class="features">
-      <li>(nothing added here yet, perhaps we just released 20.0? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
+      <li>(nothing added here yet, perhaps we just released a new version? Either that or we were too lazy to add stuff here; just check that commit log instead!)</li>
      </ul>
   -->
   </div>
