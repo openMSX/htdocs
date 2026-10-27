@@ -768,14 +768,82 @@
 
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    <h2>Emulator Extras</h2>
+    <h2>Debugger</h2>
     <ul class="features">
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
-          Built-in debugger, with watchpoints, breakpoints, tile-mode viewer, bitmap-mode viewer, sprite-viewer, rasterbeam display, visualisation of VDP block commands in progress, generic binary viewers of all debuggable devices, symbol manager, etc. All data is shown in real time!
+          Built-in debugger in the graphical user interface. All data is shown in real time! It includes:
+        </span>
+        <ul class="features">
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Breakpoints and watchpoints
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Tile-mode viewer
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Bitmap-mode viewer, with visualisation of VDP block commands in progress
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Sprite viewer
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Raster beam display
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Generic binary viewers of all debuggable devices
+            </span>
+          </li>
+          <li>
+            <span class="none">&nbsp;</span>
+            <span class="descript">
+              Symbol manager
+            </span>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <span class="cool">Cool!</span>
+        <span class="descript">
+          Debug command (including conditional break points, watch points,
+          an UMR detector and even a way to step one instruction <strong>back</strong>):
+          read/write many parts of the MSX system; mainly useful to be used
+          in external debug applications via the stdin/socket command
+          interface
         </span>
       </li>
+      <li>
+        <span class="uniq">Unique!</span>
+        <span class="descript">
+          Debug device: write data to special I/O ports and it gets logged
+          to stdout or a file in a format you specify. Very useful if you
+          develop MSX assembly programs in openMSX
+        </span>
+      </li>
+    </ul>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <h2>Emulator Extras</h2>
+    <ul class="features">
       <li>
         <span class="none">&nbsp;</span>
         <span class="descript">
@@ -793,14 +861,6 @@
         <span class="descript">
           XML files to specify the hardware to be emulated, so you actually
           emulate specific MSX machines
-        </span>
-      </li>
-      <li>
-        <span class="uniq">Unique!</span>
-        <span class="descript">
-          Debug device: write data to special I/O ports and it gets logged
-          to stdout or a file in a format you specify. Very useful if you
-          develop MSX assembly programs in openMSX
         </span>
       </li>
       <li>
@@ -841,16 +901,6 @@
           Dir-as-disk feature: Use a directory on your hard
           disk as disk image in openMSX (with full read and write transparency),
           including support for sub directories
-        </span>
-      </li>
-      <li>
-        <span class="cool">Cool!</span>
-        <span class="descript">
-          Debug command (including conditional break points, watch points,
-          an UMR detector and even a way to step one instruction <strong>back</strong>):
-          read/write many parts of the MSX system; mainly useful to be used
-          in external debug applications via the stdin/socket command
-          interface
         </span>
       </li>
       <li>
